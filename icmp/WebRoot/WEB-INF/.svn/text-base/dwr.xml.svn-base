@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN" "http://www.getahead.ltd.uk/dwr//dwr20.dtd">
+
+<dwr>
+	<allow>
+		<create creator="new" javascript="mcuControlMethod">
+			<param name="class" value="com.zzst.action.meeting.meeting.McuControlDwr" />
+		</create>
+		
+		<create javascript="DepartmentManager" creator="new">
+			<param name="class"
+				value="com.zzst.meeting.department.DepartmentManager">
+			</param>
+			<include method="ajaxUpdateTitle" />
+			<include method="ajaxRemoveNode" />
+		</create>
+		<create creator="new" javascript="DwrMethod">
+			<param name="class" value="com.zzst.meeting.dwr.DwrMethod" />
+		</create>
+		<create creator="new" javascript="UserAction">
+			<param name="class" value="com.zzst.action.meeting.user.UserAction" />
+		</create>
+		<create creator="new" javascript="StatisticsAction">
+			<param name="class" value="com.zzst.action.meeting.statistics.StatisticsAction" />
+		</create>
+		<create creator="new" javascript="DepartmentAction">
+			<param name="class" value="com.zzst.meeting.department.DepartmentAction" />
+		</create>
+		<create creator="new" javascript="TerminalDwrMethod">
+			<param name="class" value="com.zzst.meeting.dwr.TerminalDwrMethod" />
+		</create>
+		<create creator="new" javascript="McuDwrMethod">
+			<param name="class" value="com.zzst.meeting.dwr.McuDwrMethod" />
+		</create>
+		
+		<!--
+          add by tanzanlong
+          time:2013-2-19
+                         掉线告警信息dwr
+        -->
+		<create creator="new" javascript="AlertDwrMethod">
+			<param name="class" value="com.zzst.action.meeting.information.AlertDwrMethod" />
+		</create>
+		<convert converter="bean" match="com.zzst.model.meeting.address.AddressVO" />
+		<convert converter="bean" match="com.zzst.model.meeting.department.DepartmentVO" />		
+		<convert converter="bean" match="com.zzst.model.meeting.meetingRoom.MeetingRoomVO" />
+		<convert converter="bean" match="com.zzst.model.meeting.user.UserVO" />
+		<convert converter="bean" match="com.zzst.application.mcuVO.ZZOMainStatusVO"></convert>
+		<convert converter="bean" match="com.zzst.model.meeting.auth.FuncVO"></convert>
+		<convert converter="bean" match="com.zzst.dao.meeting.meetingRoom.MeetingRoomVO" />
+		<convert converter="bean" match="com.zzst.model.meeting.equipment.EquipmentVO" />
+		<convert converter="bean" match="com.zzst.model.meeting.equipment.EquipmentMcuVO" />
+		<convert converter="bean" match="com.zzst.model.meeting.kst.CameraGroup" />
+		<convert converter="bean" match="com.zzst.model.meeting.config.BaseInfoVO" />
+		<convert converter="bean" match="com.zzst.model.meeting.centerControl.CenterControlVO"/>
+		<convert converter="bean" match="com.zzst.model.message.MessageVO"/>
+		
+	    <!-- 
+	    add by tanzanlong
+	    -->
+		<convert converter="bean" match="com.zzst.model.meeting.information.InformationVO" />
+		
+		<convert converter="bean" match="com.zzst.application.mcuVO.ZZOConfVO"/>
+		<convert converter="bean" match="com.zzst.application.mcuVO.ZZOPtsChannel"/>
+		
+		<convert converter="bean" match="com.zzst.application.mcuVO.ZZOMainVO"/>
+		
+		<!-- video card dwr method by wangle 2013-4-27 -->
+		<create creator="new" javascript="VideoCardDwrMethod">
+			<param name="class" value="com.zzst.meeting.dwr.VideoCardDwrMethod" />
+		</create>
+		<!-- video card dwr method by tzl 2013-5-20 -->
+		<create creator="new" javascript="VoiceCardDwrMethod">
+			<param name="class" value="com.zzst.meeting.dwr.VoiceCardDwrMethod" />
+		</create>
+		
+		<create creator="new" javascript="DataInterfaceDwr">
+			<param name="class" value="com.zzst.action.meeting.dataInterface.DataInterfaceDwr" />
+		</create>
+		
+		<!-- 基础模块的dwr公用方法 -->
+		<create creator="new" javascript="BaseDwrMethod">
+			<param name="class" value="com.zzst.meeting.dwr.BaseDwrMethod" />
+		</create>
+		<!-- z_t_information表数据更新推送消息  add by liujf-->
+		<create creator="new" javascript="DataPollServiceDwr">
+			<param name="class" value="com.zzst.meeting.dwr.DataPollServiceDwr" />
+		</create>
+	</allow>
+</dwr>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMX1000_SYS_API version="1.1.0.0">
+	<COMMAND id="login">
+		<CONSOLE_IP_V4 value="10.1.4.253"/>
+		<CONSOLE_NAME value=""/>
+		<IS_NEW_DEVICE value="NO"/>
+		<LOGINNAME value="POLY2COM"/>
+		<PASSWD value="POLYCOM"/>
+		<SOURCE_GUID value="8085f6de192bde1189f6733eebf40c44"/>
+		<TARGET_GUID value="1813b1e7c458db11879e320f559cb616"/>
+	</COMMAND>
+</RMX1000_SYS_API>

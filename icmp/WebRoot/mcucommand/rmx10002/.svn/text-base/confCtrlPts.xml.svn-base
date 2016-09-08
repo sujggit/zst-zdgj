@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMX1000_MC_API version="1.1.0.0">
+	<COMMAND id="conf_ctrl_pts">
+		<CONF_GUID value="8248d8e476bcde119e403bb0810c8914"/>
+		<PTS_COUNT value="1"/>
+		<SOURCE_GUID value="ace31a114fbade11b86bd7089dedbb18"/>
+		<TARGET_GUID value="ea753542fc14de1188a183a7768af012"/>
+		<TYPE value="UNMUTE_AUDIO"/>
+		<PTS_GUID_1 value="c493a14678bcde119e405f3f388a976b"/>
+	</COMMAND>
+</RMX1000_MC_API>
+
+

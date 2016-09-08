@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+.fontstyle{font-size:12px; color:#07487f;}
+.fontstylew{font-size:12px; color:#fff;}
+
+.font12wb{font-size:12px; color:#FFF; font-weight:bold;}
+.font12sb{font-size:12px; color:#07487f; font-weight:bold;}
+
+.fontb{font-weight:bold;}
+.font40wb{font-size:24px; color:#FFF; font-weight:bold; font-family:"微软雅黑"}
+.font18wb{font-size:18px; color:#FFF; font-weight:bold; font-family:"微软雅黑"}
+.font18stylew{font-size:18px; color:#07487f; font-weight:bold; font-family:"微软雅黑"}
+.fonthint{color:#949494;}
+.fonttsx{color:#ff0000; padding-right:2px;}

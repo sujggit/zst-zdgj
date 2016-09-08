@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMX1000_MC_API version="1.0.0.0">
+	<COMMAND id="delete_conf_profile">
+		<SOURCE_GUID value="guid" />
+		<TARGET_GUID value="guid" />
+		<COUNT value="1" />
+		<GUID_1 value="guid" />
+	</COMMAND>
+</RMX1000_MC_API>
+
+

@@ -1,0 +1,22 @@
+.stdtablemeet{width:100%;border:none;border-top:1px solid #ccc;border-right:1px solid #ccc;color:#000}
+.stdtablemeet a{color:#000}
+.stdtablemeet thead tr{height:40px} 
+.stdtablemeet thead tr td{border:none;border-bottom:1px solid #ccc;text-align:center}
+.stdtablemeet thead tr td span{margin-right:10px;float:left}
+.stdtablemeet thead tr td span a{margin:0 3px;border:1px solid #888;width:10px;height:10px;display:inline-block}
+.stdtablemeet thead tr td a{display:inline-block}
+.stdtablemeet thead tr th{border:none;border-right:1px solid #ccc;border-top:1px solid #ccc;background:#575958;}
+.stdtablemeet tbody tr td{padding:0;margin:0;text-align:center;background:#fff;border-left:none;cursor:hand;cursor:pointer;height:60px;line-height:60px;color:#999}
+.stdtablemeet tbody tr td h6.yuding{display:block;float:left;line-height:20px;background:#fff;padding-left:5px;color:#fb9337;font-weight:bold;font-size:10px;position:fixed}
+.stdtablemeet tbody tr td a{font-weight:600;color:#333;display:block;height:100%;background:#fff}
+.stdtablemeet tbody tr.huase td{background:#eef0ef;color:#000;height:30px;line-height:30px}
+.stdtablemeet tbody tr.huase td.huases{width:200px;}
+.stdtablemeet tbody tr.huase td.yds{background:#ffe7a7}
+.stdtablemeet thead tr td table thead tr th{border:none;margin:0;padding:0}
+.stdtablemeet thead tr td table tbody tr td.huases{background:#fff}
+.stdtablemeet thead tr td table tbody tr td.bgds{border-left:1px dashed #ccc}
+.stdtablemeet thead tr td table tbody tr td.bgd{border-left:1px solid #575958}
+.stdtablemeet thead tr td table tbody tr td.ygd{border-left:1px dashed #575958}
+.stdtablemeet thead tr td table tbody tr td.hebing{background:#fff;border-left:1px solid #575958;display:inline-block}
+.stdtablemeet tbody tr td.xuanzhong h6{background:#dcdcdc;color:#000}
+.stdtablemeet tbody tr td.xuanzhong a{background:#dcdcdc}

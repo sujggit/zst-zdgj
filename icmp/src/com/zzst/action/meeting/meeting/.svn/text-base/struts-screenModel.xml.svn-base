@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/screenModel" namespace="/screenModel" extends="struts-default">
+    	<action name="beforeSetPersonal" class="com.zzst.action.meeting.meeting.ScreenModelAction" method="beforeSetPersonal">
+    		<result name="SUCCESS">
+    			/meeting/meetingManage/screenModel/one.jsp
+    		</result>
+    		
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+     </package>
+</struts>   

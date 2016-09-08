@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/baseInfo" namespace="/baseInfo" extends="struts-default">
+		<!-- add by yangyi 获取配置基本信息 -->
+		<action name="mcuAdd" class="com.zzst.action.meeting.config.BaseInfoAction" method="mcuAdd">
+			<result name="success" >
+    		   /meeting/config/mcu/mcuAdd.jsp
+    		</result>
+    	</action>
+    	<action name="mcuAddSave" class="com.zzst.action.meeting.config.BaseInfoAction" method="mcuAddSave">
+			<result name="success" >
+    		   /meeting/config/mcu/mcuAdd.jsp
+    		</result>
+    	</action>
+    	<action name="mcuList" class="com.zzst.action.meeting.config.BaseInfoAction" method="mcuList">
+			<result name="success" >
+    		   /meeting/config/mcu/mcuList.jsp
+    		</result>
+    	</action>
+    	<action name="queryBaseInfoList" class="com.zzst.action.meeting.config.BaseInfoAction" method="queryBaseInfoList">
+			<result name="success" >
+    		   /meeting/config/configurationList.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="baseInfoexportQuery" class="com.zzst.action.meeting.config.BaseInfoAction" method="baseInfoexportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="baseInfo.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+	    	
+    	
+    	<action name="configurationModify" class="com.zzst.action.meeting.config.BaseInfoAction" method="configurationModify">
+			<result name="success" type="redirect">
+    		   /baseInfo/queryBaseInfoList.action
+    		</result>
+    	</action>
+    	
+    	
+    	
+    	<action name="configurationQueryById" class="com.zzst.action.meeting.config.BaseInfoAction" method="configurationQueryById">
+			<result name="success" >
+    		   /meeting/config/configurationModify.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="configurationDetail" class="com.zzst.action.meeting.config.BaseInfoAction" method="configurationDetail">
+			<result name="success" >
+    		   /meeting/config/configurationDetail.jsp
+    		</result>
+    	</action>
+    	<action name="configurationAdd" class="com.zzst.action.meeting.config.BaseInfoAction" method="configurationAdd">
+			<result name="success" type="redirect">
+    		    /baseInfo/queryBaseInfoList.action
+    		</result>
+    	</action>
+    	<action name="delBaseInfo" class="com.zzst.action.meeting.config.BaseInfoAction" method="delBaseInfo">
+			<result name="success" type="redirect">
+    		   /baseInfo/queryBaseInfoList.action
+    		</result>
+    	</action>
+    	
+    	<!-- add by chenshuo -->
+    	<action name="addDateDictionary" class="com.zzst.action.meeting.config.BaseInfoAction" method="addDateDictionary">
+    		<result name="success">
+    			/meeting/config/dateDictionary/list.jsp
+    		</result>
+    	</action>
+    	<action name="getMCUTemplate" class="com.zzst.action.meeting.config.BaseInfoAction" method="getMCUTemplate">
+			<result name="success" >
+    		   /meeting/config/mcu/getMcuTemplate.jsp
+    		</result>
+    	</action>	
+    	<action name="beforeNoticeConfig" class="com.zzst.action.meeting.config.BaseInfoAction" method="beforeNoticeConfig">
+			<result name="success" >
+    		   /meeting/config/noticeConfig.jsp
+    		</result>
+    	</action>	
+    </package>
+</struts>   

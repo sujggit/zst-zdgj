@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 216
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib
+END
+jboss-logging-3.1.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 243
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/jboss-logging-3.1.0.GA.jar
+END
+antlr-2.7.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 232
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/antlr-2.7.7.jar
+END
+hibernate-jpa-2.0-api-1.0.1.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 254
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 232
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/dom4j-1.6.1.jar
+END
+hibernate-entitymanager-4.1.4.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 256
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/hibernate-entitymanager-4.1.4.Final.jar
+END
+hibernate-commons-annotations-4.0.1.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 262
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/hibernate-commons-annotations-4.0.1.Final.jar
+END
+mysqljdbc5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/mysqljdbc5.1.jar
+END
+slf4j-api-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 236
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/slf4j-api-1.6.1.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 233
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/log4j-1.2.15.jar
+END
+jboss-transaction-api_1.1_spec-1.0.0.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 263
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/jboss-transaction-api_1.1_spec-1.0.0.Final.jar
+END
+javassist-3.15.0-GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 240
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/javassist-3.15.0-GA.jar
+END
+hibernate-core-4.1.4.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 247
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10644/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/dbms/lib/hibernate-core-4.1.4.Final.jar
+END

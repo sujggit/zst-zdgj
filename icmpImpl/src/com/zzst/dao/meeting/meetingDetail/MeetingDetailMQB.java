@@ -1,0 +1,463 @@
+package com.zzst.dao.meeting.meetingDetail;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+
+import org.apache.log4j.Logger;
+
+import com.cbf.db.MasterQueryObject;
+import com.cbf.log.CbfLogger;
+import com.zzst.model.meeting.meetingDetail.MeetingDetailVO;
+
+/**
+ * class description: MeetingDetail MQB
+ * 
+ * @author ryan
+ * @date Mon Aug 17 15:16:09 CST 2009
+ */
+
+public class MeetingDetailMQB extends MasterQueryObject {
+
+	static Logger logger = CbfLogger
+			.getLogger(MeetingDetailMQB.class.getName());
+
+	public static int QUERY_FROM_MEETINGDETAIL = 1;
+	public static int QUERY_FROM_PANDECT = 2;
+	public static int QUERY = 3;
+	public static int QUERY_ID = 15;
+	public static int QUERYForDepartment = 4;
+	public static int QUERY_FORSTATUS = 5;
+	public static int QUERY_WITH_MEETINGDEBUG = 6;
+	public static int QUERY_FROM_MEETINGDETAIL_ROOM = 7;
+	public static int QUERY_MEETINGDETAIL_IDS = 8;
+	public static int QUERY_MEETINGDETAIL_FILE = 9;
+	public static int QUERY_FROM_MEETINGDETAIL2 = 10;
+	public static final int QUERY_MEETINGDETAIL_APPLY = 12;
+	
+	public static int QUERY_MEETINGDETAIL_BYNOWDATE = 17;
+
+	//public static int QUERY_FROM_MEETINGDETAIL_ROOM_USER = 11;
+	public static int QUERY_MEETINGDETAIL_TIMEANDNAME = 13;
+	public static final int QUERY_MEETINGDETAIL_OCCUPY = 14;
+	//中电国际用 根据开始结束时间找到会议id
+	public static final int QUERY_MID = 20;
+	//中电国际用 查找指定时间段之间的会议
+	public static final int QUERY_WEEK =21;
+	private MeetingDetailVO vMeetingDetailVO;
+
+	private ArrayList<MeetingDetailVO> lstMeetingDetail = new ArrayList<MeetingDetailVO>();
+
+	private int _operatorType = -1;
+
+	public MeetingDetailMQB(int operatorType) {
+		_operatorType = operatorType;
+
+	}
+	 
+	public void setSql(String sqlstr) {
+		this.sqlStr = sqlstr;
+	}
+
+	public void getDataForRow(ResultSet rs) throws SQLException {
+		if(QUERY_WEEK==_operatorType){
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setMeetingStartTime(rs
+					.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs
+					.getTimestamp("endTime"));
+			vMeetingDetailVO.setMeetingRoomName(rs.getString("meetingroomName"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if (QUERY_FROM_MEETINGDETAIL == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingRoomID(rs.getString("meetingRoomID"));
+			vMeetingDetailVO
+					.setMeetingRoomName(rs.getString("meetingRoomName"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setMeetingStartTime(rs
+					.getTimestamp("meetingStartTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs
+					.getTimestamp("meetingEndTime"));
+			vMeetingDetailVO.setUseNotice(rs.getInt("useNotice"));
+			vMeetingDetailVO.setUseReach(rs.getInt("useReach"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setGrade(rs.getInt("grade"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setStatus(rs.getInt("status")+"");
+			vMeetingDetailVO.setMeetingDescription(rs
+					.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			
+			vMeetingDetailVO.setParticipatorIDs(rs.getString("participatorIDs"));
+			vMeetingDetailVO.setParticipators(rs.getString("participators"));
+			vMeetingDetailVO.setShowParticipatorNames(rs.getString("showParticipatorNames"));
+			vMeetingDetailVO.setNeededEquipmentIDs(rs.getString("neededEquipmentIDs"));
+			vMeetingDetailVO.setNeededEquipmentNames(rs.getString("neededEquipmentNames"));
+			vMeetingDetailVO.setNeededEquipModelNames(rs.getString("neededEquipModelNames"));
+			vMeetingDetailVO.setNeededServiceIDs(rs.getString("neededServiceIDs"));
+			vMeetingDetailVO.setNeededServiceNames(rs.getString("neededServiceNames"));
+			vMeetingDetailVO.setMeetingRoomNameIDs(rs.getString("meetingRoomNameIDs"));
+			vMeetingDetailVO.setMeetingRoomNames(rs.getString("meetingRoomNames"));
+			
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateUserName(rs.getString("createUserName"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setNeededVideoEquipsShow(rs.getString("neededVideoEquipsShow"));
+			vMeetingDetailVO.setNeededRooms4Equip(rs.getString("neededRooms4Equip"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			vMeetingDetailVO.setConfDocAdminId(rs.getString("confDocAdminId"));
+			vMeetingDetailVO.setConfDocAdminName(rs.getString("confDocAdminName"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if (QUERY_FROM_PANDECT == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingStartTime(rs
+					.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs
+					.getTimestamp("endTime"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO
+					.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setStatus(rs.getString("status"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setMeetingDescription(rs
+					.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if (QUERY == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingStartTime(rs
+					.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs
+					.getTimestamp("endTime"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO
+					.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setStatus(rs.getString("status"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setMeetingDescription(rs
+					.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			vMeetingDetailVO.setMeetingRoomID(rs.getString("meetingroomID"));
+			vMeetingDetailVO.setMeetingRoomName(rs.getString("meetingroomName"));
+			vMeetingDetailVO.setInfo1(rs.getString("info1"));
+			vMeetingDetailVO.setRealityStartTime(rs.getTimestamp("realityStartTime"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if (QUERYForDepartment == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingStartTime(rs
+					.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs
+					.getTimestamp("endTime"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO
+					.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setStatus(rs.getString("status"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setMeetingDescription(rs
+					.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			 
+			vMeetingDetailVO.setDepartmentIDs(rs.getString("departID"));
+			vMeetingDetailVO.setDepartmentNames(rs.getString("name"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if (QUERY_FORSTATUS == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setMeetingStartTime(rs.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs.getTimestamp("endTime"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));		
+			vMeetingDetailVO.setStatus(com.zzst.model.enums.MeetingStatus.getDesc(Integer.parseInt(rs.getString("status"))) );
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setMeetingDescription(rs.getString("description"));
+			
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if (QUERY_WITH_MEETINGDEBUG == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			//vMeetingDetailVO.setMeetingRoomID(rs.getString("meetingRoomID"));
+			//vMeetingDetailVO.setMeetingRoomName(rs.getString("meetingRoomName"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setMeetingStartTime(rs
+					.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs
+					.getTimestamp("endTime"));
+			//vMeetingDetailVO.setUseNotice(rs.getInt("useNotice"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setStatus(rs.getInt("status")+"");
+			vMeetingDetailVO.setMeetingDescription(rs
+					.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			vMeetingDetailVO.getMeetingDebugVO().setDebugStartTime(rs.getTimestamp("debugStartTime"));
+			vMeetingDetailVO.getMeetingDebugVO().setNoticeStatus(rs.getInt("noticeStatus"));
+			vMeetingDetailVO.getMeetingDebugVO().setNoticeTime(rs.getTimestamp("noticeTime"));
+			vMeetingDetailVO.getMeetingDebugVO().setNoticeType(rs.getString("noticeType"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if(QUERY_FROM_MEETINGDETAIL_ROOM == _operatorType){
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingStartTime(rs.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs.getTimestamp("endTime"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setStatus(rs.getString("status"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setMeetingDescription(rs.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setFullName(rs.getString("fullName"));
+			//vMeetingDetailVO.setCheckfullName(rs.getString("checkfullName"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			vMeetingDetailVO.setMeetingRoomID(rs.getString("meetingroomID"));
+			vMeetingDetailVO.setMeetingRoomName(rs.getString("meetingroomName"));
+			vMeetingDetailVO.setConfDocAdminId(rs.getString("confDocAdminId"));
+			vMeetingDetailVO.setConfDocAdminName(rs.getString("confDocAdminName"));
+			vMeetingDetailVO.setStartTDNumber(rs.getInt("ismain"));
+			vMeetingDetailVO.setInfo1(rs.getString("info1"));
+			vMeetingDetailVO.setInfo2(rs.getString("info2"));
+			vMeetingDetailVO.setInfo3(rs.getString("info3"));
+			vMeetingDetailVO.setTemplateType(rs.getInt("templateType"));
+			vMeetingDetailVO.setTemplateID(rs.getString("templateID"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if(QUERY_MEETINGDETAIL_IDS == _operatorType){
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if (QUERY_MEETINGDETAIL_FILE == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setMeetingStartTime(rs.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs.getTimestamp("endTime"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setStatus(rs.getInt("status")+"");
+			vMeetingDetailVO.setMeetingDescription(rs.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			vMeetingDetailVO.setConfDocAdminId(rs.getString("confDocAdminId"));
+			vMeetingDetailVO.setConfDocAdminName(rs.getString("confDocAdminName"));
+			if(rs.getString("uploadID")!=null){
+				vMeetingDetailVO.setStartTDNumber(1);
+			}
+			
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if (QUERY_MEETINGDETAIL_APPLY == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setMeetingStartTime(rs.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs.getTimestamp("endTime"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setStatus(rs.getInt("status")+"");
+			vMeetingDetailVO.setMeetingDescription(rs.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			vMeetingDetailVO.setConfDocAdminId(rs.getString("confDocAdminId"));
+			vMeetingDetailVO.setConfDocAdminName(rs.getString("confDocAdminName"));
+			vMeetingDetailVO.getApplyDetailVO().setStatus(rs.getInt("adStatus"));
+			vMeetingDetailVO.getApplyDetailVO().setCreateTime(rs.getTimestamp("adCreateTime"));
+			vMeetingDetailVO.getApplyDetailVO().setCheckUserIDs(rs.getString("checkUserIDs"));
+			vMeetingDetailVO.getApplyDetailVO().setUserID(rs.getString("userID"));
+			vMeetingDetailVO.getApplyDetailVO().setSuggestion(rs.getString("suggestion"));
+			vMeetingDetailVO.setCreateUserName(rs.getString("fullName"));
+			
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if (QUERY_FROM_MEETINGDETAIL2 == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setMeetingStartTime(rs.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs.getTimestamp("endTime"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setStatus(rs.getInt("status")+"");
+			vMeetingDetailVO.setMeetingDescription(rs.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			vMeetingDetailVO.setConfDocAdminId(rs.getString("confDocAdminId"));
+			vMeetingDetailVO.setConfDocAdminName(rs.getString("confDocAdminName"));
+			vMeetingDetailVO.setMeetingAgenda(rs.getString("meetingAgenda"));
+			vMeetingDetailVO.setTemplateID(rs.getString("templateID"));
+			vMeetingDetailVO.setTemplateType(rs.getInt("templateType"));
+			vMeetingDetailVO.setInfo1(rs.getString("info1"));
+			vMeetingDetailVO.setInfo2(rs.getString("info2"));
+			vMeetingDetailVO.setInfo3(rs.getString("info3"));
+			vMeetingDetailVO.setInfo4(rs.getString("info4"));
+			vMeetingDetailVO.setInfo5(rs.getString("info5"));
+			
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}/*else if(QUERY_FROM_MEETINGDETAIL_ROOM_USER== _operatorType){
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingStartTime(rs.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs.getTimestamp("endTime"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setStatus(rs.getString("status"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setMeetingDescription(rs.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			//vMeetingDetailVO.setMeetingRoomID(rs.getString("meetingroomID"));
+			//vMeetingDetailVO.setMeetingRoomName(rs.getString("meetingroomName"));
+			vMeetingDetailVO.setConfDocAdminId(rs.getString("confDocAdminId"));
+			vMeetingDetailVO.setConfDocAdminName(rs.getString("confDocAdminName"));
+			//vMeetingDetailVO.setStartTDNumber(rs.getInt("ismain"));
+*/		//}
+
+		else if (QUERY_MEETINGDETAIL_TIMEANDNAME == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			//vMeetingDetailVO.setMeetingRoomID(rs.getString("meetingRoomID"));
+			//vMeetingDetailVO.setMeetingRoomName(rs.getString("meetingRoomName"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setMeetingStartTime(rs
+					.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs
+					.getTimestamp("endTime"));
+			//vMeetingDetailVO.setUseNotice(rs.getInt("useNotice"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setStatus(rs.getInt("status")+"");
+			vMeetingDetailVO.setMeetingDescription(rs
+					.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if (QUERY_MEETINGDETAIL_OCCUPY == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setMeetingStartTime(rs
+					.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs
+					.getTimestamp("endTime"));
+			//vMeetingDetailVO.setUseNotice(rs.getInt("useNotice"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setStatus(rs.getInt("status")+"");
+			vMeetingDetailVO.setMeetingDescription(rs
+					.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			/**
+			 * 年月日，info3，info4，info5
+			 */
+			vMeetingDetailVO.setInfo3(rs.getString("view_meeting_year"));
+			vMeetingDetailVO.setInfo4(rs.getString("view_meeting_month"));
+			vMeetingDetailVO.setInfo5(rs.getString("view_meeting_day"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if (QUERY_ID == _operatorType) {
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			vMeetingDetailVO.setMeetingID(rs.getString("temlyMeetingID"));
+			vMeetingDetailVO.setMeetingStartTime(rs
+					.getTimestamp("startTime"));
+			vMeetingDetailVO.setMeetingEndTime(rs
+					.getTimestamp("endTime"));
+			vMeetingDetailVO.setMeetingType(rs.getInt("meetingType"));
+			vMeetingDetailVO.setUseReach(rs.getInt("isRecord"));
+			vMeetingDetailVO
+					.setGrade(rs.getInt("meetingLevel"));
+			vMeetingDetailVO.setStatus(rs.getString("status"));
+			vMeetingDetailVO.setNotifyType(rs.getString("notifyType"));
+			vMeetingDetailVO.setCreateUserID(rs.getString("createUserID"));
+			vMeetingDetailVO.setCreateTime(rs.getTimestamp("createTime"));
+			vMeetingDetailVO.setMeetingDescription(rs
+					.getString("description"));
+			vMeetingDetailVO.setRevision(rs.getLong("revision"));
+			vMeetingDetailVO.setMeetingName(rs.getString("meetingName"));
+			vMeetingDetailVO.setConfProfileID(rs.getString("confProfileID"));
+			vMeetingDetailVO.setInfo1(rs.getString("info1"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}else if(QUERY_MID == _operatorType){
+			vMeetingDetailVO = new MeetingDetailVO();
+			vMeetingDetailVO.setMeetingDetailID(rs.getString("meetingDetailID"));
+			lstMeetingDetail.add(vMeetingDetailVO);
+		}
+	}
+
+	public ArrayList<MeetingDetailVO> getMeetingDetailList() {
+		return lstMeetingDetail;
+
+	}
+
+	public MeetingDetailVO getMeetingDetailVO() {
+		return vMeetingDetailVO;
+	}
+
+}

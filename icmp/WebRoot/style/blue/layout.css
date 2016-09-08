@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+/* Author: qiyan */
+/* Update: 2012-3-7 */
+
+/*==================Header==========================*/
+.header{background: url(../../images/blue/topbg.gif) repeat-x;height:70px;}
+.headerlogo{
+	background:url(../../images/blue/top_logo.gif) no-repeat;
+	float:left;
+	width:560px;
+	height:70px;
+}
+.headerlogobg{float:left; margin-left:25px;}
+.headerlogo .titlehome{
+	width:460px;
+	height:70px;
+	line-height:70px;
+}
+.headertext{float:right; width:200px; height:70px; line-height:70px;}
+.headertext ul{ list-style:none;}
+.headertext ul li{ float:left; margin-right:20px;}
+
+/*==================Menu==========================*/
+.menu{ background:url(../../images/blue/menu_bg.gif) repeat-x; height:28px; line-height:28px;}
+.menuline{ background:url(../../images/blue/menu_line.gif) no-repeat; width:2px; height:28px;}
+.menu a:link{color:#FFF; font-weight:bold; text-decoration:none;}
+.menu a:hover{color:#FFF; font-weight:bold;text-decoration:none;}
+.menu a:active{color:#07487f; font-weight:bold; }
+.menu a:visited{color:#07487f; font-weight:bold; }
+
+.menuselect{color:#07487f; font-weight:bold; background:url(../../images/blue/menu_bgselect.gif) repeat-x; height:28px; font-size:12px;}
+
+/*==================Left==========================*/
+.left{width:180px; height:100%; background:#bde1f7 url(../../images/blue/left_img.gif) no-repeat bottom ;min-height:560px;_height: 560px;padding-bottom: 32767px;
+ margin-bottom: -32767px; 
+}
+.lefttitle{ background:url(../../images/blue/left_title.gif) no-repeat; width:180px; height:28px; line-height:28px;}
+.lefttd{ background:url(../../images/blue/left_td.gif) no-repeat; width:180px; height:30px; line-height:30px;}
+.lefttdselect{ background:url(../../images/blue/left_tdselect.gif) no-repeat; width:180px; height:30px; line-height:30px; color:#FFF; font-weight:bold;}
+
+/*==================current==========================*/
+.current{ background:url(../../images/blue/currbg.gif) repeat-x; height:28px; line-height:28px;}
+.current_tp{padding:0px 3px;}
+
+/*==================middle==========================*/
+.middle{width:9px; height:auto; background:#a1d2f3;min-height:560px;
+_height: 560px;display:table-cell; vertical-align:middle; border-right:1px solid #2d96dc;padding-bottom: 32767px;
+ margin-bottom: -32767px; 
+}

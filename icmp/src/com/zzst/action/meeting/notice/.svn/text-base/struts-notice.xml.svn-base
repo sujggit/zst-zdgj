@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/notice" namespace="/notice" extends="struts-default">
+    	<action name="queryLocalConference" class="com.zzst.action.meeting.notice.NoticeAction" method="queryLocalConference">
+			<result name="SUCCESS">
+    			/meeting/notice/noticePubList.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	<action name="noticePublish" class="com.zzst.action.meeting.notice.NoticeAction" method="noticePublish">
+    		<result name="SUCCESS">
+    			/meeting/notice/noticePubList.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	<action name="showNoticeInfo" class="com.zzst.action.meeting.notice.NoticeAction" method="showNoticeInfo">
+    		<result name="SUCCESS">
+    			/meeting/notice/noticeInfo.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    </package>
+</struts>   

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?><!--comment-->
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+<struts> 
+  <constant name="struts.multipart.saveDir" value="/tmp"></constant>
+	<package name="icmp-default" extends="struts-default">
+		<global-results>
+			<result name="error">/error/error.jsp</result>
+			<result name="FAILURE">/error/error.jsp</result>
+		</global-results>
+	</package>
+	
+	<include file="com/zzst/action/meeting/config/struts-config.xml"/>
+	<include file="com/zzst/action/meeting/user/struts-user.xml"/> 
+	<include file="com/zzst/action/meeting/meetingRoom/struts-meetingRoom.xml"/>
+	<include file="com/zzst/action/meeting/func/struts-func.xml"/>
+	<include file="com/zzst/action/meeting/role/struts-role.xml"/>
+	<include file="com/zzst/action/meeting/meeting/struts-meeting.xml"/>
+	<include file="com/zzst/action/meeting/meeting/struts-mcuControl.xml"/>
+	<include file="com/zzst/action/meeting/equipment/struts-Equipment.xml"/>
+	<include file="com/zzst/action/meeting/equipment/struts-EquipmentBackup.xml"/>
+	<include file="com/zzst/action/meeting/equipmentControl/struts-equipmentControl.xml"/>
+	<include file="com/zzst/action/meeting/log/struts-log.xml"/>
+	<include file="com/zzst/action/meeting/statistics/struts-statistics.xml"/>
+	<include file="com/zzst/action/meeting/camera/struts-camera.xml"/>
+	<include file="com/zzst/action/meeting/meeting/struts-conference.xml"/>
+	<include file="com/zzst/action/meeting/config/struts-config.xml"/>
+	<include file="com/zzst/action/meeting/config/struts-baseInfo.xml"/>
+	
+	<!-- add zjy -->
+	<include file="com/zzst/action/meeting/statistics/struts-vmeeting.xml"/>
+	<include file="com/zzst/action/meeting/notice/struts-messageContant.xml"/>
+	<include file="com/zzst/action/meeting/meeting/struts-vmeetingDetail.xml"/>
+	<include file="com/zzst/action/meeting/meetingDetailRoom/struts-vmeetingDetailRoom.xml" />
+	<!-- add by yangyi -->
+	<include file="com/zzst/action/meeting/notice/struts-notice.xml"/>
+	<include file="com/zzst/action/meeting/address/struts-address.xml"/>
+	<include file="com/zzst/action/meeting/config/struts-email.xml"/>
+	
+	<!-- addby chenshuo 中航部分-->
+	
+	<!-- add by ryan	中航工业-费用统计 -->
+	<include file="com/zzst/action/meeting/apply/flow/struts-applyFlow.xml"/>
+	
+	<!-- addby duting -->
+	<include file="com/zzst/action/meeting/meetingRoomMaintain/struts-meetingRoomMaintain.xml"/>
+	<include file="com/zzst/action/meeting/user/struts-personConfig.xml"/>
+	
+	<!-- addby tanzanlong 告警消息-->
+	<include file="com/zzst/action/meeting/information/struts-information.xml"/>
+	<include file="com/zzst/action/meeting/information/struts-alert.xml"/>
+	
+	<!-- addby tanzanlong 帮助文档的导出-->
+	<include file="com/zzst/action/meeting/helper/struts-helper.xml"/>
+	<!-- addby tanzanlong 会议组管理-->
+	<include file="com/zzst/action/meeting/templateEquipmentGroup/struts-templateEquipmentGroup.xml"/>
+	<include file="com/zzst/action/meeting/templateEquipment/struts-templateEquipment.xml"/>
+	
+	<!-- addby tanzanlong自动点名比对标准-->
+	<include file="com/zzst/action/meeting/autocompare/struts-videoCardCompare.xml"/>
+	
+		
+	<!-- add by 段磊	级联模板设置 -->	
+	<include file="com/zzst/action/meeting/mcuCascadeModel/struts-mcuCascadeModel.xml"/>	
+	<include file="com/zzst/action/meeting/meeting/struts-screenModel.xml"/>
+	
+	<!-- add by xiongshun  规章制度-->	
+	<include file="com/zzst/action/meeting/rulesAndRegulations/struts-rules.xml"/>
+	<!-- add by xiongshun  资料管理（会议资料，设备资料）-->	
+	<include file="com/zzst/action/meeting/file/struts-file.xml"/>
+	
+	<!-- add by xiongshun  会议费用-->	
+	<include file="com/zzst/action/meeting/cost/struts-meetingCost.xml"/>
+	<!-- add by chenshuo 轮询模板 -->
+	<include file="com/zzst/action/meeting/pollTemplateManager/struts-pollTemplate.xml"/>
+	
+	<include file="com/zzst/action/meeting/dataInterface/struts-MeetingRoomInterface.xml"/>
+	<include file="com/zzst/action/meeting/dataInterface/struts-EquipmentInterface.xml"/>
+	<include file="com/zzst/action/meeting/dataInterface/struts-RoleInterface.xml"/>
+	<include file="com/zzst/action/meeting/dataInterface/struts-DepartmentInterface.xml"/>
+	<include file="com/zzst/action/meeting/dataInterface/struts-UserInterface.xml"/>
+	
+	<!-- add by xiongshun  岗位-->
+	<include file="com/zzst/action/meeting/post/struts-post.xml"/>
+	<!-- add by xiongshun  数据字典~控制菜单可配置-->
+	<include file="com/zzst/action/meeting/dictionary/struts-dictionary.xml"/>
+	<!-- add by xiongshun  审批模块~会议预约审批-->
+	<include file="com/zzst/action/meeting/apply/struts-apply.xml"/>
+	<include file="com/zzst/action/meeting/util/configuration/struts-configuration.xml"/>
+	<!-- add by xiongshun  分级分权-->
+	<include file="com/zzst/action/meeting/level/struts-Level.xml"/>
+	<!-- 20140313	add by zhangdq	立即召开。原先立即召开不再使用，保留原先功能模块-->
+	<include file="com/zzst/action/meeting/meeting/adminConference/struts-adminConference.xml"/>	
+	<!-- 20140423 add by liujf 消息推送 -->
+	<include file="com/zzst/action/meeting/message/struts-message.xml"/>	
+	<!-- 20140520 add by liujf 统计分析/会议统计 -->
+	<include file="com/zzst/action/meeting/statistics/for5k/struts-vmeeting5k.xml"/>
+	<!-- 联系人信息 -->
+	<include file="com/zzst/action/mobileInfo/struts-mobileInfo.xml"/>
+	<!-- 领导日程安排 -->
+	<include file="com/zzst/action/meeting/schedule/struts-schedule.xml"/>
+</struts>   

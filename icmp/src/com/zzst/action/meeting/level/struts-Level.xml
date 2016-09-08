@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/level" namespace="/level" extends="struts-default">
+    	<!-- add by xiongshun 20131011-->
+    	<action name="levelConfigList" class="com.zzst.action.meeting.level.LevelConfigAction" method="levelConfigList">
+			<result name="success">
+				/meeting/level/levelConfigList.jsp
+			</result>
+			<result name="z_t_user" type="redirect">
+    		   /level/userLevelList.action
+    		</result>
+    		<result name="z_t_meetingroom" type="redirect">
+    		   /level/roomLevelList.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>
+			<result name="failure_meeting">/error/warning.jsp</result>    	
+    	</action>
+    	
+    	<action name="levelConfigAdd" class="com.zzst.action.meeting.level.LevelConfigAction" method="levelConfigAdd">
+			<result name="z_t_user" type="redirect">
+				/level/userLevelList.action
+			</result>
+			<result name="z_t_meetingroom" type="redirect">
+    		   /level/roomLevelList.action
+    		</result>
+    		<result name="error">/errors/error.jsp</result>
+			<result name="failure_meeting">/error/warning.jsp</result> 
+    	</action>
+    	
+    	<action name="levelConfigDel" class="com.zzst.action.meeting.level.LevelConfigAction" method="levelConfigDel">
+			<result name="z_t_user" type="redirect">
+				/level/userLevelList.action?parentId=${level_pId}
+			</result>
+			<result name="z_t_meetingroom" type="redirect">
+    		   /level/roomLevelList.action?parentId=${level_pId}
+    		</result>
+    		<result name="error">/errors/error.jsp</result>
+			<result name="failure_meeting">/error/warning.jsp</result> 
+    	</action>
+    	
+    	<action name="userLevelList" class="com.zzst.action.meeting.level.LevelConfigAction" method="userLevelList">
+			<result name="success">
+				/meeting/level/userLevelList.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	</action>
+    	<action name="userLevelDetail" class="com.zzst.action.meeting.level.LevelConfigAction" method="userLevelDetail">
+			<result name="success">
+				/meeting/level/userLevelDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	</action>
+    	
+    	<action name="userLevelModifyBefore" class="com.zzst.action.meeting.level.LevelConfigAction" method="userLevelModifyBefore">
+			<result name="success" >
+				/meeting/level/userLevelModify.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	</action>
+    	
+    	<action name="userLevelModify" class="com.zzst.action.meeting.level.LevelConfigAction" method="userLevelModify">
+			<result name="success" type="redirect">
+				/level/userLevelList.action?parentId=${level_pId}
+			</result>
+    		<result name="error">/errors/error.jsp</result>
+    	</action>
+    	
+    	<action name="roomLevelList" class="com.zzst.action.meeting.level.LevelConfigAction" method="roomLevelList">
+			<result name="success">
+				/meeting/level/roomLevelList.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	</action>
+    	
+    	<action name="roomLevelDetail" class="com.zzst.action.meeting.level.LevelConfigAction" method="roomLevelDetail">
+			<result name="success">
+				/meeting/level/roomLevelDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	</action>
+    	
+    	<action name="roomLevelModifyBefore" class="com.zzst.action.meeting.level.LevelConfigAction" method="roomLevelModifyBefore">
+			<result name="success" >
+				/meeting/level/roomLevelModifyTwo.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	</action>
+    	
+    	<action name="roomLevelModify" class="com.zzst.action.meeting.level.LevelConfigAction" method="roomLevelModify">
+			<result name="success" type="redirect">
+				/level/roomLevelList.action?parentId=${level_pId}
+			</result>
+    		<result name="error">/errors/error.jsp</result>
+    	</action>
+    	<!--节点信息修改 -->
+    	<action name="beforeModifyNode" class="com.zzst.action.meeting.level.LevelConfigAction" method="beforeModifyNode">
+			<result name="success">
+				/meeting/level/modifyNode.jsp
+			</result>
+    		<result name="error">/errors/error.jsp</result>
+    	</action>
+    </package>
+</struts>   

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+      
+<struts>
+	<package name="/videoCardCompare" namespace="/videoCardCompare" extends="struts-default">
+
+		<action name="queryComparisonList"
+			class="com.zzst.action.meeting.autocompare.ComparisonAction"
+			method="queryComparisonList">
+			<result name="success">
+				/meeting/meetingManage/comparison/comparison.jsp
+			</result>
+			<result name="failure">/ok.jsp</result>
+			<result name="failure_meeting">/error/warning.jsp</result>
+		</action>	
+		
+		<action name="comparisonDetail"
+			class="com.zzst.action.meeting.autocompare.ComparisonAction"
+			method="comparisonDetail">
+			<result name="success">
+				/meeting/meetingManage/comparison/comparisonDetail.jsp
+			</result>
+			<result name="failure">/ok.jsp</result>
+		</action>	
+		
+		<action name="toMamufactruerComparison"
+			class="com.zzst.action.meeting.autocompare.ComparisonAction"
+			method="toMamufactruerComparison">
+			<result name="success">
+				/meeting/meetingManage/comparison/manufacturerComparison.jsp
+			</result>
+			<result name="failure">/ok.jsp</result>
+		</action>	
+		
+		<action name="mamufactruerComparison"
+			class="com.zzst.action.meeting.autocompare.ComparisonAction"
+			method="mamufactruerComparison">
+			<result name="success" type="redirect">
+				/videoCardCompare/queryComparisonList.action
+			</result>
+			<result name="failure">/ok.jsp</result>
+		</action>	
+		
+		<action name="getEquipmentStatus"
+			class="com.zzst.action.meeting.autocompare.ComparisonAction"
+			method="getEquipmentStatus">
+			<result name="success">
+				/meeting/meetingManage/comparison/EquipmentDetails.jsp
+			</result>
+			<result name="failure">/ok.jsp</result>
+		</action>	
+		
+		<action name="historyComparison"
+			class="com.zzst.action.meeting.autocompare.ComparisonAction"
+			method="historyComparison">
+			<result name="success">
+				/meeting/meetingManage/comparison/historyComparison.jsp
+			</result>
+			<result name="failure">/ok.jsp</result>
+		</action>
+		
+		<!-- 导出 -->	
+		<action name="historyComparisonexport" class="com.zzst.action.meeting.autocompare.ComparisonAction" method="historyComparisonexport">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="historyComparison.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+	  
+
+	   <!-- 未标定会场 addby tanzanlong -->
+	   <action name="queryUnReferencedMeeting" class="com.zzst.action.meeting.autocompare.SingleVideoCardCompareAction" method="queryUnReferencedMeeting">
+			<result name="success">
+				/meeting/meetingManage/comparison/toUnReference.jsp
+			</result>
+			<result name="failure">/ok.jsp</result>
+		</action>	
+		
+		<!-- 点名比对导出 addby tanzanlong -->
+	    <action name="exportComparisonList" class="com.zzst.action.meeting.autocompare.ComparisonAction" method="exportComparisonList">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="comparison.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	        <result name="failure">/ok.jsp</result>
+	    </action>
+		
+		<action name="compareCriteria" class="com.zzst.action.meeting.autocompare.VideoCardCompareAction" method="compareCriteria">
+    		<result name="success">/meeting/meetingManage/comparison/comparisonCriteria.jsp</result>
+    	</action>
+    	
+    	<action name="compareCriteriaModify" class="com.zzst.action.meeting.autocompare.VideoCardCompareAction" method="compareCriteriaModify">
+    		<result name="success" type="chain">
+    		compareCriteria
+    		</result>
+    	</action>
+    	
+    	<action name="queryCompareMeeting" class="com.zzst.action.meeting.autocompare.SingleVideoCardCompareAction" method="queryCompareMeeting">
+    		<result name="success">/meeting/meetingManage/comparison/comparisonMeetingRoomList.jsp</result>
+    	</action>
+    	  	
+    	  <action name="singleCompareCriteria" class="com.zzst.action.meeting.autocompare.SingleVideoCardCompareAction" method="singleCompareCriteria">
+    		<result name="success">/meeting/meetingManage/singleComparisonCriteria.jsp</result>
+    	</action>	
+    	 <action name="SingleCompareCriteriaModify" class="com.zzst.action.meeting.autocompare.SingleVideoCardCompareAction" method="SingleCompareCriteriaModify">
+    		<result name="success" type="redirect">
+    		/videoCardCompare/queryCompareMeeting.action
+    		</result>
+    	</action>	
+    	 
+    	 <action name="SingleCompareCriteriaAdd" class="com.zzst.action.meeting.autocompare.SingleVideoCardCompareAction" method="SingleCompareCriteriaAdd">
+    		<result name="success" type="redirect">
+    		/videoCardCompare/queryCompareMeeting.action
+    		</result>
+    	</action>	
+    	 
+    	  <action name="SingleCompareCriteriaDel" class="com.zzst.action.meeting.autocompare.SingleVideoCardCompareAction" method="SingleCompareCriteriaDel">
+    		<result name="success" type="redirect">
+    		/videoCardCompare/queryCompareMeeting.action
+    		</result>
+    	</action>	
+    	  	
+    </package>
+</struts>

@@ -1,0 +1,35 @@
+备注：
+	版本号来源：equipment目录的版本号
+	-Upd:修改；Add:添加Fix:解决bugDel:删除SQL:数据库变更
+	-revision；打包的版本号
+	
+	-Add:每个设备单独的线程检查连接状态版本		20140224 ryan
+	-Upd:所有设备统一维护网络状态。	add by ryan 20140226
+	-Upd:检测设备状态时，可以配置一个线程内负责的设备个数及时长等	add by ryan 20140226
+	-Upd:注册设备时，默认不检查状态。手动开始检测网络状态	add by ryan 20140226
+	-Upd:设备对象对外开发，不能暴露直接操作的内部方法	add by ryan 20140226
+	-Add:增加终端远程控制密码限制，会议室密码不影响控制功能	add by ryan 20140326
+	-revision：2870		add by ryan 20140326
+	-Upd:取音频值使用独立的线程及socket链接	add by ryan on 20140328
+	-revision：2876		add by ryan 20140328
+	-Upd:初始化终端时，加载失败时再加载下一个终端		add by ryan on 20140411
+	-revision：2915		add by ryan 20140418
+	-revision：3125		add by ryan 20140702
+	-Upd:增加会议模式支持分组	add by ryan on 20140709
+	-Upd:增加支持锐取CM系列的录播控制	add by ryan on 20140711
+	-revision：3217		add by ryan 20140711
+	-Upd:解决DVD发送编号的bug	add by ryan on 20140717
+	-revision：3249		add by ryan 20140717
+	-Add:增加锐取录播询问录制状态的方法	add by ryan 20140728
+	-revision：3288		add by ryan 20140728
+	-Upd:解决提取中控中的设备时，默认的排序为名称的正序		add by ryan 20140822
+	-revision：3345		add by ryan 20140728
+	-Add:-encoding UTF-8 -charset UTF-8	add by ryan 20140910
+	-revision:3368       add by John.zhang
+	-Add:添加可视通会议网管服务器，MCU操作功能
+	-Upd:修改ice操作网关服务器
+	-Upd:解决提取终端声音时，有时提取不到值的bug	add by ryan 20141023
+	-revision：3471		add by ryan 20141023
+	-revision：3473		add by ryan 20141030
+	-Upd：增加group300终端的控制判断
+	-revision:4103      add by liujf 20150123

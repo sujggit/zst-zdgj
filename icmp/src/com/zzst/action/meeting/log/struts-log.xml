@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/log" namespace="/log" extends="struts-default">    	
+    	<action name="query" class="com.zzst.action.meeting.log.LoginAction" method="query">
+			<result name="success">
+    			/meeting/log/logList.jsp
+    		</result>
+    	</action>
+    	<action name="DelLog" class="com.zzst.action.meeting.log.LoginAction" method="DelLog">
+			<result name="success" type="redirect">
+    			/log/query.action
+    		</result>
+    	</action>
+    	<action name="detail" class="com.zzst.action.meeting.log.LoginAction" method="detail">
+			<result name="success">
+    			/meeting/log/logDetail.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="exportQuery" class="com.zzst.action.meeting.log.LoginAction" method="exportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="log.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+    	</action>
+   </package>
+</struts>   

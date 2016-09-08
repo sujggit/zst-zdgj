@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+.k table tr td .b_1{background:url(../images/ans.png) no-repeat center;border:none;color:#fff;display:block}
+.k .k4 table tr td .b_1{background:url(../images/ans.png) no-repeat center;border:none;color:#fff;display:block}
+.k .con_3 table tr td .b_1{background:url(../images/ans.png) no-repeat center;border:none;color:#fff;display:block}
+.k .k5 table tr td .b_1{background:url(../images/ans.png) no-repeat center;border:none;color:#fff;display:block}
+.terminal .con_3 table tr td .b_1{background:url(../images/ans.png) no-repeat center;border:none;color:#fff;display:block}
+.cd_1{background:url(../images/q.png) no-repeat center;width:35px;height:35px}
+#cd_1{background:url(../images/qs.png) no-repeat center}
+.cd_1:hover{background:url(../images/sdhover.png) no-repeat center}
+
+.dd_5{margin-lefT:7%;float:left;margin-top:20px}
+.dd_5 table{height:200px;width:200px}
+.dd_5 table tr td{width:54px;height:53px}
+
+.dd_5 table tr #span_1{background:url(../images/selection/topon.png) no-repeat center}
+.dd_5 table tr #span_5{background:url(../images/selection/downon.png) no-repeat center}
+.dd_5 table tr #span_2{background:url(../images/selection/lefton.png) no-repeat center}
+.dd_5 table tr #span_3{background:url(../images/selection/okon.png) no-repeat center}
+.dd_5 table tr #span_4{background:url(../images/selection/righton.png) no-repeat center}
+
+.dd_5 table tr .span_1{background:url(../images/selection/top.png) no-repeat center}
+.dd_5 table tr .span_1:hover{background:url(../images/selection/tophover.png) no-repeat center}
+.dd_5 table tr .span_2{background:url(../images/selection/left.png) no-repeat center}
+.dd_5 table tr .span_2:hover{background:url(../images/selection/lefthover.png) no-repeat center}
+.dd_5 table tr .span_3{background:url(../images/selection/ok.png) no-repeat center}
+.dd_5 table tr .span_3:hover{background:url(../images/selection/okhover.png) no-repeat center}
+.dd_5 table tr .span_4{background:url(../images/selection/right.png) no-repeat center}
+.dd_5 table tr .span_4:hover{background:url(../images/selection/righthover.png) no-repeat center}
+.dd_5 table tr .span_5{background:url(../images/selection/down.png) no-repeat center}
+.dd_5 table tr .span_5:hover{background:url(../images/selection/downhover.png) no-repeat center}
+
+
+.cd{border:1px solid #ccc;margin:10px;height:30px;text-align:left;line-height:30px;margin-top:10px}
+.cd span{width:150px;text-align:right;display:block;float:left;background:#eee;height:30px;padding-right:10px;margin-right:10px}
+.cd span a{float:right;margin-right:10px}

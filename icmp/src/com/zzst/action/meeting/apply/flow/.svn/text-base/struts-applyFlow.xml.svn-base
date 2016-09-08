@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/applyFlow" namespace="/applyFlow" extends="struts-default">
+		<action name="queryApplyFlows" class="com.zzst.action.meeting.apply.flow.ApplyFlowAction" method="queryApplyFlows">
+    		<result name="success">/meeting/apply/applyFlow/applyFlow.jsp</result>
+    	</action>
+    	<action name="applyFlowDetail" class="com.zzst.action.meeting.apply.flow.ApplyFlowAction" method="applyFlowDetail">
+    		<result name="success">/meeting/apply/applyFlow/applyFlowDetail.jsp</result>
+    	</action>
+    	<action name="applyFlowBeforeAdd" class="com.zzst.action.meeting.apply.flow.ApplyFlowAction" method="applyFlowBeforeAdd">
+    		<result name="success">/meeting/apply/applyFlow/applyFlowAdd.jsp</result>
+    	</action>
+    	<action name="addApplyFlow" class="com.zzst.action.meeting.apply.flow.ApplyFlowAction" method="addApplyFlow">
+    		<result name="success" type="redirect">/applyFlow/queryApplyFlows.action</result>
+    	</action>
+    	<action name="applyFlowDelete" class="com.zzst.action.meeting.apply.flow.ApplyFlowAction" method="applyFlowDelete">
+    		<result name="success" type="redirect">/applyFlow/queryApplyFlows.action</result>
+    	</action>
+    	<action name="applyFlowBeforeModify" class="com.zzst.action.meeting.apply.flow.ApplyFlowAction" method="applyFlowBeforeModify">
+    		<result name="success">/meeting/apply/applyFlow/applyFlowModify.jsp</result>
+    	</action>
+    	<action name="modifyApplyFlow" class="com.zzst.action.meeting.apply.flow.ApplyFlowAction" method="modifyApplyFlow">
+    		<result name="success" type="redirect">/applyFlow/queryApplyFlows.action</result>
+      	</action>
+    </package>
+</struts>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/post" namespace="/post" extends="icmp-default">
+    	<action name="addPost" class="com.zzst.action.meeting.post.PostAction" method="addPost">
+    		<result name="SUCCESS" type="redirect">
+    			/post/managePostList.action
+    		</result>
+    		<result name="failure_meeting">/error/warning.jsp</result>
+    	</action>
+    	<!-- addBy xiongshun 增加查看角色信息及所属用户getPostInfo -->
+    	<action name="postDetail" class="com.zzst.action.meeting.post.PostAction" method="getPostInfo">
+    		<result name="SUCCESS">/meeting/post/postDetail.jsp</result>
+    	</action>
+    	
+    	<action name="modifyPost" class="com.zzst.action.meeting.post.PostAction" method="modifyPost">
+    		<result name="SUCCESS" type="redirect">
+    			/post/managePostList.action
+    		</result>
+    	</action>
+    	
+    	<action name="modifyPostBefore" class="com.zzst.action.meeting.post.PostAction" method="getPostInfo">
+    		<result name="SUCCESS">/meeting/post/modifyPost.jsp</result>
+    	</action>
+    	
+    	<action name="managePostList" class="com.zzst.action.meeting.post.PostAction" method="managePostList">
+    		<result name="SUCCESS">/meeting/post/managePost.jsp</result>
+    	</action>
+    	
+    	<action name="delPost" class="com.zzst.action.meeting.post.PostAction" method="delPost">
+			<result name="SUCCESS" type="redirect">
+    			/post/managePostList.action
+    		</result>
+    		<result name="FAILURE">
+    			/meeting/post/managePost.jsp
+    		</result>
+    	</action>
+    </package>
+</struts>   

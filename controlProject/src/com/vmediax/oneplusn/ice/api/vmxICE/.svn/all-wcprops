@@ -1,0 +1,1781 @@
+K 25
+svn:wc:ra_dav:version-url
+V 262
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE
+END
+Callback_MC2_batchStart323Call.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_batchStart323Call.java
+END
+PacketInfoListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/PacketInfoListSHolder.java
+END
+Callback_MC3_getConferenceIdleAudioTerminals.java
+K 25
+svn:wc:ra_dav:version-url
+V 312
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getConferenceIdleAudioTerminals.java
+END
+Callback_MC3_setAudioServ.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setAudioServ.java
+END
+Callback_MC2_openAllSpeaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_openAllSpeaker.java
+END
+Callback_MC3_getTemplateAudioIdleTerminList.java
+K 25
+svn:wc:ra_dav:version-url
+V 311
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getTemplateAudioIdleTerminList.java
+END
+TerminalTypeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TerminalTypeInfo.java
+END
+Callback_MC2_registerServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_registerServer.java
+END
+XmppUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 276
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/XmppUser.java
+END
+XmppTreeHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/XmppTreeHolder.java
+END
+Callback_MC2_addTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_addTemplate.java
+END
+Callback_MC3_getServiceMode.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getServiceMode.java
+END
+MC3.java
+K 25
+svn:wc:ra_dav:version-url
+V 271
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MC3.java
+END
+XmppTreeListHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 286
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/XmppTreeListHolder.java
+END
+Callback_MC2_setExt.java
+K 25
+svn:wc:ra_dav:version-url
+V 287
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setExt.java
+END
+Callback_MC2_stopConference.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_stopConference.java
+END
+ChairCycleInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ChairCycleInfoHolder.java
+END
+LiveMeetTemplateListHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/LiveMeetTemplateListHelper.java
+END
+_MCXMPPOperations.java
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MCXMPPOperations.java
+END
+SysConfigListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/SysConfigListSHelper.java
+END
+XmppTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 276
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/XmppTree.java
+END
+ChairCycleInfoListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ChairCycleInfoListSHolder.java
+END
+terminalIdToIpMapHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/terminalIdToIpMapHelper.java
+END
+Callback_MC2_getTempTerminIdleList.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getTempTerminIdleList.java
+END
+Callback_MC3_setQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setQueue.java
+END
+TerminalInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 280
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TerminalInfo.java
+END
+MC2Holder.java
+K 25
+svn:wc:ra_dav:version-url
+V 277
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MC2Holder.java
+END
+Callback_MC3_powerPickUp.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_powerPickUp.java
+END
+IntegerSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/IntegerSHelper.java
+END
+Callback_MC3_getConferenceTerminals.java
+K 25
+svn:wc:ra_dav:version-url
+V 303
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getConferenceTerminals.java
+END
+_MC2OperationsNC.java
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC2OperationsNC.java
+END
+Callback_MC3_reconnectH323Call2Channels.java
+K 25
+svn:wc:ra_dav:version-url
+V 307
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_reconnectH323Call2Channels.java
+END
+ScreenInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 278
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ScreenInfo.java
+END
+Callback_MC3_getTemplateParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getTemplateParam.java
+END
+Callback_MC2_addSip.java
+K 25
+svn:wc:ra_dav:version-url
+V 287
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_addSip.java
+END
+Callback_MC3_disconnectMutiTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 303
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_disconnectMutiTerminal.java
+END
+LicenseInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 279
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/LicenseInfo.java
+END
+Callback_MC2_setSubscreenMode.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setSubscreenMode.java
+END
+Callback_MC3_disconnectAll.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_disconnectAll.java
+END
+MC2PrxHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 280
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MC2PrxHelper.java
+END
+ConferenceHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ConferenceHolder.java
+END
+Callback_MC2_getTemplateTerminalTypeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 308
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getTemplateTerminalTypeList.java
+END
+Callback_MC3_audioDismantle.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_audioDismantle.java
+END
+Callback_MC3_updateTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_updateTerminal.java
+END
+_MC3OperationsNC.java
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC3OperationsNC.java
+END
+Callback_MC3_getVedioTerminalList.java
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getVedioTerminalList.java
+END
+Callback_MC2_setLecture.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setLecture.java
+END
+Callback_MC3_setLecture.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setLecture.java
+END
+Callback_MC2_getChaircycleList.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getChaircycleList.java
+END
+_MC3DelD.java
+K 25
+svn:wc:ra_dav:version-url
+V 276
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC3DelD.java
+END
+ScreenListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ScreenListSHelper.java
+END
+Callback_MC2_muteAllSpeaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_muteAllSpeaker.java
+END
+Callback_MC2_stopConferenceP2p.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_stopConferenceP2p.java
+END
+SysConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 277
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/SysConfig.java
+END
+LiveMeetTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/LiveMeetTemplate.java
+END
+_MC3Operations.java
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC3Operations.java
+END
+Callback_MC3_getTemplateTerminalTypeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 308
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getTemplateTerminalTypeList.java
+END
+Callback_MC2_getLicense.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getLicense.java
+END
+TerminalListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 287
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TerminalListSHelper.java
+END
+Callback_MC2_queryNotConfTerminalList.java
+K 25
+svn:wc:ra_dav:version-url
+V 305
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_queryNotConfTerminalList.java
+END
+TemplateSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 283
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TemplateSHolder.java
+END
+Callback_MCXMPP_deleteXmppUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MCXMPP_deleteXmppUser.java
+END
+Callback_MC2_setQualitySoft.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setQualitySoft.java
+END
+Callback_MCXMPP_removeUserInDepart.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MCXMPP_removeUserInDepart.java
+END
+Callback_MC2_getSipList.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getSipList.java
+END
+Callback_MC2_stopFecc.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_stopFecc.java
+END
+Callback_MC3_updateMutiTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_updateMutiTemplate.java
+END
+Callback_MC3_saveConferenceParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_saveConferenceParam.java
+END
+Callback_MC3_getConferenceInfoByTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 308
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getConferenceInfoByTerminal.java
+END
+Callback_MC2_startSipCalled.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_startSipCalled.java
+END
+ConferenceParamListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ConferenceParamListSHelper.java
+END
+Callback_MC3_getMemberPacketStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getMemberPacketStatus.java
+END
+TerminalTypeListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TerminalTypeListSHolder.java
+END
+_MC2Operations.java
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC2Operations.java
+END
+SipListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/SipListSHelper.java
+END
+Callback_MC2_getTerminList.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getTerminList.java
+END
+MC3PrxHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 280
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MC3PrxHelper.java
+END
+Callback_MC2_getChairseeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getChairseeList.java
+END
+Callback_MC3_getLiveMeetTemplateList.java
+K 25
+svn:wc:ra_dav:version-url
+V 304
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getLiveMeetTemplateList.java
+END
+Callback_MC2_queryTemplateList.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_queryTemplateList.java
+END
+TemplateParamInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TemplateParamInfo.java
+END
+Callback_MC2_startConference.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_startConference.java
+END
+Callback_MC3_deleteGWIP.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_deleteGWIP.java
+END
+Callback_MC2_getTempTerminList.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getTempTerminList.java
+END
+Callback_MC3_audioStartSpy.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_audioStartSpy.java
+END
+Callback_MC3_addLiveMeetTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_addLiveMeetTemplate.java
+END
+TemplateParamListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TemplateParamListSHolder.java
+END
+_MCXMPPDelM.java
+K 25
+svn:wc:ra_dav:version-url
+V 279
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MCXMPPDelM.java
+END
+_MCXMPPDisp.java
+K 25
+svn:wc:ra_dav:version-url
+V 279
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MCXMPPDisp.java
+END
+Callback_MC3_stopRtspCall2Channels.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_stopRtspCall2Channels.java
+END
+XmppDepartment.java
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/XmppDepartment.java
+END
+Callback_MC3_deleteTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_deleteTerminal.java
+END
+Callback_MC3_getTemplateH323IdleTerminList.java
+K 25
+svn:wc:ra_dav:version-url
+V 310
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getTemplateH323IdleTerminList.java
+END
+Callback_MC2_setChair.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setChair.java
+END
+Callback_MC2_validateName.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_validateName.java
+END
+Callback_MC3_stopFecc.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_stopFecc.java
+END
+IConfigListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 286
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/IConfigListSHelper.java
+END
+Callback_MC3_stopMutiConference.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_stopMutiConference.java
+END
+Callback_MCXMPP_deleteDepartment.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MCXMPP_deleteDepartment.java
+END
+Callback_MC2_getSysConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getSysConfig.java
+END
+Callback_MC3_audioInsert.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_audioInsert.java
+END
+MutiTemplateInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MutiTemplateInfoHolder.java
+END
+StringListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/StringListSHolder.java
+END
+TerminalTypeInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TerminalTypeInfoHolder.java
+END
+StringSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 281
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/StringSHelper.java
+END
+Callback_MC3_disconnectRtspCall2Channels.java
+K 25
+svn:wc:ra_dav:version-url
+V 308
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_disconnectRtspCall2Channels.java
+END
+Callback_MCXMPP_stopConferenceXmpp.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MCXMPP_stopConferenceXmpp.java
+END
+ListHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 278
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ListHelper.java
+END
+Callback_MC3_audioTansfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_audioTansfer.java
+END
+Callback_MC2_openAllMicrophone.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_openAllMicrophone.java
+END
+CmdResultHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 283
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/CmdResultHolder.java
+END
+Callback_MC2_getConferenceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getConferenceInfo.java
+END
+Callback_MC2_updateTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_updateTerminal.java
+END
+_MC2DelM.java
+K 25
+svn:wc:ra_dav:version-url
+V 276
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC2DelM.java
+END
+_MC2Disp.java
+K 25
+svn:wc:ra_dav:version-url
+V 276
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC2Disp.java
+END
+Callback_MC3_kickMutiTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_kickMutiTerminal.java
+END
+MC3Prx.java
+K 25
+svn:wc:ra_dav:version-url
+V 274
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MC3Prx.java
+END
+Callback_MCXMPP_startConferenceXmpp.java
+K 25
+svn:wc:ra_dav:version-url
+V 303
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MCXMPP_startConferenceXmpp.java
+END
+Callback_MC2_getConferenceParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getConferenceParam.java
+END
+LiveMeetTemplateListHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/LiveMeetTemplateListHolder.java
+END
+Callback_MC2_muteAllMicrophone.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_muteAllMicrophone.java
+END
+Callback_MC2_getConferenceList.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getConferenceList.java
+END
+SysConfigListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/SysConfigListSHolder.java
+END
+Callback_MC2_deleteSip.java
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_deleteSip.java
+END
+terminalIdToIpMapHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/terminalIdToIpMapHolder.java
+END
+_MC3Del.java
+K 25
+svn:wc:ra_dav:version-url
+V 275
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC3Del.java
+END
+Callback_MC2_getVscreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getVscreen.java
+END
+Callback_MC3_getVscreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getVscreen.java
+END
+Callback_MC2_setIConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setIConfig.java
+END
+Callback_MC3_getConferenceIdleVedioTerminals.java
+K 25
+svn:wc:ra_dav:version-url
+V 312
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getConferenceIdleVedioTerminals.java
+END
+Callback_MC3_setFixGWIP.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setFixGWIP.java
+END
+IntegerSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/IntegerSHolder.java
+END
+Callback_MC3_meetShift.java
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_meetShift.java
+END
+Callback_MC3_setChair.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setChair.java
+END
+Callback_MC2_stopRtspCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_stopRtspCall.java
+END
+Callback_MC2_getTemplateParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getTemplateParam.java
+END
+MCXMPPPrxHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 283
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MCXMPPPrxHelper.java
+END
+Callback_MCXMPP_modifyUserInDepart.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MCXMPP_modifyUserInDepart.java
+END
+Callback_MC2_getScreenInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getScreenInfo.java
+END
+Callback_MC2_startSipCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_startSipCall.java
+END
+Callback_MC2_getTemplateList.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getTemplateList.java
+END
+TemplateParamInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TemplateParamInfoHolder.java
+END
+_MCXMPPOperationsNC.java
+K 25
+svn:wc:ra_dav:version-url
+V 287
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MCXMPPOperationsNC.java
+END
+Callback_MC3_getChannelsList.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getChannelsList.java
+END
+Callback_MC3_getLiveMeetTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getLiveMeetTemplate.java
+END
+ConferenceListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ConferenceListSHelper.java
+END
+Callback_MC3_startTemplateMeet.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_startTemplateMeet.java
+END
+AudioServInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 287
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/AudioServInfoHolder.java
+END
+MC2PrxHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 280
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MC2PrxHolder.java
+END
+Callback_MC2_connect323Call.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_connect323Call.java
+END
+Callback_MC3_setQualityH323.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setQualityH323.java
+END
+Callback_MC2_getMemberListByConference.java
+K 25
+svn:wc:ra_dav:version-url
+V 306
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getMemberListByConference.java
+END
+_MCXMPPDelD.java
+K 25
+svn:wc:ra_dav:version-url
+V 279
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MCXMPPDelD.java
+END
+Callback_MC3_audioStartRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_audioStartRecord.java
+END
+Callback_MC2_getMemberListByConfForFlex.java
+K 25
+svn:wc:ra_dav:version-url
+V 307
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getMemberListByConfForFlex.java
+END
+ScreenListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ScreenListSHolder.java
+END
+Callback_MC3_consult.java
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_consult.java
+END
+ChairCycleInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ChairCycleInfo.java
+END
+Callback_MC3_getTemplateH323TerminList.java
+K 25
+svn:wc:ra_dav:version-url
+V 306
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getTemplateH323TerminList.java
+END
+Callback_MC2_getMemberPacketStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getMemberPacketStatus.java
+END
+Callback_MC3_callRtspTerminal2Channels.java
+K 25
+svn:wc:ra_dav:version-url
+V 306
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_callRtspTerminal2Channels.java
+END
+Callback_MC3_setLogoPath2Channels.java
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setLogoPath2Channels.java
+END
+Callback_MC3_getChairseeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getChairseeList.java
+END
+TerminalListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 287
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TerminalListSHolder.java
+END
+Callback_MC2_deleteTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_deleteTerminal.java
+END
+Callback_MCXMPP_register.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MCXMPP_register.java
+END
+LicenseInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/LicenseInfoHolder.java
+END
+Callback_MC2_stopSipCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_stopSipCall.java
+END
+Callback_MC3_getChaircycleList.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getChaircycleList.java
+END
+IConfigHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 281
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/IConfigHolder.java
+END
+_MC2DelD.java
+K 25
+svn:wc:ra_dav:version-url
+V 276
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC2DelD.java
+END
+ConferenceParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 283
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ConferenceParam.java
+END
+ConferenceParamListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ConferenceParamListSHolder.java
+END
+Callback_MC2_setRequestIFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setRequestIFrame.java
+END
+Callback_MC3_inviteAudioTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_inviteAudioTerminal.java
+END
+PacketInfoListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/PacketInfoListSHelper.java
+END
+Callback_MC2_start323Call.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_start323Call.java
+END
+IConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 275
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/IConfig.java
+END
+Callback_MC3_reconnectRtspCall2Channels.java
+K 25
+svn:wc:ra_dav:version-url
+V 307
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_reconnectRtspCall2Channels.java
+END
+Callback_MC2_stopSoftCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_stopSoftCall.java
+END
+SipListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/SipListSHolder.java
+END
+Callback_MC3_clearAllGWIP.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_clearAllGWIP.java
+END
+Callback_MC3_setFecc.java
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setFecc.java
+END
+MC3PrxHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 280
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MC3PrxHolder.java
+END
+MutiTemplateInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MutiTemplateInfo.java
+END
+Callback_MC2_addTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_addTerminal.java
+END
+XmppTreeListHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 286
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/XmppTreeListHelper.java
+END
+Callback_MC3_getChannelsInLicenseNumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 307
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getChannelsInLicenseNumber.java
+END
+SysConfigHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 283
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/SysConfigHolder.java
+END
+Callback_MC2_disconnect323Call.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_disconnect323Call.java
+END
+Callback_MCXMPP_getTreeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MCXMPP_getTreeList.java
+END
+Callback_MC3_getAudioTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getAudioTerminal.java
+END
+Callback_MC2_saveConferenceParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_saveConferenceParam.java
+END
+TerminalInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 286
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TerminalInfoHolder.java
+END
+Callback_MC3_getAudioTerminalList.java
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getAudioTerminalList.java
+END
+ChairCycleInfoListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ChairCycleInfoListSHelper.java
+END
+Callback_MC3_getScreenInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getScreenInfo.java
+END
+ScreenInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ScreenInfoHolder.java
+END
+Callback_MC3_addTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_addTerminal.java
+END
+Callback_MC3_callback.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_callback.java
+END
+Callback_MC3_audioStopSpy.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_audioStopSpy.java
+END
+Callback_MC2_getClientCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getClientCache.java
+END
+MC2.java
+K 25
+svn:wc:ra_dav:version-url
+V 271
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MC2.java
+END
+Callback_MC2_getChairCycleChoiceTerminals.java
+K 25
+svn:wc:ra_dav:version-url
+V 309
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getChairCycleChoiceTerminals.java
+END
+_Marker.java
+K 25
+svn:wc:ra_dav:version-url
+V 275
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_Marker.java
+END
+Callback_MCXMPP_addDepartment.java
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MCXMPP_addDepartment.java
+END
+IConfigListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 286
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/IConfigListSHolder.java
+END
+Callback_MC3_startChannels.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_startChannels.java
+END
+SipInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 281
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/SipInfoHolder.java
+END
+Callback_MC2_stop323Call.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_stop323Call.java
+END
+Callback_MC2_setChairsee.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setChairsee.java
+END
+Callback_MC3_updateLiveMeetTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 303
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_updateLiveMeetTemplate.java
+END
+Callback_MC3_getTemplateAudioTerminList.java
+K 25
+svn:wc:ra_dav:version-url
+V 307
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getTemplateAudioTerminList.java
+END
+StringSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 281
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/StringSHolder.java
+END
+ListHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 278
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ListHolder.java
+END
+MC3Holder.java
+K 25
+svn:wc:ra_dav:version-url
+V 277
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MC3Holder.java
+END
+Callback_MC2_muteSpeaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_muteSpeaker.java
+END
+Callback_MC2_setQualityH323.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setQualityH323.java
+END
+Callback_MC3_openAllSpeaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_openAllSpeaker.java
+END
+Callback_MC2_updateTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_updateTemplate.java
+END
+Callback_MC3_callH323Terminal2Channels.java
+K 25
+svn:wc:ra_dav:version-url
+V 306
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_callH323Terminal2Channels.java
+END
+Callback_MC2_stopMobileCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_stopMobileCall.java
+END
+Callback_MC3_addMutiTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_addMutiTemplate.java
+END
+Conference.java
+K 25
+svn:wc:ra_dav:version-url
+V 278
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Conference.java
+END
+Callback_MC2_queryTerminList.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_queryTerminList.java
+END
+Callback_MC3_stopH323Call2Channels.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_stopH323Call2Channels.java
+END
+PacketInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 278
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/PacketInfo.java
+END
+Callback_MC3_restartServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_restartServer.java
+END
+Callback_MC2_connectAll.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_connectAll.java
+END
+TemplateInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 286
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TemplateInfoHolder.java
+END
+Callback_MC3_setChairsee.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setChairsee.java
+END
+Callback_MC3_connectAll.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_connectAll.java
+END
+XmppDepartmentHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/XmppDepartmentHolder.java
+END
+Callback_MC3_getTemplateList.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getTemplateList.java
+END
+Callback_MC2_startConferenceP2p.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_startConferenceP2p.java
+END
+Callback_MC3_connectMutiTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_connectMutiTerminal.java
+END
+TemplateSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 283
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TemplateSHelper.java
+END
+Callback_MC3_deleteFixGWIP.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_deleteFixGWIP.java
+END
+Callback_MC3_openAllMicrophone.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_openAllMicrophone.java
+END
+Callback_MC2_setFecc.java
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setFecc.java
+END
+Callback_MC3_getConferenceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getConferenceInfo.java
+END
+_MCXMPPDel.java
+K 25
+svn:wc:ra_dav:version-url
+V 278
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MCXMPPDel.java
+END
+Callback_MC3_disconnectH323Call2Channels.java
+K 25
+svn:wc:ra_dav:version-url
+V 308
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_disconnectH323Call2Channels.java
+END
+ConferenceParamHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ConferenceParamHolder.java
+END
+Callback_MC3_setGWIP.java
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setGWIP.java
+END
+Callback_MC2_saveTemplateParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_saveTemplateParam.java
+END
+Callback_MC2_addTemplateXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_addTemplateXML.java
+END
+Callback_MC2_addTerminalXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_addTerminalXML.java
+END
+MCXMPPPrxHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 283
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MCXMPPPrxHolder.java
+END
+Callback_MC3_muteAllMicrophone.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_muteAllMicrophone.java
+END
+Callback_MC3_getConferenceList.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getConferenceList.java
+END
+Callback_MC3_inviteVedioTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_inviteVedioTerminal.java
+END
+Callback_MC2_getTerminalIdToIp.java
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getTerminalIdToIp.java
+END
+Callback_MC3_audioStopRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_audioStopRecord.java
+END
+TerminalTypeListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TerminalTypeListSHelper.java
+END
+XmppUserHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/XmppUserHolder.java
+END
+MCXMPPPrx.java
+K 25
+svn:wc:ra_dav:version-url
+V 277
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MCXMPPPrx.java
+END
+SipInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 275
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/SipInfo.java
+END
+Callback_MCXMPP_modifyDepartment.java
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MCXMPP_modifyDepartment.java
+END
+ConferenceListSHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/ConferenceListSHolder.java
+END
+PacketInfoHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/PacketInfoHolder.java
+END
+Callback_MC2_muteMicrophone.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_muteMicrophone.java
+END
+Callback_MC3_deleteMutiTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_deleteMutiTemplate.java
+END
+AudioServInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 281
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/AudioServInfo.java
+END
+MC2Prx.java
+K 25
+svn:wc:ra_dav:version-url
+V 274
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MC2Prx.java
+END
+Callback_MC3_startLiveMeet.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_startLiveMeet.java
+END
+LiveMeetTemplateHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/LiveMeetTemplateHolder.java
+END
+CmdResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 277
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/CmdResult.java
+END
+Callback_MC3_getConferenceParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_getConferenceParam.java
+END
+MCXMPPHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 280
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MCXMPPHolder.java
+END
+Callback_MC3_deleteLiveMeetTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 303
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_deleteLiveMeetTemplate.java
+END
+Callback_MC3_muteAllSpeaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_muteAllSpeaker.java
+END
+Callback_MCXMPP_addUser2Department.java
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MCXMPP_addUser2Department.java
+END
+Callback_MC3_audioUnHold.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_audioUnHold.java
+END
+Callback_MC2_getIConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getIConfig.java
+END
+Callback_MC3_setScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setScreen.java
+END
+TemplateParamListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TemplateParamListSHelper.java
+END
+_MC2Del.java
+K 25
+svn:wc:ra_dav:version-url
+V 275
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC2Del.java
+END
+Callback_MC3_stopChannels.java
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_stopChannels.java
+END
+Callback_MC3_muteMutiSpeaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_muteMutiSpeaker.java
+END
+Callback_MC2_setQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setQueue.java
+END
+MCXMPP.java
+K 25
+svn:wc:ra_dav:version-url
+V 274
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/MCXMPP.java
+END
+TemplateInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 280
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/TemplateInfo.java
+END
+Callback_MC2_disconnectAll.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_disconnectAll.java
+END
+Callback_MC3_setQualitySoft.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_setQualitySoft.java
+END
+Callback_MC2_deleteTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_deleteTemplate.java
+END
+Callback_MC2_startRtspCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_startRtspCall.java
+END
+_MC3DelM.java
+K 25
+svn:wc:ra_dav:version-url
+V 276
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC3DelM.java
+END
+_MC3Disp.java
+K 25
+svn:wc:ra_dav:version-url
+V 276
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/_MC3Disp.java
+END
+Callback_MC3_muteMutiMicrophone.java
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_muteMutiMicrophone.java
+END
+Callback_MC2_getConnectMembersByConference.java
+K 25
+svn:wc:ra_dav:version-url
+V 310
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_getConnectMembersByConference.java
+END
+Callback_MC3_audioHold.java
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC3_audioHold.java
+END
+Callback_MC2_saveSysConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_saveSysConfig.java
+END
+Callback_MC2_updateSip.java
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_updateSip.java
+END
+StringListSHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/StringListSHelper.java
+END
+Callback_MC2_setScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10652/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/controlProject/src/com/vmediax/oneplusn/ice/api/vmxICE/Callback_MC2_setScreen.java
+END

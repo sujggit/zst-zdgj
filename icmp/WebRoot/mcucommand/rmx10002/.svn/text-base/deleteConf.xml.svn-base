@@ -1,0 +1,8 @@
+<RMX1000_MC_API version="1.1.0.0">
+	<COMMAND id="delete_conf">
+		<COUNT value="1" />
+		<GUID_1 value="3aafe94bf24fde11b36bcd56b6fbd039" />
+		<SOURCE_GUID value="4a8dc36af24fde1190fd4985163aa164" />
+		<TARGET_GUID value="bc0679d9d2a1dd11b1b17a6c10be0816" />
+	</COMMAND>
+</RMX1000_MC_API>

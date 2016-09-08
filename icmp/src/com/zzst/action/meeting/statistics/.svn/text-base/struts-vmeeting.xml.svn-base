@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/vmeeting" namespace="/vmeeting" extends="icmp-default">
+		
+		<action name="viewDeptTotal" class="com.zzst.action.meeting.statistics.VmeetingAction" method="viewDeptTotal">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetShowDep.jsp
+        	</result>
+        </action>
+        <action name="viewMonthTotal" class="com.zzst.action.meeting.statistics.VmeetingAction" method="viewMonthTotal">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetShowMonth.jsp
+        	</result>
+        </action>
+        <action name="viewNoticeTotal" class="com.zzst.action.meeting.statistics.VmeetingAction" method="viewNoticeTotal">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetShowNotice.jsp
+        	</result>
+        </action>
+        <action name="viewTypeTotal" class="com.zzst.action.meeting.statistics.VmeetingAction" method="viewTypeTotal">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetShowType.jsp
+        	</result>
+        </action>
+         <action name="viewRoomTotal" class="com.zzst.action.meeting.statistics.VmeetingAction" method="viewRoomTotal">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetShowRoom.jsp
+        	</result>
+        </action>
+      
+         <action name="viewRoomAssets" class="com.zzst.action.meeting.statistics.VmeetingAction" method="viewRoomAssets">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetRoomAssets.jsp
+        	</result>
+        </action>
+        
+         <action name="getListForRoom" class="com.zzst.action.meeting.statistics.VmeetingAction" method="getListForRoom">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetList/vgetlistForRoom.jsp
+        	</result>
+        </action>
+        <action name="viewRoomTotalExport" class="com.zzst.action.meeting.statistics.VmeetingExcelAction" method="viewRoomTotalExport">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="meetroomList.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+    </package>
+ </struts>   

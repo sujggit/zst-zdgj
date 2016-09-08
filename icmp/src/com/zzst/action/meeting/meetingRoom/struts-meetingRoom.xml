@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/meetingRoom" namespace="/meetingRoom" extends="struts-default">
+    		<action name="query" class="com.zzst.action.meeting.meetingRoom.MeetingRoomAction" method="query">
+			<result name="success">
+				/meeting/meetingRoom/meetingRoomList.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	   </action>
+    	   
+    	   <action name="exportQuery" class="com.zzst.action.meeting.meetingRoom.MeetingRoomAction" method="exportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="meetingRoom.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    	</action>
+    	   	<action name="modify" class="com.zzst.action.meeting.meetingRoom.MeetingRoomAction" method="modify">
+			<result name="success">
+				/meeting/meetingRoom/meetingRoomModify.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	    <!-- 复制20131024 -->
+    		<action name="copy" class="com.zzst.action.meeting.meetingRoom.MeetingRoomAction" method="copy">
+			<result name="success">
+				/meeting/meetingRoom/meetingRoomCopy.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	   </action>
+    	<action name="modifySave" class="com.zzst.action.meeting.meetingRoom.MeetingRoomAction" method="modifySave">
+			<result name="success" type="redirect">
+    		  /meetingRoom/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="delete" class="com.zzst.action.meeting.meetingRoom.MeetingRoomAction" method="delete">
+			<result name="success" type="redirect">
+    			/meetingRoom/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="detail" class="com.zzst.action.meeting.meetingRoom.MeetingRoomAction" method="detail">
+			<result name="success">
+				/meeting/meetingRoom/meetingRoomDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="add" class="com.zzst.action.meeting.meetingRoom.MeetingRoomAction" method="add">
+			<result name="success">
+				/meeting/meetingRoom/meetingRoomAdd.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<action name="addSave" class="com.zzst.action.meeting.meetingRoom.MeetingRoomAction" method="addSave">
+			<result name="success" type="redirect">
+    		   /meetingRoom/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	
+    	<action name="importExcel" class="com.zzst.action.meeting.meetingRoom.MeetingRoomAction" method="importExcel">
+    		<result name="success" type="redirect">
+    		   /meetingRoom/query.action
+    		</result>
+    	</action>
+    </package>
+</struts>   

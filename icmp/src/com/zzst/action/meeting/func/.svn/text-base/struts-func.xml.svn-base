@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/func" namespace="/func" extends="icmp-default">
+    	<action name="ishaveChild" class="com.zzst.action.meeting.func.FuncAction" method="ishaveChild">
+    		<result name="SUCCESS">/include/functree.jsp</result>
+    	</action>
+    	<action name="getFuncList" class="com.zzst.action.meeting.func.FuncAction" method="getFuncList">
+    		<result name="SUCCESS">/meeting/func/rolefunc.jsp</result>
+    	</action>  
+    	<action name="queryCheck" class="com.zzst.action.meeting.func.FuncAction" method="queryCheck">
+    		<result name="success">/meeting/func/funcTreeCheck.jsp</result>
+    	</action>  		
+    </package>
+</struts>

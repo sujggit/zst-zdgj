@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/dictionary" namespace="/dictionary" extends="icmp-default">  
+	  	
+    	<action name="controlMenuList" class="com.zzst.action.meeting.dictionary.DictionaryAction" method="controlMenuList">
+			<result name="SUCCESS">
+    			/meeting/config/releaseManagement/controlMenu.jsp
+    		</result>
+    	</action>
+    	<action name="controlRightMenuList" class="com.zzst.action.meeting.dictionary.DictionaryAction" method="controlRightMenuList">
+			<result name="SUCCESS">
+    			/meeting/config/releaseManagement/controlRightMenu.jsp
+    		</result>
+    	</action>
+    	<!-- add by liujf 20131010 -->
+    	<action name="beforeAdd" class="com.zzst.action.meeting.dictionary.DictionaryAction" method="beforeAdd">
+    		<result name="SUCCESS">
+    			/meeting/dictionary/dictionaryAdd.jsp
+    		</result>
+    	</action>
+    	<action name="addDictionary" class="com.zzst.action.meeting.dictionary.DictionaryAction" method="addDictionary">
+    		<result name="SUCCESS" type="redirect">
+    			/dictionary/dictionaryList.action
+    		</result>
+    	</action>
+    	<action name="dictionaryList" class="com.zzst.action.meeting.dictionary.DictionaryAction" method="dictionaryList">
+    		<result name="SUCCESS">/meeting/dictionary/dictionaryQueryy.jsp</result>   		
+    	</action>
+    	<action name="detail" class="com.zzst.action.meeting.dictionary.DictionaryAction" method="detail">
+			<result name="SUCCESS">
+				/meeting/dictionary/dictionaryDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="beforeModify" class="com.zzst.action.meeting.dictionary.DictionaryAction" method="beforeModify">
+    		<result name="SUCCESS">/meeting/dictionary/dictionaryModify.jsp</result>
+    	</action>
+    		<action name="delDictionary" class="com.zzst.action.meeting.dictionary.DictionaryAction" method="delDictionary">
+			<result name="SUCCESS" type="redirect">
+    			/dictionary/dictionaryList.action
+    		</result> 	
+    	</action>
+    	<action name="modifyDictionary" class="com.zzst.action.meeting.dictionary.DictionaryAction" method="modifyDictionary">
+    		<result name="SUCCESS" type="redirect">
+    			/dictionary/dictionaryList.action
+    		</result>
+    	</action>
+    	<action name="delDictionary" class="com.zzst.action.meeting.dictionary.DictionaryAction" method="delDictionary">
+			<result name="SUCCESS" type="redirect">
+    			/dictionary/dictionaryList.action
+    		</result> 	
+    	</action>
+    	<action name="reSet" class="com.zzst.action.meeting.dictionary.DictionaryAction" method="reSet">
+			<result name="SUCCESS">
+    			/meeting/dictionary/dictionaryEquipment.jsp
+    		</result> 	
+    	</action>
+   </package>
+</struts>   

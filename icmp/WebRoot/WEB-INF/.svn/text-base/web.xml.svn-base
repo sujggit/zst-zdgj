@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+ 
+ <!-- 信息发送监听设置 -->
+  <!--<listener>
+  <listener-class>com.zst.service.impl.TimeListener</listener-class>
+ </listener>-->
+ <!-- 用户会话监听设置 -->
+ <listener>
+  <listener-class>com.zzst.action.meeting.filter.ActiveUserListener</listener-class>
+  </listener>
+ <!--*******所放web.xml中的位置无关*********** by wangyl******* -->
+ <!--cxf服务端配置2013-09-02-->
+ <!--modify by ryan on 20131112-->
+ 	<!-- spring加载配置文件路径 -->
+ 	<!-- 读取src下的文件 -->
+ 	<param-value>WEB-IN/applicationContext.xml</param-value> <!-- 读取web-inf下的文件-->
+     <context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:applicationContext.xml</param-value>
+	</context-param> 
+	
+	<!--加载spring 容器-->
+	<listener> 
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class> 
+    </listener> 
+   
+	<!--cxf配置   --><!-- 2016年4月7日 11:04:24 打开注释 -->
+	<display-name>cxf</display-name>
+    <servlet> 
+       <description>Apache CXF Endpoint</description>
+        <display-name>cxf</display-name>
+        <servlet-name>cxf</servlet-name>
+        <servlet-class>org.apache.cxf.transport.servlet.CXFServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+   <servlet-mapping> 
+        <servlet-name>cxf</servlet-name> 
+        <url-pattern>/services/*</url-pattern> 
+    </servlet-mapping>
+ 
+ <!--*******所放web.xml中的位置无关*********** by wangyl******* -->
+ 
+ 
+  
+ 
+ 
+ 
+ 	<!-- 编码 -->
+	<filter>
+		<filter-name>EncodingFilter</filter-name>
+		<filter-class>com.zzst.action.meeting.filter.EncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+ 
+	<filter>
+		<filter-name>encoding</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>encoding</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+ 
+  <!-- 信达门户验证 
+   
+ <filter>
+		<filter-name>IDPFilter</filter-name>
+		<filter-class>cn.com.hkgt.idp.client.filter.IDPFilter</filter-class>
+		<init-param>
+			<param-name>cn.com.hkgt.idp.client.filter.notFilters</param-name>
+			<param-value>/icmp/index3.jsp;/icmp/user/userLogin.action;icmp/configuration/getConfiguration.action;icmp/dwr/call/plaincall/DwrMethod.modifyConfiguration.dwr</param-value>
+		</init-param>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>IDPFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+  -->
+ <!-- 操作按钮可配置		过滤 -->
+ <filter>
+  <filter-name>funcFilter</filter-name>
+  <filter-class>com.zzst.action.meeting.filter.FuncFilter</filter-class>
+ </filter>
+ <filter-mapping>
+  <filter-name>funcFilter</filter-name>
+  <url-pattern>*.action</url-pattern>
+ </filter-mapping>
+ 
+ <!-- 放行特定的访问 -->
+ <filter>
+  <filter-name>SessionFilter</filter-name>
+  <filter-class>com.zzst.action.meeting.filter.SessionFilter</filter-class>
+ </filter>
+ 
+ <!-- struts2  配置 -->
+ <filter>
+  <filter-name>struts2</filter-name>
+  <filter-class>org.apache.struts2.dispatcher.FilterDispatcher</filter-class>
+ </filter>
+ <filter-mapping>
+  <filter-name>SessionFilter</filter-name>
+  <url-pattern>*.action</url-pattern>
+ </filter-mapping>
+ <filter-mapping>
+  <filter-name>SessionFilter</filter-name>
+  <url-pattern>*.jsp</url-pattern>
+ </filter-mapping>
+ <filter-mapping>
+  <filter-name>struts2</filter-name>
+  <url-pattern>*.action</url-pattern>
+ </filter-mapping>
+
+ <servlet>
+  <servlet-name>CjfBootServlet</servlet-name>
+  <servlet-class>com.gsiec.cjf.system.CjfBootServlet</servlet-class>
+  <load-on-startup>2</load-on-startup>
+ </servlet>
+ 
+ <!-- 信达数据初始化 
+ <servlet>
+  <servlet-name>CindaInitServlet</servlet-name>
+  <servlet-class>com.zzst.action.project.cinda.servlet.CindaInitServlet</servlet-class>
+  <load-on-startup>3</load-on-startup>
+ </servlet>
+ -->
+ <!-- struts2  配置结束 -->
+ <servlet>
+  <servlet-name>json</servlet-name>
+  <servlet-class>com.zzst.meeting.department.JsonServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>edit</servlet-name>
+  <servlet-class>com.zzst.meeting.department.EditServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>save</servlet-name>
+  <servlet-class>com.zzst.meeting.department.SaveServlet</servlet-class>
+ </servlet>
+ <!-- dwr 验证配置-->
+ <servlet>
+  <servlet-name>dwr-invoker</servlet-name>
+  <servlet-class>org.directwebremoting.servlet.DwrServlet</servlet-class>
+  <init-param>
+   <param-name>debug</param-name>
+   <param-value>true</param-value>
+  </init-param>
+  <init-param>
+        <param-name>crossDomainSessionSecurity</param-name>
+        <param-value>false</param-value>
+        </init-param>
+  <init-param>
+      <param-name>allowScriptTagRemoting</param-name>
+      <param-value>true</param-value>
+  </init-param>
+  <init-param>
+      <param-name>classes</param-name>
+      <param-value>java.lang.Object</param-value>
+  </init-param>
+  <init-param>
+        <param-name>activeReverseAjaxEnabled</param-name>
+        <param-value>true</param-value>
+  </init-param>
+  <init-param>
+       <param-name>initApplicationScopeCreatorsAtStartup</param-name>
+       <param-value>true</param-value>
+  </init-param>
+  <init-param>
+        <param-name>maxWaitAfterWrite</param-name>
+        <param-value>3000</param-value>
+  </init-param>
+  <init-param>
+        <param-name>logLevel</param-name>
+        <param-value>WARN</param-value>
+  </init-param>
+  <init-param>  
+	  <param-name>pollAndCometEnabled</param-name>  
+	  <param-value>true</param-value>  
+  </init-param>  
+<load-on-startup>1</load-on-startup>
+  
+ </servlet>
+ <!-- dwr 验证配置结束-->
+ <!-- commons.fileupload 文件上传配置-->
+ <servlet>
+  <servlet-name>Upload</servlet-name>
+  <servlet-class>com.zzst.action.meeting.util.UploadUtil</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+   <servlet-name>Upload</servlet-name>
+   <url-pattern>/fileupload</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ 
+ <servlet>
+  <servlet-name>ImportMeetingRoom</servlet-name>
+  <servlet-class>com.zzst.action.meeting.dataInterface.ImportExcel</servlet-class>
+ </servlet>
+ 
+ 
+ <servlet-mapping>
+   <servlet-name>ImportMeetingRoom</servlet-name>
+   <url-pattern>/importMeetingRoom</url-pattern>
+ </servlet-mapping>
+ 
+  
+ 
+ <!-- commons.fileupload 文件上传配置结束-->
+ <servlet>
+  <description>This is the description of my J2EE component</description>
+  <display-name>This is the display name of my J2EE component</display-name>
+  <servlet-name>cjfUploadServlet</servlet-name>
+  <servlet-class>com.gsiec.cjf.util.fileupload.CjfUploadServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>json</servlet-name>
+  <url-pattern>/navigatejson</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>edit</servlet-name>
+  <url-pattern>/navigateedit</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>save</servlet-name>
+  <url-pattern>/navigatesave</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>dwr-invoker</servlet-name>
+  <url-pattern>/dwr/*</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>cjfUploadServlet</servlet-name>
+  <url-pattern>/cjfUploadServlet</url-pattern>
+ </servlet-mapping>
+ <session-config>
+  <session-timeout>1440</session-timeout>
+ </session-config>
+ <welcome-file-list>
+  <welcome-file>index3.jsp</welcome-file>
+ </welcome-file-list>
+ <error-page>
+  <error-code>404</error-code>
+  <location>/error/404.jsp</location>
+ </error-page>
+ <error-page>
+  <error-code>500</error-code>
+  <location>/error/500.jsp</location>
+ </error-page>
+ <jsp-config>
+  <taglib>
+   <taglib-uri>tag</taglib-uri>
+   <taglib-location>/WEB-INF/tld/tag.tld</taglib-location>
+  </taglib>
+ </jsp-config>
+ <login-config>
+  <auth-method>BASIC</auth-method>
+ </login-config>
+</web-app>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/equipmentLib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/Ice.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/java-snmp-1.4.2.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/jaxen-1.1-beta-6.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/jdom.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/jxl.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/log4j.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/mail.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/mysqljdbc5.1.jar"/>
+	<classpathentry kind="lib" path="/equipmentLib/SNMP4J.jar"/>
+	<classpathentry kind="lib" path="/icmpLib/commons-net-2.0.jar"/>
+	<classpathentry kind="lib" path="/cindaLib/axis-ant.jar"/>
+	<classpathentry kind="lib" path="/cindaLib/axis.jar"/>
+	<classpathentry kind="lib" path="/cindaLib/bcprov-jdk14-143.jar"/>
+	<classpathentry kind="lib" path="/cindaLib/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="/cindaLib/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="/cindaLib/gumidpCilent.jar"/>
+	<classpathentry kind="lib" path="/cindaLib/hkaxis-client.jar"/>
+	<classpathentry kind="lib" path="/cindaLib/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="/cindaLib/meesageCinda.jar"/>
+	<classpathentry kind="lib" path="/cindaLib/saaj.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/configuration" namespace="/configuration" extends="icmp-default">
+    	<action name="getConfiguration" class="com.zzst.action.meeting.util.configuration.ConfigurationAction" method="getConfiguration">
+			<result name="success">
+    			/configure.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    </package>
+</struts>   

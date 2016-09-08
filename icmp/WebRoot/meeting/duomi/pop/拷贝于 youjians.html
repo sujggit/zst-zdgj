@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.default.css" type="text/css" />
+<title>测试</title>
+
+<script type="text/javascript">
+
+window.onload = function ()
+{
+ var oMenu = document.getElementById("rightMenu");
+
+ var i = 0;
+ var maxWidth = maxHeight = 0;
+ var aDoc = [document.documentElement.offsetWidth, document.documentElement.offsetHeight];
+ 
+ oMenu.style.display = "none";
+
+ 
+ 
+ //自定义右键菜单
+ document.oncontextmenu = function (event)
+ {
+  var event = event || window.event;
+  oMenu.style.display = "block";
+  oMenu.style.top = event.clientY + "px";
+  oMenu.style.left = event.clientX + "px";
+
+  
+  //最大显示范围
+  maxWidth = aDoc[0] - oMenu.offsetWidth;
+  maxHeight = aDoc[1] - oMenu.offsetHeight;
+  
+  //防止菜单溢出
+  oMenu.offsetTop > maxHeight && (oMenu.style.top = maxHeight + "px");
+  oMenu.offsetLeft > maxWidth && (oMenu.style.left = maxWidth + "px");
+  return false;
+ };
+ 
+ //点击隐藏菜单
+ document.onclick = function ()
+ {
+  oMenu.style.display = "none" 
+ };
+ 
+ //取li中最大的宽度, 并赋给同级所有li 
+ 
+};
+</script>
+</head>
+
+<body>
+
+    <div class="midys" id="rightMenu" style="position:absolute;top:-9999px;left:-9999px;">
+    <ul>
+      <li><a href="#" title="挂断"><span class="gdys"></span></a></li>
+      <li><a href="#" title="静音"><span class="jyys"></span></a></li>
+      <li><a href="#" title="闭音"><span class="byys"></span></a></li>
+      <li><a href="#" title="视频屏蔽"><span class="sppbys"></span></a></li>
+      <li><a href="#" title="双流发送"><span class="slfsys"></span></a></li>
+      <li><a href="#" title="广播"><span class="gbys"></span></a></li>
+      <li><a href="#" title="点名"><span class="dmys"></span></a></li>
+ 
+      <li><a href="#" title="设为演讲者"><span class="swyjzys"></span></a></li>
+      <li><a href="#" title="设为发言人"><span class="swfyrys"></span></a></li>
+      <li><a href="#" title="丢包率"><span class="dblys"></span></a></li>
+      <li><a href="#" title="查看近端图像"><span class="ckjdtxys"></span></a></li>
+      <li><a href="#" title="查看远端图像"><span class="ckydtxys"></span></a></li>
+      <li><a href="#" title="会场属性"><span class="hcsxys"></span></a></li>
+      <li><a href="#" title="备注"><span class="bzys"></span></a></li>
+    </ul>
+    </div>
+
+
+</body>
+</html>

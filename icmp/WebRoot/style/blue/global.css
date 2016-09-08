@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#fff; font-size:12px; margin:0px; padding:0px;}
+.pr3{padding-right:3px;}
+.pr4{padding-right:3px; line-height:10px;}
+.pl3{padding-left:3px;}
+.pl4{padding-left:5px;}
+#container{	width:100%; margin-top:2px;}
+.tablesdiv{border-bottom:1px solid #2d96dc;margin-bottom:5px;}
+.tablesdiv2{border-bottom:1px solid #2d96dc;}
+.tables{ margin-bottom:2px;}
+.content{width:100%; height:100%; margin-left:0; background:#FFF;}
+.contenttitle{ background:url(../../images/blue/contenttitle.gif) top repeat-x; height:25px; line-height:25px; border-top:1px solid #2d96dc; }
+.contenttitle2{ background:url(../../images/blue/contenttitle.gif) top repeat-x; height:30px; line-height:30px; border-top:1px solid #2d96dc; }
+.entrytj{ background:url(../../images/blue/xxk_btn.png) no-repeat; width:80px; height:30px; border:0px; line-height:25px; text-align:center;}
+.xiaotbsz{ margin-top:2px;}
+.entrytjgray{ background:url(../../images/blue/xxk_gray.png) no-repeat; width:70px; height:25px; border:0px; line-height:25px; margin-top:5px; text-align:center;}
+.tdhight{line-height:3em; height:3em;}
+.tdhight img{ vertical-align:middle;}
+.input200{width:200px; height:22px; vertical-align:middle; border:1px solid #07487f;background:#ebf5fc; text-align:center; line-height:22px;}
+.input20{width:20px; height:16px; line-height:16px;border:1px solid #07487f;background:#ebf5fc; text-align:center;}
+.input300{width:300px; height:40px; line-height:40px; border:1px solid #07487f;background:#ebf5fc; text-align:center;}
+
+.inputview{width:200px; vertical-align:middle; border-bottom:1px solid #07487f; border-top:none; border-left:none; border-right:none;}
+
+.select200{width:200px; height:24px; line-height:24px;  border:1px solid #07487f;background:#ebf5fc;
+}
+
+.areatext{width:90%; height:100px; border:1px solid #07487f; background:#ebf5fc;}
+.areatextview{width:400px; border-bottom:1px solid #07487f; border-top:none; border-left:none; border-right:none; overflow:auto;}
+
+/* The hint to Hide and Show */
+.hint {
+    display: none;
+    position: absolute;
+    right: 1010px;
+    width: 200px;
+    margin-top: -4px;
+    border: 1px solid #c93;
+    padding: 8px 12px;
+    background: #ffc url("../../images/blue/pointer.gif") no-repeat -10px 5px;
+	color:#c93;
+}
+/* The pointer image is hadded by using another span */
+.hint .hint-pointer {
+	position: absolute;
+	left: -10px;
+	top: 5px;
+	width: 10px;
+	height: 5px;
+	background: url("../../images/blue/pointer.gif") left top no-repeat;
+}
+
+.ts{margin-top:2px; width:300px;height:100%; line-height:20px;position:relative;color:#ccc; word-break: break-all;}
+.btntable{ background:url(../../images/blue/btntable_bg.gif) repeat-x;border-top:1px solid #2d96dc; border-bottom:1px solid #2d96dc;}
+.btntable .pagetextl{ line-height:40px; height:40px; padding-left:10px;}
+.btntable .pagetextr{ line-height:40px; height:40px; padding-right:10px;}
+.button{ background:url(../../images/blue/btn.gif) repeat-x; height:35px; border:1px solid #065a93; width:80px; margin:5px 10px; cursor:pointer;}
+/**********电视墙页面用  开始*********/
+.button2{ background:url(../../images/blue/btn.gif) repeat-x; height:35px; border:1px solid #065a93; width:180px; margin:5px 10px; cursor:pointer;}
+/**********电视墙页面用  结束*********/
+
+
+.searbutton{ background:url(../../images/blue/searchbtn.gif) repeat-x; height:22px; line-height:22px; border:1px solid #e4ad64; width:60px; cursor:pointer;margin:2px 10px;}
+.listsearch{background:#FFF; line-height:270%;}
+.listsearch .titlehome{background:url(../../images/blue/listtitlehome.gif) repeat-x; height:27px; line-height:27px; border:1px solid #2d96dc;}
+.listsearch .tdh{background:#e7f3fc; height:180%; line-height:180%;}
+.listsearch .tdh img{ vertical-align:middle; margin:0px 3px;}
+.listsearch .tds{background:#fff; height:180%; line-height:180%;}
+.listsearch .tds img{ vertical-align:middle; margin:0px 3px;}
+.listsearch .tdselect{background:#f4e9bb; height:180%; line-height:180%;}
+.listsearch .tdselect img{ vertical-align:middle; margin:0px 3px;}
+.pt2{padding-top:2px;}
+
+/******************=================视频终端==============*****************/
+.spzddiv{width:100%; float:left; margin:10px 0px;}
+.spzddiv2{width:70%; float:left; margin:10px 0px;}
+.spzddiv ul{list-style:none;}
+.spzddiv ul li{margin:5 5px; float:left; text-align:center;} 
+
+.spzddiv ul li.spbtn{width:93px; height:41px; line-height:41px; padding-left:15px;}
+.spzddiv ul li.spzdbtn1{background:url(../../images/blue/zd/spzd_hzh.png) no-repeat;}
+.spzddiv ul li.spzdbtn2{background:url(../../images/blue/zd/spzd_sxj.png) no-repeat;}
+.spzddiv ul li.spzdbtn3{background:url(../../images/blue/zd/spzd_nr.png) no-repeat;}
+.spzddiv ul li.spzdbtn4{background:url(../../images/blue/zd/spzd_xx.png) no-repeat; }
+.spzddiv ul li.spzdbtn5{background:url(../../images/blue/zd/spzd_home.png) no-repeat;}
+.spzddiv ul li.spzdbtn6{background:url(../../images/blue/zd/spzd_return.png) no-repeat;}
+.spzddiv ul li.spzdbtn7{background:url(../../images/blue/zd/spzd_jy.png) no-repeat; }
+.spzddiv ul li.spzdbtn8{background:url(../../images/blue/zd/spzd_del.png) no-repeat; }
+
+.spzddiv .spyd{ background:url(../../images/blue/zd/spzd_yd.png) no-repeat; width:52px; height:52px; text-align:center; line-height:52px; padding-top:14px; margin:0 auto; }
+.spzddiv .spjd{ background:url(../../images/blue/zd/spzd_jd.png) no-repeat; width:52px; height:52px; text-align:center; line-height:52px; padding-top:14px; margin:0 auto; }
+.spzddiv .spjp{ background:url(../../images/blue/zd/spzd_jp.png) no-repeat; width:52px; height:52px; text-align:center; line-height:52px; padding-top:14px; margin:0 auto; }
+.spzddiv .spml{ background:url(../../images/blue/zd/spzd_ml.png) no-repeat; width:52px; height:52px; text-align:center; line-height:52px; padding-top:14px; margin:0 auto;}
+.szj{width:92px; height:64px; line-height:64px; background:url(../../images/blue/zd/spzd_szj.png) no-repeat; border:none; margin:5px 5px;}
+.szjbh{width:92px; height:64px; line-height:64px; background:url(../../images/blue/zd/spzd_bh.png) no-repeat; border:none;margin:5px 5px;}
+.szjgd{width:92px; height:64px; line-height:64px; background:url(../../images/blue/zd/spzd_gd.png) no-repeat; border:none;margin:5px 5px;}
+
+/******************=================矩阵切换==============*****************/
+.jztable{
+	background:#438db8;
+	margin:10px;
+	border-left: 1px solid #013e7f;
+	border-right: 1px solid #013e7f;
+	border-bottom: 1px solid #013e7f;
+}
+.jztable2{
+	background:#438db8;
+	margin:5px;
+	border-left: 1px solid #013e7f;
+	border-right: 1px solid #013e7f;
+	border-bottom: 1px solid #013e7f;
+	margin-bottom:5px;
+}
+.jztitle{
+	background:#f4e9bb;
+	height:24px;
+	line-height:24px;
+	border:2px solid #013e7f;
+}
+.jztitle2{
+	background:#f4e9bb;
+	height:24px;
+	line-height:24px;
+	border:1px solid #013e7f;
+}
+.jztd{ background:#FFF; }
+.jztdline{ background:#FFF; border-bottom:1px solid #438db8;}
+
+.srbtn{ background:url(../../images/blue/jz_srbtn.png) no-repeat; width:110px; height:40px; margin:10px 10px;}
+
+.scbtn{background:url(../../images/blue/jz_scbtn.png) no-repeat; width:110px; height:40px;margin:10px 10px;}
+.glay{background:url(../../images/blue/jz_glay.png) no-repeat; width:
+110px; height:40px;margin:10px 10px;}
+
+/******************=================摄像头控制==============*****************/
+.sxtkzbj_sm{ background:url(../../images/blue/zd/sxtkz_sm.png) no-repeat; width:71px; height:29px; border:0px; margin:2px;}
+.sxtkz_bj{ background:url(../../images/blue/zd/sxtkz_bj.png) no-repeat; width:64px; height:31px; border:0px; margin:2px;}
+.sxtkzbj_bg{ background:url(../../images/blue/zd/sxtkz_bi.png) no-repeat; width:71px; height:29px; border:0px; margin:2px;}
+.sxtkz_ks{ background:url(../../images/blue/zd/sxtkz_ks.png) no-repeat; width:92px; height:40px; border:0px;margin:5 20px; float:left; text-align:center; line-height:20px; padding:10px;}
+.sxtkz_zs{ background:url(../../images/blue/zd/sxtkz_zs.png) no-repeat; width:92px; height:40px; border:0px;margin:5 20px; float:left; text-align:center; line-height:20px; padding:10px;}
+.sxtkz_ms{ background:url(../../images/blue/zd/sxtkz_ms.png) no-repeat; width:92px; height:40px; border:0px;margin:5 20px; float:left; text-align:center; line-height:20px; padding:10px;}
+.yzw_btn{ background:url(../../images/blue/zd/sxtkz_btn.png) no-repeat; width:93px; height:41px; border:0px; margin:5px 5px; line-height:41px;}
+.yzw_btnchoose{ background:url(../../images/blue/zd/sxtkz_green.png) no-repeat; width:93px; height:41px; border:0px; margin:5px 5px; line-height:41px;}
+
+/******************=================会议模板==============*****************/
+.hymbfont{padding-left:5px;}
+.hymbkzxs{background:#f4e9bb;height:24px;line-height:24px;border-bottom:2px solid #013e7f;border-top:2px solid #013e7f;border-right:2px solid #013e7f;width:50%;}
+.hymbkzxs2{background:#f4e9bb;height:24px;line-height:24px;border-bottom:2px solid #013e7f;border-top:2px solid #013e7f;border-left:2px solid #013e7f;width:50%;}
+.tblineys{border-left:1px solid #013e7f; border-right:1px solid #013e7f; background:#c5dcee;}
+.wbsx{line-height:24px; height:24px;font-weight:bold;padding-left:3px;font-size:12px; color:#07487f;}
+.wbsx2{line-height:24px; height:24px;font-weight:bold;font-size:12px; color:#07487f;}
+.bkys{width:100%; border-bottom:1px solid #013e7f; height:150px; margin-bottom:10px; background:#ebf5fc; overflow:auto;}
+
+/******************=================欢迎进入==============*****************/
+.hyjrys{background:url(../../images/blue/hyjr_01.gif) repeat-x;height:560px;border:0px;}
+.hyjrbgys{ background:url(../../images/blue/hyjr_02.gif) no-repeat; width:935px; height:560px; border:0px; float:right;}
+
+/******************=================灯光控制==============*****************/
+.dgkzlayout{ padding-left:10px; padding-top:30px;}
+.dgkz_fw{ height:100%;}
+.yzw_btn2{ background:url(../../images/blue/zd/sxtkz_btn2.png) no-repeat; width:70px; height:31px; border:0px; margin:5px 5px; line-height:31px;}
+.jztable{background:#438db8;margin:10px;border: 1px solid #013e7f;}
+
+/******************=================会议控制==============*****************/
+.btntablesz{border-top:1px solid #2d96dc; padding-top:10px;}
+.btntablesz2{border-bottom:1px solid #2d96dc;padding-top:10px; padding-bottom:10px;}
+.select2002{width:200px; height:24px; line-height:24px;  border:1px solid #07487f;background:#ebf5fc; margin-top:5px;}
+.listsearch .titlehome2{background:url(../../images/blue/listtitlehome.gif) repeat-x; height:27px; line-height:27px; border-left:1px solid #2d96dc;border-bottom:1px solid #2d96dc;border-right:1px solid #2d96dc; padding-left:5px;}
+.listsearch .tdh2{background:url(../../images/blue/contenttitle.gif) repeat-x; height:180%; line-height:180%; border:1px solid #2d96dc;}
+.btntable .pagetext2{ line-height:20px; height:20px; padding-left:10px;}
+.boredadaj{ border:1 dashed #930;}
+
+/******************=================大屏切换==============*****************/
+.dpqhdiv{width:70%;float:left;margin:10px 10px 10px 20px;background: url(../../images/blue/dp_1.png) no-repeat;width:380px;height:238px;border:0px;}
+.dpqhtabdiv{margin-bottom:15px;}
+.btntable2{ background:url(../../images/blue/btntable_bg.gif) repeat-x; height:40px; border-top:1px solid #2d96dc; border-bottom:1px solid #2d96dc;}
+
+/******************=================DVD控制==============*****************/
+.yzw_btnnew{ background:url(../../images/blue/zd/sxtkz_btn.png) no-repeat; width:93px; height:41px; border:0px; margin:5px 5px; line-height:41px;
+font-size:13px; color:#FFF; font-weight:bold;}
+.yzw_btnnewsz{ background:url(../../images/blue/zd/sxtkz_btn.png) no-repeat; width:93px; height:41px; border:0px; margin:5px 5px; line-height:41px;
+font-size:15px; color:#FFF; font-weight:bolder;font-family:"微软雅黑";}
+.spzddivnew{width:100%; float:left; margin:0px 0px;}

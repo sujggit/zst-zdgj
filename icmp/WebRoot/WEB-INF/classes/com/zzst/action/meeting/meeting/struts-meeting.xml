@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+ <constant name="struts.multipart.saveDir" value="/tmp"></constant>
+<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<package name="/detail" namespace="/detail"
+		extends="struts-default">
+		<action name="beforeAddVideoMeeting"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="beforeAddVideoMeeting">
+			<result name="SUCCESS">
+				/meeting/adminVideoMeeting/addVideoMeeting.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		<action name="addVideoMeeting"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="addVideoMeeting">
+			<result name="SUCCESS" type="redirect">
+				/detail/manageMeetingTemplateList.action
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+			<result name="invalid.token">
+				/meeting/detail/addMeeting.jsp
+			</result>
+		</action>
+		<action name="manageMeetingTemplateList"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="manageMeetingTemplateList">
+			<result name="SUCCESS">
+				/meeting/meetingManage/main_home.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		<action name="manageMeetingTemplateListForAdmin"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="manageMeetingTemplateListForAdmin">
+			<result name="SUCCESS">
+				/meeting/conferenceTemplate/templateList.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+	
+	    
+		
+		<action name="manageLinkMeetingTemplateList"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="manageLinkMeetingTemplateList">
+			<result name="SUCCESS">
+				/meeting/meetingManage/main_home1.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		<action name="getMeetingTemplate"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="getMeetingTemplate">
+			<result name="SUCCESS">
+				/meeting/adminVideoMeeting/modifyMeetingTemplate.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+
+		<action name="getMeetingTemplateInfo"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="getMeetingTemplateInfo">
+			<result name="SUCCESS">
+				/meeting/adminVideoMeeting/immediatelyVideoMeeting.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		
+		<action name="getLinkMeetingTemplateInfo"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="getLinkMeetingTemplateInfo">
+			<result name="SUCCESS">
+				/meeting/adminVideoMeeting/immediatelyVideoMeeting1.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		
+		<action name="delMeetingTemplate"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="delMeetingTemplate">
+			<result name="SUCCESS" type="redirect">
+				/detail/manageMeetingTemplateList.action
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+
+		<action name="addCurrentVideoMeeting"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="addCurrentVideoMeeting">
+			<result name="SUCCESS" type="redirect">
+				/mcuControl/getClassifiedRoomList.action
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+
+		<action name="addCurrentVideoLinkMeeting"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="addCurrentVideoLinkMeeting">
+			<result name="SUCCESS" type="redirect">
+				/mcuControl/getClassifiedRoomList.action
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+
+		<action name="modifyVideoMeetingTemplate"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="modifyVideoMeetingTemplate">
+			<result name="SUCCESS" type="redirect">
+				/detail/manageMeetingTemplateList.action
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+
+		<action name="generalAddBefor"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="generalAddBefor">
+			<result name="SUCCESS">
+				/meeting/conferenceBook/generalBook.jsp
+			</result>
+		</action>
+		<action name="generalAdd"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="generalAdd">
+			<!-- <result name="SUCCESS">
+				/error/notice.jsp
+			</result>
+			 -->
+			<result name="SUCCESS" type="redirect">
+				/detail/queryMyConference.action
+			</result>
+			<result name="FAILURE">
+				/error/warning.jsp
+			</result>
+		</action>
+
+		<action name="queryLocalConference"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="queryLocalConference">
+			<result name="SUCCESS">
+				/meeting/conferenceManager/conferenceList.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		
+		
+		<!--by tanzanlong -->
+		<action name="fileupload"
+			class="com.zzst.action.meeting.meeting.FileUploadAction"
+			method="fileupload">
+			<param name="savePath">/file/meetingfile</param>
+		</action>
+		
+		<action name="getdownloadlist"
+			class="com.zzst.action.meeting.meeting.DownLoadAction"
+			method="getdownloadlist">
+			 <param name="fileFileName"></param> 
+			 <param name="savePath">/file/meetingfile</param> 
+            <result name="SUCCESS">
+			/meeting/conferenceManager/downLoad.jsp             		
+			</result>		
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		
+		<action name="download"
+			class="com.zzst.action.meeting.meeting.DownLoadAction"
+			method="download">
+			 <param name="savePath">/file/meetingfile</param>
+             <result name="success" type="stream"></result>
+			 <param name="contentDisposition">attachment;filename="${downloadChineseFileName}"</param> 			
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		
+		
+		
+		
+		
+		
+		
+		<action name="endMeeting"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="endMeeting">
+			<result name="SUCCESS" type="redirect">
+				/detail/queryLocalConference.action?redirectType=${redirectType}
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		
+		<action name="endMyMeeting"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="endMyMeeting">
+			<result name="SUCCESS" type="redirect">
+				/detail/queryMyConference.action?redirectType=${redirectType}
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		<action name="deleteConference"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="deleteConference">
+			<result name="SUCCESS" type="redirect">
+				/detail/queryLocalConference.action?redirectType=${redirectType}
+			</result>
+			<result name="FAILURE">
+				/meeting/conferenceBook/beneralBook.jsp
+			</result>
+			<result name="MYCONFERENCELIST" type="redirect">
+				/detail/queryMyConference.action
+			</result>
+		</action>
+		<!-- del我的会议 -->
+		<action name="mydeleteConference"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="mydeleteConference">
+			<result name="SUCCESS" type="redirect">
+				/detail/queryMyConference.action?redirectType=${redirectType}
+			</result>
+			<result name="FAILURE">
+				/meeting/conferenceBook/beneralBook.jsp
+			</result>
+			<result name="MYCONFERENCELIST" type="redirect">
+				/detail/queryMyConference.action
+			</result>
+		</action>
+		<action name="beforeModifyConference"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="beforeModifyConference">
+			<result name="SUCCESS">
+				/meeting/conferenceManager/generalConferenceModify.jsp
+			</result>
+			<result name="FAILURE">
+				/meeting/conferenceBook/beneralBook.jsp
+			</result>
+		</action>
+		<action name="mybeforeModifyConference"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="mybeforeModifyConference">
+			<result name="SUCCESS">
+				/meeting/conferenceManager/mygeneralConferenceModify.jsp
+			</result>
+			<result name="FAILURE">
+				/meeting/conferenceBook/beneralBook.jsp
+			</result>
+		</action>
+		<action name="modifyConference"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="modifyConference">
+			<result name="SUCCESS" type="redirect">
+				/detail/queryLocalConference.action?redirectType=${redirectType}
+			</result>
+			<result name="FAILURE">
+				/meeting/conferenceBook/beneralBook.jsp
+			</result>
+		</action>
+		
+		<action name="mymodifyConference"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="mymodifyConference">
+			<result name="SUCCESS" type="redirect">
+				/detail/queryMyConference.action?redirectType=${redirectType}
+			</result>
+			<result name="FAILURE">
+				/meeting/conferenceBook/beneralBook.jsp
+			</result>
+		</action>
+
+		<action name="generalDetail"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="generalDetail">
+			<result name="SUCCESS">
+				/meeting/conferenceManager/generalConferenceDetail.jsp
+			</result>
+			<result name="FAILURE">
+				/meeting/conferenceBook/beneralBook.jsp
+			</result>
+		</action>
+
+		<!-- 视频会议部分    开始 -->
+		<action name="vedioAddBefor"
+			class="com.zzst.action.meeting.meeting.VedioMeetingAction"
+			method="vedioAddBefor">
+			<result name="SUCCESS">
+				/meeting/conferenceBook/vedioBook.jsp
+			</result>
+		</action>
+		<action name="vedioAdd"
+			class="com.zzst.action.meeting.meeting.VedioMeetingAction"
+			method="vedioAdd">
+			<!-- <result name="SUCCESS" >
+				/error/notice.jsp
+			</result> -->
+			<result name="SUCCESS" type="redirect">
+				/detail/queryMyConference.action
+			</result>
+			<result name="FAILURE">
+				/error/warning.jsp
+			</result>
+		</action>
+
+		<action name="vedioTemplateAdd"
+			class="com.zzst.action.meeting.meeting.VedioMeetingAction"
+			method="vedioTemplateAdd">
+			<result name="SUCCESS" type="redirect">
+				/detail/queryLocalConference.action
+			</result>
+			<result name="FAILURE">
+				/meeting/conferenceBook/vedioBook.jsp
+			</result>
+		</action>
+
+		<action name="beforeModifyVedioConference"
+			class="com.zzst.action.meeting.meeting.VedioMeetingAction"
+			method="beforeModifyConference">
+			<result name="SUCCESS">
+				/meeting/conferenceManager/vedioConferenceModify.jsp
+			</result>
+		</action>
+		
+		<action name="mybeforeModifyVedioConference"
+			class="com.zzst.action.meeting.meeting.VedioMeetingAction"
+			method="mybeforeModifyConference">
+			<result name="SUCCESS">
+				/meeting/conferenceManager/myvedioConferenceModify.jsp
+			</result>
+		</action>
+		<action name="modifyVedioConference"
+			class="com.zzst.action.meeting.meeting.VedioMeetingAction"
+			method="modifyConference">
+			<result name="SUCCESS" type="redirect">
+				/detail/queryLocalConference.action?redirectType=${redirectType}
+			</result>
+			<result name="FAILURE">
+				/meeting/conferenceBook/vedioConferenceModify.jsp
+			</result>
+		</action>
+		
+		<action name="mymodifyVedioConference"
+			class="com.zzst.action.meeting.meeting.VedioMeetingAction"
+			method="mymodifyConference">
+			<result name="SUCCESS" type="redirect">
+				/detail/queryMyConference.action?redirectType=${redirectType}
+			</result>
+			<result name="FAILURE">
+				/meeting/conferenceBook/vedioConferenceModify.jsp
+			</result>
+		</action>
+
+		<action name="vedioDetail"
+			class="com.zzst.action.meeting.meeting.VedioMeetingAction"
+			method="vedioDetail">
+			<result name="SUCCESS">
+				/meeting/conferenceManager/vedioConferenceDetail.jsp
+			</result>
+		</action>
+		<!-- 视频会议部分    结束 -->
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- 立即召开部分 -->
+		<action name="beforeAddVideoMeeting"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="beforeAddVideoMeeting">
+			<result name="SUCCESS">
+				/meeting/adminVideoMeeting/addVideoMeeting.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+
+		<action name="addVideoMeeting"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="addVideoMeeting">
+			<result name="SUCCESS" type="redirect">
+				/detail/manageMeetingTemplateList.action
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+			<result name="invalid.token">
+				/meeting/detail/addMeeting.jsp
+			</result>
+		</action>
+		<!--    	<action name="manageMeetingTemplateList" class="com.zzst.action.meeting.meeting.MeetingAction" method="manageMeetingTemplateList">-->
+		<!--    		<result name="SUCCESS">/meeting/adminVideoMeeting/templateList.jsp</result>-->
+		<!--    		<result name="FAILURE">/ok.jsp</result>-->
+		<!--    	</action>-->
+		<action name="getMeetingTemplate"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="getMeetingTemplate">
+			<result name="SUCCESS">
+				/meeting/adminVideoMeeting/modifyMeetingTemplate.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		<action name="modifyVideoMeetingTemplate"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="modifyVideoMeetingTemplate">
+			<result name="SUCCESS" type="redirect">
+				/detail/manageMeetingTemplateList.action
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+
+
+		<!-- 审批开始 -->
+		<action name="queryUnExamConference"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="queryUnExamConference">
+			<result name="SUCCESS">/meeting/exam/unexamList.jsp</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+
+		<action name="videotobeExam"
+			class="com.zzst.action.meeting.meeting.VedioMeetingAction"
+			method="videotobeExam">
+			<result name="SUCCESS">/meeting/exam/videoexam.jsp</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		<action name="gentoExam"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="gentoExam">
+			<result name="SUCCESS">
+				/meeting/exam/generalexam.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		<action name="examgen"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="examgen">
+			<result name="SUCCESS" type="redirect">
+				/detail/queryLocalConference.action
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		<!-- 审批结束 -->
+
+		<!-- 我的会议模块 addby chenshuo -->
+		<action name="queryMyConference"
+			class="com.zzst.action.meeting.meeting.GeneralMeetingAction"
+			method="queryMyConference">
+			<result name="SUCCESS">
+				/meeting/conferenceManager/myconferenceList.jsp
+			</result>
+		</action>
+		
+		
+		<!-- 模板管理  addby chenshuo-->
+		<action name="meetingTemplateBeforeAdd"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="meetingTemplateBeforeAdd">
+			<result name="SUCCESS">
+				/meeting/adminVideoMeeting/videoMeetingTemplateAdd.jsp
+			</result>
+		</action>
+		
+		
+		<action name="meetingTemplateAdd"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="meetingTemplateAdd">
+			<result name="SUCCESS" type="redirect">
+				/detail/manageMeetingTemplateList.action
+			</result>
+		</action>
+		
+		<action name="meetingTemplateBeforeModify"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="meetingTemplateBeforeModify">
+			<result name="SUCCESS">
+				/meeting/adminVideoMeeting/videoMeetingTemplateModify.jsp
+			</result>
+		</action>
+		
+		<action name="meetingTemplateModify"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="meetingTemplateModify">
+			<result name="SUCCESS" type="redirect">
+				/detail/manageMeetingTemplateList.action
+			</result>
+		</action>
+		
+		
+		<action name="addVideoConference"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="addVideoConference">
+			<result name="SUCCESS" type="redirect">
+				/mcuControl/getClassifiedRoomList.action
+			</result>
+			<result name="failure_meeting">/error/warning.jsp</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		<!-- 会议模板结束 -->
+		
+		<action name="immediatelyVideoMeetingBeforeAdd"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="immediatelyVideoMeetingBeforeAdd">
+			<result name="SUCCESS">
+				/meeting/adminVideoMeeting/immediatelyVideoMeetingAdd.jsp
+			</result>
+		</action>
+		
+		<action name="immediatelyVideoMeetingAdd"
+			class="com.zzst.action.meeting.meeting.MeetingAction"
+			method="immediatelyVideoMeetingAdd">
+			<result name="SUCCESS" type="redirect">
+				/mcuControl/getClassifiedRoomList.action
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+			<result name="failure_meeting">/error/warning.jsp</result>
+		</action>
+		
+		<!-- 会议管理模块信息导出  addby chenshuo-->
+		<action name="exportQuery" class="com.zzst.action.meeting.meeting.MeetingAction" method="exportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="meetingDetail.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+	    <!-- 我的会议信息导出add	20140124 -->
+	    <action name="exportMyConQuery" class="com.zzst.action.meeting.meeting.MeetingAction" method="exportMyConQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="mymeetingDetail.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+	    
+	    <!-- 会议模板导出 addby chenshuo -->
+	    <action name="exportTemplateQuery" class="com.zzst.action.meeting.meeting.MeetingAction" method="exportTemplateQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="meetingTemplate.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+	    
+	    <!-- 高级模板管理模块使用 addby chenshuo-->
+	    <action name="manageTopMeetingTemplateList"
+			class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction"
+			method="manageTopMeetingTemplateList">
+			<result name="success">
+				/meeting/template/topMeetingTemplateList.jsp
+			</result>
+		</action>
+		
+		<action name="exportTopMeetingTemplateList" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="exportTopMeetingTemplateList">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="topTemplate.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+	    <action name="beforeModifyTopMeetingTemplate" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="beforeModifyTopMeetingTemplate">
+			<result name="success">
+				/meeting/template/modifyTopMeetingTemplateList.jsp
+			</result>
+	    </action>
+	    
+	    <action name="modifyTopMeetingTemplate" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="modifyTopMeetingTemplate">
+			<result name="success" type="redirect">
+				/detail/manageMeetingTemplateList.action
+			</result>
+	    </action>
+	    
+	    
+	    <action name="deleteTopMeetingTemplate" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="deleteTopMeetingTemplate">
+			<result name="success" type="redirect">
+				/detail/manageMeetingTemplateList.action
+			</result>
+	    </action>
+	  
+	    <action name="beforeAddTopTemplate" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="beforeAddTopTemplate">
+			<result name="success">
+				/meeting/template/addTopTemplate.jsp
+			</result>
+	    </action>
+	    
+	    
+	    <action name="addTopTemplate" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="addTopTemplate">
+			<result name="success" type="redirect">
+				/detail/manageTopMeetingTemplateList.action
+			</result>
+	    </action>
+	    
+	    <action name="beforeAddTopMeetingTemplate" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="beforeAddTopMeetingTemplate">
+			<result name="success">
+				/meeting/template/addTemplateMeeting.jsp
+			</result>
+	    </action>
+	    
+	    <action name="addTopMeetingTemplate" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="addTopMeetingTemplate">
+			<result name="success" type="redirect">
+				/detail/manageMeetingTemplateList.action
+			</result>
+	    </action>
+	    
+	    
+	    <action name="getTopMeetingList" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="getTopMeetingList">
+			<result name="success">
+				/meeting/template/topMeetingList.jsp
+			</result>
+	    </action>
+	    
+	     <action name="deleteTopMeeting" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="deleteTopMeeting">
+			<result name="success" type="redirect">
+				/detail/getTopMeetingList.action?templateVO.id=${templateVO.id}
+			</result>
+	    </action>
+	    
+	    <action name="beforeAddMeeting" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="beforeAddMeeting">
+			<result name="success">
+				/meeting/template/addMeeting.jsp
+			</result>
+	    </action>
+	    
+	    <action name="addMeetingInfo" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="addMeetingInfo">
+			<result name="success" type="redirect">
+				/detail/getTopMeetingList.action?templateVO.id=${templateMeetingVO.templateId}
+			</result>
+	    </action>
+	    
+	    <action name="beforeModifyMeetingInfo" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="beforeModifyMeetingInfo">
+			<result name="success">
+				/meeting/template/modifyMeeting.jsp
+			</result>
+	    </action>
+	   
+	   <action name="modifyMeetingInfo" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="modifyMeetingInfo">
+			<result name="success" type="redirect">
+				/detail/getTopMeetingList.action?templateVO.id=${templateMeetingVO.templateId}
+			</result>
+	    </action>
+	   
+	   <action name="addVideoMeetingOnMcu" class="com.zzst.action.meeting.meeting.TopTemplateMeetingAction" method="addVideoMeetingOnMcu">
+			<result name="success" type="redirect">
+				/mcuControl/getClassifiedRoomList.action
+			</result>
+			<result name="failure_meeting">/error/warning.jsp</result>
+	    </action>
+	  
+	   <action name="beforeMeetingDebug" class="com.zzst.action.meeting.meeting.MeetingAction" method="beforeMeetingDebug">
+			<result name="SUCCESS" >
+				/meeting/conferenceManager/debugConference/meetingDebugList.jsp
+			</result>
+			<result name="FAILURE">/error/warning.jsp</result>
+	    </action>
+	    
+	    <action name="beforeMeetingDebugNotice" class="com.zzst.action.meeting.meeting.MeetingAction" method="beforeMeetingDebugNotice">
+			<result name="SUCCESS" >
+				/meeting/conferenceManager/debugConference/meetingDebugNotice.jsp
+			</result>
+			<result name="FAILURE">/error/warning.jsp</result>
+	    </action>
+	    
+	    <action name="addMeetingDebugNotice" class="com.zzst.action.meeting.meeting.MeetingAction" method="addMeetingDebugNotice">
+			<result name="SUCCESS" >
+				/meeting/conferenceManager/debugConference/meetingDebugNotice.jsp
+			</result>
+			<result name="FAILURE">/error/warning.jsp</result>
+	    </action>
+	    
+	    <action name="meetingDebug" class="com.zzst.action.meeting.meeting.MeetingAction" method="meetingDebug">
+			<result name="SUCCESS" type="redirect">
+				/mcuControl/getClassifiedRoomList.action
+			</result>
+			<result name="FAILURE">/error/warning.jsp</result>
+	    </action>
+	    <!-- 快速建会~设备所在会议 add by liujf 20140613 -->
+	    <action name="equipmentMeetingList"
+			class="com.zzst.action.meeting.meeting.EquipmentMeetingDetailAction"
+			method="equipmentMeetingList">
+			<result name="SUCCESS">
+				/meeting/conferenceBook/adminBook/equipmentMeetingList.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+	</package>
+</struts>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/address" namespace="/address" extends="struts-default">
+		<!-- add by yangyi 获取配置基本信息 -->
+		<action name="delAddress" class="com.zzst.action.meeting.address.AddressAction" method="delAddress">
+			<result name="success" type="redirect" >
+    		   /address/querryAddressList.action
+    		</result>
+    	</action>
+    	<action name="addAddressBefore" class="com.zzst.action.meeting.address.AddressAction" method="addAddressBefore">
+			<result name="success">
+    		   /meeting/address/addressAdd.jsp
+    		</result>
+    	</action>
+    	<action name="addAddress" class="com.zzst.action.meeting.address.AddressAction" method="addAddress">
+			<result name="success" type="redirect" >
+    		   /address/querryAddressList.action
+    		</result>
+    	</action>
+    	<action name="modifyAddressBefore" class="com.zzst.action.meeting.address.AddressAction" method="modifyAddressBefore">
+			<result name="success">
+    		   /meeting/address/addressModify.jsp
+    		</result>
+    	</action>
+    	<action name="modifyAddress" class="com.zzst.action.meeting.address.AddressAction" method="modifyAddress">
+			<result name="success" type="redirect" >
+    		   /address/querryAddressList.action
+    		</result>
+    	</action>
+    	<action name="detailAddress" class="com.zzst.action.meeting.address.AddressAction" method="detailAddress">
+			<result name="success">
+    		   /meeting/address/addressDetail.jsp
+    		</result>
+    	</action>
+    	<action name="querryAddressList" class="com.zzst.action.meeting.address.AddressAction" method="querryAddressList">
+			<result name="success">
+    		   /meeting/address/addressList.jsp
+    		</result>
+    	</action>
+    	<action name="queryCheck" class="com.zzst.action.meeting.address.AddressAction" method="queryCheck">
+			<result name="success">
+    		   /meeting/address/addressTreeCheck.jsp
+    		</result>
+    	</action>
+    </package>
+</struts>   

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<package name="/meetingDetailRoom" namespace="/meetingDetailRoom"	extends="struts-default">
+	    <action name="queryList" class="com.zzst.action.meeting.meetingDetailRoom.MeetingDetailRoomAction"
+			method="queryList">
+			<result name="success">
+				/meeting/conferenceManager/afterMeeting/meetingRoomQuery.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+	
+		<action name="query" class="com.zzst.action.meeting.meeting.VMeetingDetailAction"
+			method="query">
+			<result name="success">
+				/meeting/conferenceManager/vmeeting/vmeetingQuery.jsp
+			</result>
+			<result name="FAILURE">/ok.jsp</result>
+		</action>
+		
+	</package>
+</struts>

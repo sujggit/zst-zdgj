@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/meetingCost" namespace="/meetingCost" extends="struts-default">  
+	  	
+    	<action name="meetingCostSettingBefore" class="com.zzst.action.meeting.cost.MeetingCostAction" method="meetingCostSettingBefore">
+			<result name="SUCCESS">
+    			/meeting/meetingCost/meetingCostSetting.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="meetingCostList" class="com.zzst.action.meeting.cost.MeetingCostAction" method="meetingCostList">
+			<result name="SUCCESS">
+    			/meeting/meetingCost/meetingCostList.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="addMeetingCostBefore" class="com.zzst.action.meeting.cost.MeetingCostAction" method="addMeetingCostBefore">
+			<result name="SUCCESS">
+    			/meeting/meetingCost/addMeetingCost.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="modifyMeetingCostBefore" class="com.zzst.action.meeting.cost.MeetingCostAction" method="modifyMeetingCostBefore">
+			<result name="SUCCESS">
+    			/meeting/meetingCost/modifyMeetingCost.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="meetingCostDetail" class="com.zzst.action.meeting.cost.MeetingCostAction" method="meetingCostDetail">
+			<result name="SUCCESS">
+    			/meeting/meetingCost/meetingCostDetail.jsp
+    		</result>
+    	</action>
+   </package>
+</struts>   

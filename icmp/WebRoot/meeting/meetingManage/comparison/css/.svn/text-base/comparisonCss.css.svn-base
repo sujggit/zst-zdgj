@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+/*弹出层*/
+.explain{font-size:12px;color:#f00}
+.explain h5{float:left}
+.explain span{display:block;float:left;margin-right:20px}
+.popping{text-align:left;padding:20px 10px;border:1px solid #ccc;border-top:none}
+.popping img {margin-right:10px;}
+
+.popping table tr td ul li{margin:0 auto;text-align:center}
+.popping table tr td ul li table{margin-left:30px}
+
+/*自动点名*/
+.dis{display:block}
+.undis{display:none}
+.meet{width:300px;line-height:2;border:1px solid #ccc;padding:5px}
+.meet h2{font-size:14px;height:30px;line-height:30px;border-bottom:1px solid #f00}
+.meet h2 span{float:right;width:20px;height:20px;border:1px solid #00f}
+.meet p{text-indent:2em}
+
+
+.drag_wrap{width:300px;min-height:200px;position:absolute;border:1px solid #ccc;display:none;z-index:3;background:#fff;}
+.drag_wrap h1{position:relative;height:35px;line-height:35px;text-indent:1em;font-size:14px;cursor:move;font-weight:normal;background:#efefef;border-bottom:1px solid #ccc;}
+.drag_wrap h1 span{position:absolute;font-size:12px;bottom:1px;right:10px;cursor:pointer;}
+.drag_cont{padding:10px;line-height:23px;text-indent:2em;}
+.mask{position:absolute;left:0;top:0;z-index:2;background:#000;filter:alpha(opacity=50);opacity: 0.5;}
+.in{width:100%}
+
+.comparison a{display:block;min-width:130px;background:#fff;float:left;margin-left:10px;border:1px solid #999}
+.comparison a .comparison_1{width:60px;background:#485b79;padding:2px 16px;color:#fff}
+.comparison a .comparison_2{width:60px;background:#fb9337;padding:2px 16px;color:#fff}
+.comparison a img{margin-right:10px}
+
+
+
+
+
+

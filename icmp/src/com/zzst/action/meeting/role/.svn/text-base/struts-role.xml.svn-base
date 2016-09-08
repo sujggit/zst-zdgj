@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/role" namespace="/role" extends="icmp-default">
+    	<action name="addRole" class="com.zzst.action.meeting.role.RoleAction" method="addRole">
+    		<result name="SUCCESS" type="redirect">
+    			/role/manageRoleList.action
+    		</result>
+    		<result name="invalid.token">/meeting/role/addRole.jsp</result>
+    	</action>
+    	<!-- addBy xiongshun 增加查看角色信息及所属用户getRoleInfo -->
+    	<action name="viewRole" class="com.zzst.action.meeting.role.RoleAction" method="getRoleInfo">
+    		<result name="SUCCESS">/meeting/role/viewRole.jsp</result>
+    	</action>
+    	<!-- addBy xiongshun 增加查看角色信息及所属用户getRoleListByCondition -->
+    	<action name="getRoleListByCondition" class="com.zzst.action.meeting.role.RoleAction" method="getRoleListByCondition">
+    		<result name="SUCCESS">/meeting/role/manageRole.jsp</result>
+    	</action>
+    	
+    	<action name="editRole" class="com.zzst.action.meeting.role.RoleAction" method="getRoleInfo">
+    		<result name="SUCCESS">/meeting/role/modifyRole.jsp</result>
+    	</action>
+    	
+    	<action name="modifyRole" class="com.zzst.action.meeting.role.RoleAction" method="modifyRole">
+    		<result name="SUCCESS" type="redirect">
+    			/role/manageRoleList.action
+    		</result>
+    	</action>
+    	
+    	<action name="manageRoleList" class="com.zzst.action.meeting.role.RoleAction" method="manageRoleList">
+    		<result name="SUCCESS">/meeting/role/manageRole.jsp</result>
+    	</action>
+    	
+    	<action name="delRole" class="com.zzst.action.meeting.role.RoleAction" method="delRole">
+			<result name="SUCCESS" type="redirect">
+    			/role/manageRoleList.action
+    		</result>
+    		<result name="FAILURE">
+    			/meeting/role/manageRole.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="getAuthorization" class="com.zzst.action.meeting.role.RoleAction" method="getAuthorization">
+			<result name="SUCCESS" >
+    			/meeting/role/authorization.jsp
+    		</result>
+    		<result name="FAILURE">
+    			/error/warning.jsp
+    		</result>
+    	</action>
+    </package>
+</struts>   

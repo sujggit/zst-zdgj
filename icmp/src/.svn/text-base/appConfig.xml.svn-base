@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="GBK"?>
+ <root>
+	
+	<init-param key="SUB_SYSTEM_CODES"       value="icmp" 	descr="子系统编码" />
+	<init-param key="PRODUCT_OWNER"          value="a" 								descr="产品所有者" />
+	<init-param key="cache_hour"          value="24" 								descr="每天定时提取多少小时的会议信息到内存" />
+
+	<init-param key="SN"         	 		value="4zx50830776x196406y295z061yx00xy" descr="产品序列码" />
+	<init-param key="DONGLEINFO"         	value="66yby3a7b6b2c6xyayz0cx3xc51by515" descr="产品序列码" />
+	<init-param key="APP_LOAD_CLASS"         value="com.zzst.action.meeting.util.MeetingAppConfig" 		descr="产品中模板文件" />
+	<init-param key="LDAP_VALID"         value="0" 		descr="1：有效；0：无效" />
+	<init-param key="LDAP_IP"         value="10.1.8.3" 		descr="LDAP IP" />
+	<init-param key="LDAP_PORT"         value="3268" 		descr="LDAP 端口" />
+	<init-param key="SynchroStatus"         value="false" 		descr="启动同步接口表与核心表的线程" />
+	<init-param key="SynchroDBDataTime"         value="30" 		descr="标准接口--数据周期（秒）" />
+	<init-param key="CONFERENCE_AUTO_TASK"         value="true" 		descr="预约时是否自动建会、自动结束会议（同时删除MCU上的会议）。" />
+	
+	<!-- 信达ftp -->
+	<init-param key="ftpServer"         value="10.1.5.97" 		descr="ftp服务器地址" />
+	<init-param key="ftpUser"         value="6BE73C75F7859104" 		descr="ftp用户名" />
+	<init-param key="ftpPsw"         value="6BE73C75F7859104" 		descr="ftp密码" />
+	<init-param key="ftpLocation"         value="/" 		descr="目录路径" />
+	<init-param key="ftpPort"         value="21" 		descr="ftp端口" />
+	<init-param key="fileLocation"	 value="E:\test"		descr="ftp目录的绝对路径"/>
+	
+ 	<!-- 用户新增页面初始密码默认值的设置 -->
+	<init-param key="pwdInit"  value="7D15AB4E86BE3769"  descr="用户初始密码和重置密码的默认值123456"/>
+	<init-param key="pwdAuth"  value="false"  descr="true是启用；fasle不启用；（涉及密码长度10位及复杂性；登录错误次数）"/>
+	<init-param key="pwdUnLockTimes"  value="10"  descr="密码解锁时间；单位：分钟；只接受整数"/>
+	
+	<!-- 是否开启分级分权 -->
+	<init-param key="levelIsOpen"  value="false"  descr="是否开启分级分权：true开，false关"/>
+ 	<init-param key="hostLevel"  value="-1"  descr="本地jboss级别：value为levelid,全部权限为-1"/>
+	<!-- 是否开启分布部署 -->
+	<init-param key="LEVEL_DISTRIBUTED_POEN"  value="true"  descr="是否开启分布部署：true开，false关"/>
+ 	<init-param key="LEVEL_PARENT_IP"  value="localhost"  descr="父节点服务器的IP"/>
+ 	<init-param key="LEVEL_DISTRIBUTED_TIME" value="60" descr="数据同步间隔时间，单位：秒"/>
+ 	
+ 	<!-- 分布部署父节点数据库信息 -->
+	<init-param key="FDB_IP"  value="localhost"  descr="父节点数据库ip"/>
+ 	<init-param key="FDB_USERNAME"  value="root"  descr="父节点数据库登录名"/>
+ 	<init-param key="FDB_PWD"  value="123456"  descr="父节点数据库登录密码"/>
+ 	<init-param key="FDB_NAME"  value="icmp_hbt2"  descr="父节点数据库库名"/>
+ 	<init-param key="FDB_PORT"  value="3306"  descr="父节点数据库端口号"/>
+
+	<init-param key="CLEAR_LOG_PERIOD"  value="360"  descr="日志存放时长，单位：天"/>
+ 	<init-param key="meeting_space_time"  value="30"  descr="预约会议最小时长，单位：分钟"/>
+ 	<init-param key="meeting_start_time"  value="100"  descr="会议开始时间比实际会议的开始时间默认提前时间段。为0时，在界面不现实选择时间的功能 单位：分钟"/>
+ 	<init-param key="MCU_POOL"  value="false"  descr="是否启用MCU资源池，false不启用。true启用"/>
+ 	<!-- 是否开启告警提示 -->
+	<init-param key="dataPoll"  value="false"  descr="是否开启告警提示：true开，false关"/>
+	<init-param key="messageTime"  value="60"  descr="告警消息推送间隔，单位：秒"/>
+	
+	<!-- 设置检测设备状态线程的参数 -->
+	<init-param key="EQUIPMENTPARAM_NUM"  value="-1"  descr="检测设备状态的线程内处理设备的个数，不大于0即为使用默认"/>
+	<init-param key="EQUIPMENTPARAM_SLEEP"  value="-1"  descr="线程内循环一次后休眠时间，不大于0即使用默认,单位：秒"/>
+	
+	<!-- administrator密码配置 -->
+	<init-param key="pwdInitAdmin"  value="1C79A8D6FC065E6D816E4D63FC8BF2D0"  descr="administrator默认密码为7c5EGIN5"></init-param>
+	<!-- 所有的数据源 -->
+	<datasources>
+		<datasource name="mysql_5522" descr="MySQL主数据源">
+			<DB_URL>jdbc:mysql://localhost:5522/icmp_zdgj?characterEncoding=gbk</DB_URL>
+			<DB_USER>E7015A7C9249A632</DB_USER>
+			<DB_PASSWD>E7015A7C9249A632</DB_PASSWD>
+			<DB_JNDI></DB_JNDI>
+		</datasource>
+	   
+	   <datasourceBAK name="bakInfo" descr="MySQL备数据源">
+			<BAK_DB_URL>jdbc:mysql://10.1.8.7:3306/icmp?characterEncoding=gb2312</BAK_DB_URL>
+			<BAK_DB_USER>E7015A7C9249A632</BAK_DB_USER>
+			<BAK_DB_PASSWD>AEEC910AE686205C</BAK_DB_PASSWD>
+			<BAK_DB_JNDI></BAK_DB_JNDI>
+			<BAK_IS_OPEN>false</BAK_IS_OPEN><!-- true为启用数据库备份 -->
+		</datasourceBAK>
+			
+		 <!--	
+		<datasource name="cindadb" descr="视频数据库">
+			<DB_URL>jdbc:oracle:thin:@10.1.8.22:1521:zzst</DB_URL>
+			<DB_USER>icmp</DB_USER>
+			<DB_PASSWD>zst.123456</DB_PASSWD>  
+			<DB_JNDI>java:/cindadb</DB_JNDI>
+		</datasource>
+		-->		
+	</datasources>
+ 
+ 
+	<!-- 配置Log4j -->
+	<log4j>
+		<server_level>error</server_level> <!-- 服务器端输出级别,有debug,warn,info,error,faiter等 -->
+		<server_outputtype>1</server_outputtype> <!-- 服务器端输出类型:1表示只输出至控制台,2表示只输出至文件,3表示同时输出到控制台与文件 -->
+		<client_level>error</client_level> <!-- 客户端输出级别 -->
+		<client_outputtype>1</client_outputtype> <!-- 客户端输出类型 -->
+	</log4j>
+ </root>

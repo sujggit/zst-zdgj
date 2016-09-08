@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMX1000_MC_API version="1.1.0.0">
+	<COMMAND id="modify_conf">
+		<ALIGN value="BOTTOM"/>
+		<AUTO_DISCUSS_MODE value="401"/>
+		<AUTO_LAYOUT_MODE value="401"/>
+		<AUTO_LAYOUT_STATUS value="0"/>
+		<AUTO_REDIALING_INTERVAL value="10"/>
+		<AUTO_REDIALING_TIMES value="5"/>
+		<AUTO_SCAN_INTERVAL value="20"/>
+		<BACK_COLOR value="0x00000000"/>
+		<BILLING_INFO value=""/>
+		<CHAIR_PASSWD value=""/>
+		<COLOR value="0x00FFFFFF"/>
+		<CONF_PASSWD value=""/>
+		<CONTENT value=""/>
+		<ENABLE_APPLY_CHAIR value="YES"/>
+		<END_TIME value="1256900934"/>
+		<FONT_SIZE value="24"/>
+		<GUID value="8248d8e476bcde119e403bb0810c8914"/>
+		<INFO1 value=""/>
+		<INFO2 value=""/>
+		<INFO3 value=""/>
+		<IS_AUTO_REDIALING value="NO"/>
+		<IS_CONF_LOCK value="NO"/>
+		<IS_DIAL_OUT_MANUALLY value="NO"/>
+		<IS_FULL_SCREEN value="YES"/>
+		<IS_SHOW value="NO"/>
+		<IS_SYMMETRIC value="NO"/>
+		<IS_CONVERSATION value="NO" />
+		<LAYOUT_MODE value="101"/>
+		<LAYOUT_ROLE_GUID_COUNT value="1"/>
+		<LECTURE_NAME value="009"/>
+		<LOOP_NUM value="3"/>
+		<PTS_COLOR value="0x0000186C"/>
+		<SKIN value="2"/>
+		<SOURCE_GUID value="ace31a114fbade11b86bd7089dedbb18"/>
+		<SPEAKER_COLOR value="0x00EDD300"/>
+		<SPEED value="2"/>
+		<TALK_HOLD_TIME value="3"/>
+		<TARGET_GUID value="ea753542fc14de1188a183a7768af012"/>
+		<TRANSPARENCY value="50"/>
+		<VERTICAL value="90"/>
+		<VIDEO_MODE value="LECTURE"/>
+		<LAYOUT_CONFIG_GUID_1 value="00000000000000000000000000000003"/>
+		<SITE_NAME_STATUS value="ON"/>
+		<SITE_NAME_ALIGN value="TOP"/>
+		<SITE_NAME_FONT_SIZE value="12"/>
+		<SITE_NAME_BORDER_X value="90"/>
+		<SITE_NAME_BORDER_Y value="90"/>
+		<SITE_NAME_TRANSPARENCY value="50"/>
+		<SITE_NAME_COLOR value="0x00FFFFFF"/>
+		<SITE_NAME_BACK_COLOR value="0x00000000"/>
+		
+	</COMMAND>
+</RMX1000_MC_API>

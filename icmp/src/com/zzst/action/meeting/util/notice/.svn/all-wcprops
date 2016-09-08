@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 252
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice
+END
+MeetingBookMeetingroomAdminMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/MeetingBookMeetingroomAdminMessage.java
+END
+Send.java
+K 25
+svn:wc:ra_dav:version-url
+V 262
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/Send.java
+END
+BillboardMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 274
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/BillboardMessage.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 265
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/Message.java
+END
+SendthirdParty.java
+K 25
+svn:wc:ra_dav:version-url
+V 272
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/SendthirdParty.java
+END
+AddMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 268
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/AddMessage.java
+END
+MeetingBookEquipmentAdminMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/MeetingBookEquipmentAdminMessage.java
+END
+MeetingBookSysAdminMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/MeetingBookSysAdminMessage.java
+END
+MessageVO.java
+K 25
+svn:wc:ra_dav:version-url
+V 267
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/MessageVO.java
+END
+SendByBillboard.java
+K 25
+svn:wc:ra_dav:version-url
+V 273
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/SendByBillboard.java
+END
+SendMail.java
+K 25
+svn:wc:ra_dav:version-url
+V 266
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/SendMail.java
+END
+SendMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 269
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/SendMessage.java
+END
+SendByEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 269
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/SendByEmail.java
+END
+SendBySMS.java
+K 25
+svn:wc:ra_dav:version-url
+V 267
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/SendBySMS.java
+END
+MeetingBookUserMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 280
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/MeetingBookUserMessage.java
+END
+SendMessageInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 277
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/SendMessageInstance.java
+END
+MessageContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 272
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10646/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmp/src/com/zzst/action/meeting/util/notice/MessageContent.java
+END

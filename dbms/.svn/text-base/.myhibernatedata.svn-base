@@ -1,0 +1,22 @@
+#
+#Thu Dec 04 13:39:10 CST 2014
+genBasicCompId=true
+sessionFactoryName=com.db.HibernateSessionFactory
+profile=
+daoSFId=
+version=4.1
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=uuid.hex
+libInstallFolder=lib
+addLibs2Project=true
+genVersionTag=true
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=/dbms/hibernate.reveng.xml
+configFile=/dbms/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/meetingroomInterface" namespace="/meetingroomInterface" extends="struts-default">
+	       <action name="queryMeetingRoom" class="com.zzst.action.meeting.dataInterface.MeetingRoomInterfaceAction" method="queryMeetingRoom">
+			<result name="success">
+				/meeting/dataInterface/queryMeetingRoom.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="delete" class="com.zzst.action.meeting.dataInterface.MeetingRoomInterfaceAction" method="delete">
+			<result name="success" type="redirect">
+				/meetingroomInterface/queryMeetingRoom.action
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="detail" class="com.zzst.action.meeting.dataInterface.MeetingRoomInterfaceAction" method="detail">
+			<result name="success">
+				/meeting/dataInterface/detailMeetingRoom.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="beforeModify" class="com.zzst.action.meeting.dataInterface.MeetingRoomInterfaceAction" method="beforeModify">
+			<result name="success">
+				/meeting/dataInterface/modifyMeetingRoom.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="modify" class="com.zzst.action.meeting.dataInterface.MeetingRoomInterfaceAction" method="modify">
+			<result name="success" type="redirect">
+				/meetingroomInterface/queryMeetingRoom.action
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	 	    	
+    </package>
+</struts>   

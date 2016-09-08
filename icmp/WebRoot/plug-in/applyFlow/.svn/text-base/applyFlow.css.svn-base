@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:10 auto;
+	font:12px/22px bold Arial, Helvetica, sans-serif;
+}
+#leftdiv {
+	width:80%;
+}
+#rightdiv {
+	width:60%;
+	float:right;
+}
+.div420 {
+	width:420px;
+	position:absolute;
+	margin-left:20px;
+	padding-left:60px;
+	padding-right:60px;
+	min-height: 400px;
+}
+.div208 {
+	width:168px;
+}
+.divbg {
+	width:168px;
+	height:60px;
+	line-height:60px;
+	background:url(../../images/main/lcbg.png) no-repeat; 
+	text-align:center;
+	margin:0 auto;
+	text-align:center
+}
+.divarr {
+	width:168px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	margin:0 auto;
+}
+.divbg span{display:inline-block; line-height:1.4em; vertical-align:middle;padding:2px 4px;}
+.arrsty {
+	width:20px;
+	height:45px;
+	line-height:45px;
+	margin:0 auto;
+	background:url(../../images/main/lcarr.png) no-repeat;
+}
+.jddiv {
+	background:url(../../images/main/lcjd.png) no-repeat;
+	width:420px;
+	height:45px;
+}

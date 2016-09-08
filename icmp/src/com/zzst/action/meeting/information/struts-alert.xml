@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/alert" namespace="/alert" extends="struts-default">    	
+    	 <action name="getAlertInfomation" class="com.zzst.action.meeting.information.AlertAction" method="getAlertInfomation">
+			<result name="success">
+    		/meeting/alertInformation/informationDetail.jsp
+    		</result>
+    		<result name="error">/errors/error.jsp</result> 
+    	</action>
+    	
+   </package>
+</struts>   

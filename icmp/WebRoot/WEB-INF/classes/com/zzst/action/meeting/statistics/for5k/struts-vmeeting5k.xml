@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/vmeeting5k" namespace="/vmeeting5k" extends="icmp-default">
+		
+		<action name="viewDeptTotal" class="com.zzst.action.meeting.statistics.for5k.VmeetingAction" method="viewDeptTotal">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetlist5k/meetShowDep.jsp
+        	</result>
+        </action>
+        <action name="viewMonthTotal" class="com.zzst.action.meeting.statistics.for5k.VmeetingAction" method="viewMonthTotal">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetlist5k/meetShowMonth.jsp
+        	</result>
+        </action>
+        <action name="viewNoticeTotal" class="com.zzst.action.meeting.statistics.for5k.VmeetingAction" method="viewNoticeTotal">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetlist5k/meetShowNotice.jsp
+        	</result>
+        </action>
+        <action name="viewTypeTotal" class="com.zzst.action.meeting.statistics.for5k.VmeetingAction" method="viewTypeTotal">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetlist5k/meetShowType.jsp
+        	</result>
+        </action>
+         <action name="queryBefore" class="com.zzst.action.meeting.statistics.for5k.VmeetingAction" method="queryBefore">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetlist5k/meetShow.jsp
+        	</result>
+        </action>
+         
+         
+         
+         <action name="getMeetingInfoList" class="com.zzst.action.meeting.statistics.for5k.VmeetingAction" method="getMeetingInfoList">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetlist5k/meetShowList.jsp
+        	</result>
+        </action>
+         <action name="getMeetingInfoListOne" class="com.zzst.action.meeting.statistics.for5k.VmeetingAction" method="getMeetingInfoList">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetlist5k/meetShowListOne.jsp
+        	</result>
+        </action>
+         <action name="getListForRoom" class="com.zzst.action.meeting.statistics.for5k.VmeetingAction" method="getListForRoom">
+			<result name="success">
+ 				/meeting/statistics/meetShow/meetlist5k/meetList/vgetlistForRoom.jsp
+        	</result>
+        </action>
+        
+        <!-- 会议室统计导出 -->
+         <action name="viewRoomTotalExport" class="com.zzst.action.meeting.statistics.for5k.VmeetingExcelAction" method="viewRoomTotalExport">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="meetroomList.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+        
+        <action name="viewMonthTotalExport" class="com.zzst.action.meeting.statistics.for5k.VmeetingExcelAction" method="viewMonthTotal">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="meetMonthList.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+	    
+	    
+	    
+	     <action name="viewDeptTotalExport" class="com.zzst.action.meeting.statistics.for5k.VmeetingExcelAction" method="viewDeptTotal">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="meetDepList.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+	    
+	     <action name="viewNoticeTotalExport" class="com.zzst.action.meeting.statistics.for5k.VmeetingExcelAction" method="viewNoticeTotal">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="meetNoticeList.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+	    
+	     <action name="viewTypeTotalExport" class="com.zzst.action.meeting.statistics.for5k.VmeetingExcelAction" method="viewTypeTotal">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="meetTypeList.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+	    
+	     <action name="getMeetingInfoListExport" class="com.zzst.action.meeting.statistics.for5k.VmeetingExcelAction" method="getMeetingInfoListExport">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="meetList.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+    </package>
+ </struts>   

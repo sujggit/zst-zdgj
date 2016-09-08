@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="../css/default.css" type="text/css" rel="stylesheet"/>
+</head>
+<body style="margin: 0px;">
+<FIELDSET style="margin: 0px; padding: 0px; height: 28px;"> 
+<TABLE class="bg-toolbar" width="100%" height="28" border="0" cellPadding="0" cellSpacing="0">
+  <TR > 
+    <TD height="100%" noWrap title="后退" class="back" onMouseOver="this.className='back-cursor'" onMouseOut="this.className='back'" onclick="parent.mainFrame.history.back()">&nbsp;
+		后退
+    </TD>
+	<TD width="2" class="separator">&nbsp;</TD>    
+	<TD noWrap title="前进" class="forward" onMouseOver="this.className='forward-cursor'" onMouseOut="this.className='forward'" onclick="parent.mainFrame.history.forward()">&nbsp;
+		前进
+    </TD>
+	<TD width="2" class="separator">&nbsp;</TD>    
+    <TD noWrap title="刷新" class="refresh" onMouseOver="this.className='refresh-cursor'" onMouseOut="this.className='refresh'" onclick="parent.mainFrame.location.reload(true);">&nbsp;
+		刷新
+    </TD>
+	<TD width="2" class="separator">&nbsp;</TD>    
+	<TD width="100%">&nbsp;</TD>
+  </TR>
+</TABLE>
+</FIELDSET>
+</body>
+</html>

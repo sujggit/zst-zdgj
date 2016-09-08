@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/email" namespace="/email" extends="struts-default">
+		<!-- add by yangyi 获取配置基本信息 -->
+		<action name="addEmailBefore" class="com.zzst.action.meeting.config.EmailAction" method="addEmailBefore">
+			<result name="success">
+    		   /meeting/config/email/emailAdd.jsp
+    		</result>
+    	</action>
+    	<action name="addEmail" class="com.zzst.action.meeting.config.EmailAction" method="addEmail">
+			<result name="success" type="redirect">
+    		   /email/addEmailBefore.action
+    		</result>
+    	</action>
+    </package>
+</struts>   

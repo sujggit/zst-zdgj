@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMX1000_MC_API version="1.1.0.0">
+	<COMMAND id="conf_add_manual_pts">
+		<ALIAS value=""/>
+		<ALIAS_TYPE value="E.164"/>
+		<BROADCAST_VOLUME value="5"/>
+		<CALL_STREAM value="AUTO"/>
+		<CASCADE value="None"/>
+		<CASCADE_DIAL_DIRECTION value="Dial-out"/>
+		<CONF_GUID value="8248d8e476bcde119e403bb0810c8914"/>
+		<DTMF value=""/>
+		<EMAIL value=""/>
+		<EXTENSION value=""/>
+		<INFO1 value=""/>
+		<INFO2 value=""/>
+		<INFO3 value=""/>
+		<INFO4 value=""/>
+		<IP_V4 value="10.1.3.70"/>
+		<IS_169 value="NO"/>
+		<IS_AUDIOONLY value="NO"/>
+		<LINE_RATE value="-1"/>
+		<LISTEN_VOLUME value="5"/>
+		<NAME value="015"/>
+		<PROTOCOL_TYPE value="H.323"/>
+		<PTS_GUID value=""/>
+		<SOURCE_GUID value="ace31a114fbade11b86bd7089dedbb18"/>
+		<TARGET_GUID value="ea753542fc14de1188a183a7768af012"/>
+	</COMMAND>
+</RMX1000_MC_API>
+

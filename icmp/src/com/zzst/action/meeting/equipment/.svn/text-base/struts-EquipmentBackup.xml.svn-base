@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/equipmentBackup" namespace="/equipmentBackup" extends="struts-default">
+	<action name="backupQuery" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="backupQuery">
+		<result name="success" >
+			/meeting/equipment/systemManager/backupQuery.jsp
+		</result>
+		<result name="mcuBackup" type="redirect">
+			/equipmentBackup/mcuBackupquery.action
+		</result>
+		<result name="terminalBackup" type="redirect">
+			/equipmentBackup/terminalBackupquery.action
+		</result>
+		<result name="error">/errors/error.jsp</result>
+	</action>
+	
+	
+	<action name="mcuquery" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="mcuquery">
+			<result name="success">
+				/meeting/equipment/systemManager/mcuBackupsAdd.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>   
+	    </action>
+	    
+	<action name="mcuBackupqueryDel" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="mcuBackupqueryDel">
+			<result name="success" type="redirect">
+				/equipmentBackup/mcuBackupquery.action
+			</result>
+			<result name="error">/errors/error.jsp</result>   
+	    </action>
+	   <action name="terminalBackupqueryDel" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="terminalBackupqueryDel">
+			<result name="success" type="redirect">
+				/equipmentBackup/terminalBackupquery.action
+			</result>
+			<result name="error">/errors/error.jsp</result>   
+	    </action> 
+	    
+	    
+	
+	
+		<action name="mcuBackupquery" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="mcuBackupquery">
+			<result name="success">
+				/meeting/equipment/systemManager/mcuBackups.jsp
+			</result>
+			<param name="style1">#fff</param>
+			<result name="error">/errors/error.jsp</result>   
+	    </action>
+	    
+	    <action name="mcuBackupqueryByMeetingID" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="mcuBackupqueryByMeetingID">
+			<result name="success">
+				/meeting/meetingManage/mcuBack/mucBack.jsp
+			</result>
+			<param name="style1">#fff</param>
+			<result name="error">/errors/error.jsp</result>   
+	    </action>
+	    <action name="terminalquery" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="terminalquery">
+			<result name="success">
+				/meeting/equipment/systemManager/terminalBackupsAdd.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>   
+	    </action>
+	    <action name="terminalBackupquery" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="terminalBackupquery">
+			<result name="success">
+				/meeting/equipment/systemManager/terminalBackups.jsp
+			</result>
+			<param name="style2">#fff</param>
+			<result name="error">/errors/error.jsp</result>   
+	    </action>
+	    
+	    	
+		<action name="addMCUBackup" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="addMCUBackup">
+			<result name="success" type="redirect">
+				/equipmentBackup/mcuquery.action
+			</result>
+			<result name="input" type="redirect">
+				/meeting/equipment/systemManager/mcuBackupsAdd.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	  <action name="addTerminalBackup" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="addTerminalBackup">
+			<result name="success" type="redirect">
+				/equipmentBackup/terminalquery.action
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    <!-- mcu备份关联关系设置 -->	 
+        <action name="mcuBackGl" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="mcuBackGl">
+			<result name="success">
+				/meeting/equipment/systemManager/mcuModelGl/mcuModelGlinfo.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	  
+    	  <action name="addMcuModelGl" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="addMcuModelGl">
+			<result name="success" type="redirect">
+				/equipmentBackup/mcuBackGl.action
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	  
+    	   <action name="delMcuModelGl" class="com.zzst.action.meeting.equipment.EquipmentBackupAction" method="delMcuModelGl">
+			<result name="success" type="redirect">
+				/equipmentBackup/mcuBackGl.action
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	 	    	
+    </package>
+</struts>   

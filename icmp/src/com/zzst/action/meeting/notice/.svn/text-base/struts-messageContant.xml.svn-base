@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/messageNotice" namespace="/messageNotice" extends="struts-default">
+    	<action name="queryAll" class="com.zzst.action.meeting.notice.MessageContantAction" method="queryAll">
+			<result name="success">
+    			/meeting/conferenceManager/meetNotice/meetNoticeList.jsp
+    		</result>
+    		<result name="failure">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="addMessageNoticeBefore" class="com.zzst.action.meeting.notice.MessageContantAction" method="addMessageNoticeBefore">
+			<result name="success">
+    			/meeting/conferenceManager/meetNotice/meetNoticeList_add.jsp
+    		</result>
+    		<result name="failure">/ok.jsp</result>
+    	</action>
+    	<action name="updateBefore" class="com.zzst.action.meeting.notice.MessageContantAction" method="updateBefore">
+			<result name="success">
+    			/meeting/conferenceManager/meetNotice/meetNoticeList_update.jsp
+    		</result>
+    		<result name="failure">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="addMessageNotice" class="com.zzst.action.meeting.notice.MessageContantAction" method="addMessageNotice">
+			<result name="success" type="redirect">
+    			/messageNotice/queryAll.action
+    		</result>
+    		<result name="failure">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="updateMessageNotice" class="com.zzst.action.meeting.notice.MessageContantAction" method="updateMessageNotice">
+			<result name="success" type="redirect">
+    			/messageNotice/queryAll.action
+    		</result>
+    		<result name="failure">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="delMessageNotice" class="com.zzst.action.meeting.notice.MessageContantAction" method="delMessageNotice">
+			<result name="success" type="redirect">
+    			/messageNotice/queryAll.action
+    		</result>
+    		<result name="failure">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="datilMessageNotice" class="com.zzst.action.meeting.notice.MessageContantAction" method="datilMessageNotice">
+			<result name="success">
+    				/meeting/conferenceManager/meetNotice/meetNoticeList_Datil.jsp
+    		</result>
+    		<result name="failure">/ok.jsp</result>
+    	</action>
+    	
+    </package>
+</struts>   

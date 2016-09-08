@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/apply" namespace="/apply" extends="struts-default">
+		<action name="manageMeetingApply" class="com.zzst.action.meeting.apply.ApplyMeetingAction" method="manageMeetingApply">
+    		<result name="SUCCESS">/meeting/apply/meetingApply/manageMeetingApply.jsp</result>
+    	</action>
+    	<action name="meetingApplyDetail" class="com.zzst.action.meeting.apply.ApplyMeetingAction" method="meetingApplyDetail">
+    		<result name="SUCCESS">/meeting/apply/meetingApply/meetingVideoApplyDetail.jsp</result>
+    		<result name="generalConference">/meeting/apply/meetingApply/meetingApplyDetail.jsp</result>
+    	</action>
+    	<action name="meetingApplyApprove" class="com.zzst.action.meeting.apply.ApplyMeetingAction" method="meetingApplyApprove">
+    		<result name="SUCCESS" type="redirect">
+    			/apply/manageMeetingApply.action
+    		</result>
+    	</action>
+    	<action name="meetingApplyDel" class="com.zzst.action.meeting.apply.ApplyMeetingAction" method="meetingApplyDel">
+    		<result name="SUCCESS" type="redirect">
+    			/apply/manageMeetingApply.action
+    		</result>
+    	</action>
+    </package>
+</struts>

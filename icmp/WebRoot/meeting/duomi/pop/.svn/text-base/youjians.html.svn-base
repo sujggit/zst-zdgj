@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.default.css" type="text/css" />
+<title>测试</title>
+
+<script type="text/javascript">
+
+window.onload = function ()
+{
+ var oMenu = document.getElementById("rightMenu");
+ var maxWidth = maxHeight = 0;
+ var aDoc = [document.documentElement.offsetWidth, document.documentElement.offsetHeight];
+ 
+ oMenu.style.display = "none";
+
+ 
+ 
+ //自定义右键菜单
+ document.oncontextmenu = function (event)
+ {
+  var event = event || window.event;
+  oMenu.style.display = "block";
+  oMenu.style.top = event.clientY + "px";
+  oMenu.style.left = event.clientX + "px";
+
+  
+  //最大显示范围
+  maxWidth = aDoc[0] - oMenu.offsetWidth;
+  maxHeight = aDoc[1] - oMenu.offsetHeight;
+  
+  //防止菜单溢出
+  oMenu.offsetTop > maxHeight && (oMenu.style.top = maxHeight + "px");
+  oMenu.offsetLeft > maxWidth && (oMenu.style.left = maxWidth + "px");
+  return false;
+ };
+ 
+ //点击隐藏菜单
+ document.onclick = function ()
+ {
+  oMenu.style.display = "none" 
+ };
+ 
+ //取li中最大的宽度, 并赋给同级所有li 
+ 
+};
+</script>
+</head>
+
+<body>
+<div  id="rightMenu" style="position:absolute;">
+ 
+    <div class="topys">&nbsp;</div>
+    <div class="midys">
+	<div class="midlineys">会场名称</div>
+    <ul>
+      <li><a href="#" title="挂断"><span class="gdys"></span></a></li>
+      <li><a href="#" title="静音"><span class="jyys"></span></a></li>
+      <li><a href="#" title="闭音"><span class="byys"></span></a></li>
+    
+    </ul>
+    </div>
+    <div class="downys">&nbsp;</div>
+</div>
+
+</body>
+</html>

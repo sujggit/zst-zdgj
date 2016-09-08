@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/helper" namespace="/helper" extends="struts-default"><!-- 注意这里的ContentType --> <!-- 这里需要和Action里的变量名一致 -->
+		<!-- add by tanzanlong 帮助的导出
+		<action name="HerlperexportQuery" class="com.zzst.action.meeting.helper.HelperAction" method="HerlperexportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-word</param>    
+                    <param name="inputName">excelStream</param>                  
+                    <param name="contentDisposition">filename="helper.docx"</param>
+                    <param name="bufferSize">1024</param>
+	        </result></action>  -->
+	   
+    	<action name="HerlperexportQuery" class="com.zzst.action.meeting.helper.HelperAction" method="HerlperexportQuery">
+             <result name="success" type="stream"></result>
+			 <param name="contentDisposition">attachment;filename="helper.docx"</param> 			
+		</action>
+		
+    </package>
+</struts>   

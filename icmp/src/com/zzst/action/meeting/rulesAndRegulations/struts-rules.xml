@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/rules" namespace="/rules" extends="icmp-default">
+    	<action name="addRules" class="com.zzst.action.meeting.rulesAndRegulations.RulesAction" method="addRules">
+    		<result name="SUCCESS" type="redirect">
+    			/rules/manageRulesList.action
+    		</result>
+    		<result name="failure_meeting">/error/warning.jsp</result>
+    	</action>
+ 
+    	<action name="viewRules" class="com.zzst.action.meeting.rulesAndRegulations.RulesAction" method="getRulesInfo">
+    		<result name="SUCCESS">/meeting/rulesAndRegulations/viewRules.jsp</result>
+    	</action>
+
+    	<action name="getRulesListByCondition" class="com.zzst.action.meeting.rulesAndRegulations.RulesAction" method="getRulesListByCondition">
+    		<result name="SUCCESS">/meeting/rulesAndRegulations/manageRules.jsp</result>
+    	</action>
+    	
+    	<action name="editRules" class="com.zzst.action.meeting.rulesAndRegulations.RulesAction" method="getRulesInfo">
+    		<result name="SUCCESS">/meeting/rulesAndRegulations/modifyRules.jsp</result>
+    	</action>
+    	
+    	<action name="modifyRules" class="com.zzst.action.meeting.rulesAndRegulations.RulesAction" method="modifyRules">
+    		<result name="SUCCESS" type="redirect">
+    			/rules/manageRulesList.action
+    		</result>
+    	</action>
+    	
+    	<action name="manageRulesList" class="com.zzst.action.meeting.rulesAndRegulations.RulesAction" method="manageRulesList">
+    		<result name="SUCCESS">/meeting/rulesAndRegulations/manageRules.jsp</result>
+    	</action>
+    	
+    	<action name="delRules" class="com.zzst.action.meeting.rulesAndRegulations.RulesAction" method="delRules">
+			<result name="SUCCESS" type="redirect">
+    			/rules/manageRulesList.action
+    		</result>
+    		<result name="FAILURE">
+    			/meeting/rulesAndRegulations/manageRules.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="download" class="com.zzst.action.meeting.rulesAndRegulations.RulesAction" method="download">
+            <result name="success" type="stream">
+              <param name="contentType">application/octet-stream</param>
+              <param name="inputName">inputStream</param>
+              <param name="bufferSize">4096</param>
+			</result>
+		</action>
+    </package>
+</struts>   

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/mcuCascadeModel" namespace="/mcuCascadeModel" extends="struts-default">
+    	<action name="add" class="com.zzst.action.meeting.mcuCascadeModel.McuCascadeModelAction" method="add">
+			<result name="success">
+    			/meeting/mcuCascadeModel/modelAdd.jsp
+    		</result>
+    	</action>
+    	<action name="query" class="com.zzst.action.meeting.mcuCascadeModel.McuCascadeModelAction" method="query">
+			<result name="success">
+    			/meeting/mcuCascadeModel/modelList.jsp
+    		</result>
+    	</action>
+    	<action name="mcuCascadeDetail" class="com.zzst.action.meeting.mcuCascadeModel.McuCascadeModelAction" method="mcuCascadeDetail">
+			<result name="success">
+    			/meeting/mcuCascadeModel/modelDetail.jsp
+    		</result>
+    	</action>
+    	<action name="delete" class="com.zzst.action.meeting.mcuCascadeModel.McuCascadeModelAction" method="delete">
+			<result name="success" type="redirect">
+    			/mcuCascadeModel/query.action
+    		</result>
+    	</action>
+    	 
+    	 <action name="McuCascadeModelexportQuery" class="com.zzst.action.meeting.mcuCascadeModel.McuCascadeModelAction" method="McuCascadeModelexportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="McuCascadeModel.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+    	 
+    	 
+   </package>
+</struts>   

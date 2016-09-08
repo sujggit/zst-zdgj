@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+/*report */
+.report{width:350px;bordeR:1px solid #ddd;height:80px}
+.r_title{width:350px;height:35px; background:#2e3a4c}
+.r_title .font{ width:200px; font-size:16px; color:#fff; float:left; text-indent:5px; margin-top:3px;}
+.r_title .btn_colse{ width:18px; float:right; margin-top:4px;}
+.r_title .btn_colse a{ width:12px; height:12px; display:block; background:url(../images/report/ban_colse.gif) no-repeat left top;}
+.r_box_t{width:350px;}
+.r_box_t .list_w{font-size:12px;height:30px;overflow:hidden;color:#333333; margin:0px auto;line-height:20px; font-family:"宋体";padding:10px 0;border-bottom:1px solid #ddd}
+.r_box_t .list_w span{ display:block; float:right; width:120px;}
+.r_box_t .list_w h2{ float:left; font-size:12px; font-weight:normal; text-indent:5px;}
+.r_box_t .list_w p{  clear:both; padding:0px 5px 0px 5px; float:left; margin-top:3px;}
+.r_box_ .line{ background:url(../images/report/tip_line.gif) repeat-x bottom; width:257px; margin:0px auto; padding-bottom:5px;}
+.r_box_a{margin:0 auto;text-align:center}
+.kk{background:#fff;}

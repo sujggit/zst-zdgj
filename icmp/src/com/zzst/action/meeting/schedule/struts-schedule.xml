@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/schedule" namespace="/schedule" extends="struts-default">
+		<!-- 导出大事记 -->
+		<action name="exportSchedule" class="com.zzst.action.meeting.schedule.ScheduleAction" method="exportSchedule">  
+        	<result name="success" type="stream">  
+	            <param name="contentType">application/msword</param>  
+	            <param name="inputName">wordStream</param><!-- inputName配置的是输入流的名称 -->  
+	            <param name="contentDisposition">attachment;filename="${fileName}.doc"</param>  
+	            <!-- contentDisposition的作用主要是让IE浏览器将其作为一个附件形式返回而不是直接在网页中显示，其中我们用到一个参数fileName，这样可以在Struts中动态修改这个Excel文件的名称。 -->  
+	            <param name="bufferSize">1024</param>  
+            </result>  
+        </action>
+    	<!-- 修改日程 -->
+    	<action name="scheduleModify" class="com.zzst.action.meeting.schedule.ScheduleAction" method="scheduleModify">
+			<result name="success" type="redirectAction">
+				<!-- TODO -->
+    			/icmp/schedule/meetingScheduleQuery.action
+    		</result>
+    	</action>
+		<!-- 修改日程 跳转 -->
+    	<action name="scheduleModifyBefore" class="com.zzst.action.meeting.schedule.ScheduleAction" method="scheduleModifyBefore">
+			<result name="success">
+    			/meeting/schedule/scheduleWeekModify.jsp
+    		</result>
+    	</action>
+    	<action name="meetingScheduleEntry" class="com.zzst.action.meeting.schedule.ScheduleAction" method="meetingScheduleEntry">
+			<result name="success">
+    			/meeting/schedule/scheduleEntry.jsp
+    		</result>
+    	</action>
+    	<action name="meetingScheduleAdd" class="com.zzst.action.meeting.schedule.ScheduleAction" method="meetingScheduleAdd">
+			<result name="success" type="redirectAction">
+    			<!-- /icmp/schedule/meetingScheduleEntry.action -->
+    			/icmp/schedule/meetingScheduleQuery.action
+    		</result>
+    	</action>
+    	<action name="meetingScheduleQuery" class="com.zzst.action.meeting.schedule.ScheduleAction" method="meetingScheduleQuery">
+			<result name="success">
+    			/meeting/schedule/scheduleList.jsp
+    		</result>
+    	</action>
+    	<!-- 审批入口 -->
+    	<action name="toApply" class="com.zzst.action.meeting.schedule.ScheduleAction" method="meetingScheduleQuery">
+			<result name="success">
+    			/meeting/schedule/schedulebeforeApplyList.jsp
+    		</result>
+    	</action>
+    	<action name="scheduleQuery" class="com.zzst.action.meeting.schedule.ScheduleAction" method="scheduleQuery">
+			<result name="success">
+    			/meeting/schedule/scheduleWeekList.jsp
+    		</result>
+    	</action>
+    	<action name="beforeApply" class="com.zzst.action.meeting.schedule.ScheduleAction" method="beforeApply">
+			<result name="success">
+    			/meeting/schedule/scheduleApplyList.jsp
+    		</result>
+    	</action>
+    	<action name="apply" class="com.zzst.action.meeting.schedule.ScheduleAction" method="apply">
+			<result name="success" type="redirectAction">
+    			/icmp/schedule/toApply.action
+    		</result>
+    	</action>
+   </package>
+	<!-- scheduleWork -->    	
+	<package name="/scheduleWork" namespace="/scheduleWork" extends="struts-default">
+    	<action name="delete" class="com.zzst.action.meeting.schedule.ScheduleWorkAction" method="delete">
+			<result name="success" type="redirectAction">
+    			/icmp/scheduleWork/query.action
+    		</result>
+    	</action>
+    	<action name="modify" class="com.zzst.action.meeting.schedule.ScheduleWorkAction" method="modify">
+			<result name="success" type="redirectAction">
+    			/icmp/scheduleWork/query.action
+    		</result>
+    	</action>
+    	<action name="modifyBefore" class="com.zzst.action.meeting.schedule.ScheduleWorkAction" method="modifyBefore">
+			<result name="success">
+    			/meeting/schedule/work/workModify.jsp
+    		</result>
+    	</action>
+    	<action name="add" class="com.zzst.action.meeting.schedule.ScheduleWorkAction" method="add">
+			<result name="success" type="redirectAction">
+    			/icmp/scheduleWork/query.action
+    		</result>
+    	</action>
+    	<action name="query" class="com.zzst.action.meeting.schedule.ScheduleWorkAction" method="query">
+			<result name="success">
+    			/meeting/schedule/work/workList.jsp
+    		</result>
+    	</action>
+    	<action name="queryOne" class="com.zzst.action.meeting.schedule.ScheduleWorkAction" method="queryOne">
+			<result name="success">
+    			/meeting/schedule/work/workDetail.jsp
+    		</result>
+    	</action>
+   </package>
+   
+</struts>   

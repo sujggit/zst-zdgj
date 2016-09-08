@@ -1,0 +1,63 @@
+/*
+.topys{background:url(../image/report/tckbg_top.png) no-repeat; width:339px; height:7px;border:0px;}
+.midys{background:url(../image/report/tckbg_mid.png) repeat-y; width:339px;border:0px; display:inline-block;}
+.midys img{ border:0px;}
+.midys ul{margin:0px auto;padding:2px 15px;list-style:none;}
+.midys ul li{ margin:0px 0px;padding:3px 1px;list-style:none; float:left;}
+.midlineys{ text-align:left; padding-left:10px; font-size:16px; font-family:'΢���ź�';}
+.midys ul li a span{ margin:0px 6px;}
+.midys ul li a span.ljys{background:url(../image/report/lj.png) no-repeat;width:24px;height:24px;display:inline-block}
+.midys ul li a span.ljys:hover{background:url(../image/report/ljon.png) no-repeat}
+.midys ul li a span.gdys{ background:url(../image/report/gd.png) no-repeat;width:24px;height:24px;display:inline-block}
+.midys ul li a span.gdys:hover{background:url(../image/report/gdon.png) no-repeat center ;}
+.midys ul li a span.jyys{ background:url(../image/report/jy.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.jyys:hover{ background:url(../image/report/jyon.png) no-repeat center ;}
+.midys ul li a span.qxjyys{ background:url(../image/report/qxjy.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.qxjyys:hover{ background:url(../image/report/qxjyon.png) no-repeat center ;}
+.midys ul li a span.byys{ background:url(../image/report/by.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.byys:hover{ background:url(../image/report/byon.png) no-repeat center ;}
+.midys ul li a span.qxbyys{ background:url(../image/report/qxby.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.qxbyys:hover{ background:url(../image/report/qxbyon.png) no-repeat center ;}
+.midys ul li a span.sppbys{ background:url(../image/report/sppb.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.sppbys:hover{ background:url(../image/report/sppbon.png) no-repeat center ;}
+.midys ul li a span.qxsppbys{ background:url(../image/report/qxsppb.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.qxsppbys:hover{ background:url(../image/report/qxsppbon.png) no-repeat center ;}
+.midys ul li a span.slfsys{ background:url(../image/report/slfs.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.slfsys:hover{ background:url(../image/report/slfson.png) no-repeat center ;}
+.midys ul li a span.qxslfsys{ background:url(../image/report/qxsl.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.qxslfsys:hover{ background:url(../image/report/qxslon.png) no-repeat center ;}
+.midys ul li a span.gbys{ background:url(../image/report/gb.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.gbys:hover{ background:url(../image/report/gbon.png) no-repeat center ;}
+.midys ul li a span.dmys{ background:url(../image/report/dm.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.dmys:hover{ background:url(../image/report/dmon.png) no-repeat center ;}
+.midys ul li a span.swyjzys{ background:url(../image/report/swyjz.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.swyjzys:hover{ background:url(../image/report/swyjzon.png) no-repeat center ;}
+.midys ul li a span.qxswyjzys{ background:url(../image/report/qxswyjz.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.qxswyjzys:hover{ background:url(../image/report/qxswyjzon.png) no-repeat center ;}
+.midys ul li a span.swfyrys{ background:url(../image/report/swfyr.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.swfyrys:hover{ background:url(../image/report/swfyron.png) no-repeat center ;}
+.midys ul li a span.qxswfyrys{ background:url(../image/report/qxswfyr.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.qxswfyrys:hover{ background:url(../image/report/qxswfyron.png) no-repeat center ;}
+.midys ul li a span.dblys{ background:url(../image/report/dbl.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.dblys:hover{ background:url(../image/report/dblon.png) no-repeat center ;}
+.midys ul li a span.ckjdtxys{ background:url(../image/report/ckjdtx.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.ckjdtxys:hover{ background:url(../image/report/ckjdtxon.png) no-repeat center ;}
+.midys ul li a span.ckydtxys{ background:url(../image/report/ckydtx.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.ckydtxys:hover{ background:url(../image/report/ckydtxon.png) no-repeat center ;}
+.midys ul li a span.hcsxys{ background:url(../image/report/hcsx.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.hcsxys:hover{ background:url(../image/report/hcsxon.png) no-repeat center ;}
+.midys ul li a span.bzys{ background:url(../image/report/bz.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.bzys:hover{ background:url(../image/report/bzon.png) no-repeat center ;}
+.midys ul li a span.schcys{ background:url(../image/report/schc.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.schcys:hover{ background:url(../image/report/schcon.png) no-repeat center ;}
+.midys ul li a span.hcfpys{background:url(../image/report/fp.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.hcfpys:hover{background:url(../image/report/fpon.png) no-repeat center;}
+.midys ul li a span.zdbfys{background:url(../image/report/bf.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.zdbfys:hover{background:url(../image/report/bfon.png) no-repeat center;}
+.midys ul li a span.xkhc{background:url(../image/report/gkydhc.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.xkhc:hover{background:url(../image/report/gkydhcon.png) no-repeat center;}
+.midys ul li a span.hcjl{background:url(../image/report/hcjl.png) no-repeat; width:24px;height:24px;display:inline-block}
+.midys ul li a span.hcjl:hover{background:url(../image/report/hcjlon.png) no-repeat center;}
+
+.downys{background: url(../image/report/tckbg_down.png) no-repeat; width:339px; height:11px; border:0px;}
+*/

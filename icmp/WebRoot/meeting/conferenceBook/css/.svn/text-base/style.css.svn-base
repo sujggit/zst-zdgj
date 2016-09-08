@@ -1,0 +1,185 @@
+﻿@charset utf-8
+/*通用按钮*/
+select.ws40{ width:40px; border:1px solid #92B4E4;}
+select.ws60{ width:64px; border:1px solid #92B4E4;}
+input.wt120{ width:120px; border:1px solid #92B4E4;}
+input.btn_mr{ background:url(../images/btn_bg.gif); width:65px; height:22px; line-height:22px; border:0; font-size:12px; color:#1348B9; text-align:center; cursor:pointer;}
+
+/*日历*/
+.hydtime{ border:1px solid #203b77; margin:15px auto 0; width:196px; background-color:#fff; text-align:center;}
+.hydtime .hydtime_tit{ background:url(../images/leftdate.gif) repeat-x; height:25px; line-height:25px; color:#000; border-bottom:1px solid #0079d6;}
+.hydtime .hydtime_tit span{ display:inline-block; width:70px;}
+.hydtime .hydtime_tit strong{ font-weight:700; margin:0 9px;}
+.hydtime ul{ overflow:hidden; zoom:1; margin:5px auto;}
+.hydtime ul li{ float:left; margin:4px; background:url(../images/leftdate_grid.gif) no-repeat; width:20px; height:20px; line-height:20px; text-align:center; color:#000; font-size:11px; display:inline;}
+.hydtime ul li.on{ background:url(../images/leftdate_grid_on.gif); color:#004891;}
+.hydtime ul li.zmg{ background:url(../images/left_data_hot.gif); color:#acacac;}
+.hydtime ul li.zm{ background:url(../images/left_data_hot.gif);}
+.hydtime ul li.gray{ background:url(../images/leftdate_grid.gif); color:#acacac;}
+.hydtime .hydtimebot{ background:url(../images/leftdate.gif) repeat-x; height:25px; line-height:25px; color:#000; border-top:1px solid #DAD9D9;}
+.hydtime .hydtimebot span{ display:inline-block; width:28px; font-size:12px; font-weight:bold;}
+.hydtime .hydtimebot .spanred{ display:inline-block; width:28px; font-size:12px; color:#8b0000; font-weight:bold;}
+.hydtime .hydtimefm{  height:25px; line-height:25px; color:#000; border-top:1px solid #DAD9D9;}
+.hydtime .hydtimebtn{ height:25px; line-height:25px; color:#000; border-top:1px solid #DAD9D9; text-align:right; margin-right:4px;}
+.hydtime .hydtimebtn .button{background:#f0f0f0; border:0px; border-top:1px solid #a0a0a0; border-right:1px solid #696969; border-bottom:1px solid #696969; border-left:1px solid #a0a0a0; height:22px; width:40px; line-height:22px; color:#000; font-size:12px; }
+/*表格样式2*/
+
+.tablesty{ background:#46a3de;}
+.tablesty .tdsty{text-align:center; background:#FFF;}
+.tablesty .title{background:#c4e7fd; text-align:center; height:30px; line-height:30px;}
+.tablesty .tl{border-top:1px solid #2e76bf; border-left:1px solid #2e76bf;}
+.tablesty .tlr{border-top:1px solid #2e76bf; border-right:1px solid #2e76bf; border-left:1px solid #2e76bf; }
+.tablesty .br{border-bottom:1px solid #2e76bf; border-right:1px solid #2f2e76bf75be;}
+.tablesty .tbr{ border-top:1px solid #2e76bf; border-bottom:1px solid #2e76bf; border-left:1px solid #2e76bf;}
+.tablesty .tbl{ border-top:1px solid #2e76bf; border-bottom:1px solid #2e76bf; border-left:1px solid #2e76bf;}
+.tablesty .tblr{ border-top:1px solid #2e76bf; border-bottom:1px solid #2e76bf; border-left:1px solid #2e76bf;border-right:1px solid #2e76bf; }
+/*分页*/
+.mpage{}
+.mpage .left{ text-align:left;}
+.mpage .right{ text-align:right;}
+
+
+#viewer {
+	height:70px;
+	width:88%;
+	clear:both;
+	overflow:hidden;
+	border:none;
+	position:absolute;
+}
+#viewerFrame {
+	width:100%;
+	clear:both;
+	padding:0;
+	position:relative; 
+}
+#viewer table {
+	width:100%;
+	height:50%;
+}
+.ac {
+	text-align:center;
+}
+.graph {
+	position: relative; /* IE is dumb */
+	width: 101%;
+	border: none;
+	height:33px;
+	color:#FFF;
+	
+}
+.graph .bar {
+	border:none;
+	float:left;
+	display: block;
+	position: relative;
+	background: #53FF53;
+	text-align: center;
+	color:#ffffff;
+	height:33px;
+	line-height: 33px;
+	cursor:hand;
+	
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: clip;
+}
+.graph .bar2 {
+	border:none;
+	float:left;
+	display:block;
+	position: relative;
+	background: #f28f4a;/*#FF5151;#666666*/
+	text-align: center;
+	color:#000000;
+	height:33px;
+	line-height:33px;
+	
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: clip;
+}
+.graph .bar3 {
+	border:none;
+	float:left;
+	display:block;
+	position: relative;
+	background: #e8d6a4;/*#ADADAD;#CCCCCC*/
+	text-align: center;
+	color:#ffffff;
+	height:33px;
+	line-height:33px;
+	
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: clip;
+}
+.graph .bar4 {
+	cursor:pointer;/*hand~~~IE支持但是谷歌浏览器不支持*/
+	border:none;
+	float:left;
+	display:block;
+	position: relative;
+	background: #6cb198;/*#6699CC;#CEFFCE;#669999*/
+	text-align: center;
+	color:#000000;
+	height:33px;
+	line-height:33px;
+	
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: clip;
+}
+.graph .bar5 {
+	border:none;
+	float:left;
+	display:block;
+	position: relative;
+	background: #006e2e;
+	text-align: center;
+	height:33px;
+	line-height:33px;
+	
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: clip;
+}
+.graph .bar6 {
+	border:none;
+	float:left;
+	display:block;
+	position: relative;
+	background: #4096ee;
+	text-align: center;
+	height:33px;
+	line-height:33px;
+	
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: clip;
+}
+.bar_time {
+	border:none;
+	position: relative;
+	background: #c4e7fd;
+	text-align: center;
+	color: #333;
+	height:30px;
+	line-height:30px;
+	font-weight:bold;
+	}
+.hyim{ 
+	color:#01334f;
+	font-size:13px;
+	font-family: Verdana, Geneva, sans-serif,"黑体", "宋体", Arial, Verdana;
+	font-weight:bold;
+	padding-left:5px;
+	}
+.hyim_2{
+	width:85%;
+	background:#85dfff;
+	color:#01334f;
+	font-size:13px;
+	font-family: Verdana, Geneva, sans-serif,"黑体", "宋体", Arial, Verdana;
+	font-weight:bold;
+	}

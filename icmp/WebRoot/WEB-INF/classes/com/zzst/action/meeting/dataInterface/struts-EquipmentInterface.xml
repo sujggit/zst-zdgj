@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/equipmentInterface" namespace="/equipmentInterface" extends="struts-default">
+	       <action name="queryEquipment" class="com.zzst.action.meeting.dataInterface.EquipmentInterfaceAction" method="queryEquipment">
+			<result name="success">
+				/meeting/dataInterface/terminal/queryTerminal.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="delete" class="com.zzst.action.meeting.dataInterface.EquipmentInterfaceAction" method="delete">
+			<result name="success" type="redirect">
+				/equipmentInterface/queryEquipment.action
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="detailTerminal" class="com.zzst.action.meeting.dataInterface.EquipmentInterfaceAction" method="detailTerminal">
+			<result name="success">
+				/meeting/dataInterface/terminal/detailTerminal.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="detailMcu" class="com.zzst.action.meeting.dataInterface.EquipmentInterfaceAction" method="detailMcu">
+			<result name="success">
+				/meeting/dataInterface/terminal/detailMcu.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="detailCenterControl" class="com.zzst.action.meeting.dataInterface.EquipmentInterfaceAction" method="detailCenterControl">
+			<result name="success">
+				/meeting/dataInterface/terminal/detailCenterControl.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="detailVideoCard" class="com.zzst.action.meeting.dataInterface.EquipmentInterfaceAction" method="detailVideoCard">
+			<result name="success">
+				/meeting/dataInterface/terminal/detailVideoCard.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="detailOtherEquipment" class="com.zzst.action.meeting.dataInterface.EquipmentInterfaceAction" method="detailOtherEquipment">
+			<result name="success">
+				/meeting/dataInterface/terminal/detailOtherEquipment.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="beforeModify" class="com.zzst.action.meeting.dataInterface.EquipmentInterfaceAction" method="beforeModify">
+			<result name="success">
+				/meeting/dataInterface/terminal/modifyTerminal.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="modify" class="com.zzst.action.meeting.dataInterface.EquipmentInterfaceAction" method="modify">
+			<result name="success" type="redirect">
+				/terminalInterface/queryTerminal.action
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="exportQuery" class="com.zzst.action.meeting.dataInterface.EquipmentInterfaceAction" method="exportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="allEquipment.xls"</param>
+                    <param name="bufferSize">1024</param>
+	      </result>
+	    </action>
+    </package>
+</struts>   

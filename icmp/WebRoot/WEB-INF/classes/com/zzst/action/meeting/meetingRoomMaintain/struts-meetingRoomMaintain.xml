@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/meetingRoomMaintain" namespace="/meetingRoomMaintain" extends="struts-default">
+    	<action name="query" class="com.zzst.action.meeting.meetingRoomMaintain.MeetingRoomMaintainAction" method="query">
+			<result name="success">
+				/meeting/meetingRoomMaintain/meetingRoomMaintainList.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="modifyBefore" class="com.zzst.action.meeting.meetingRoomMaintain.MeetingRoomMaintainAction" method="modifyBefore">
+			<result name="success">
+				/meeting/meetingRoomMaintain/meetingRoomMaintainModify.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="modify" class="com.zzst.action.meeting.meetingRoomMaintain.MeetingRoomMaintainAction" method="modify">
+			<result name="success" type="redirect">
+    		  /meetingRoomMaintain/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="delete" class="com.zzst.action.meeting.meetingRoomMaintain.MeetingRoomMaintainAction" method="delete">
+			<result name="success" type="redirect">
+    			/meetingRoomMaintain/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="detail" class="com.zzst.action.meeting.meetingRoomMaintain.MeetingRoomMaintainAction" method="detail">
+			<result name="success">
+				/meeting/meetingRoomMaintain/meetingRoomMaintainDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="addBefore" class="com.zzst.action.meeting.meetingRoomMaintain.MeetingRoomMaintainAction" method="addBefore">
+			<result name="success">
+				/meeting/meetingRoomMaintain/meetingRoomMaintainAdd.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="add" class="com.zzst.action.meeting.meetingRoomMaintain.MeetingRoomMaintainAction" method="add">
+			<result name="success" type="redirect">
+    		   /meetingRoomMaintain/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<!-- 会场记录~会议的会场维护记录 -->
+    	<action name="exportQuery" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="exportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="roomMaintain.xls"</param>
+                    <param name="bufferSize">1024</param>
+        	</result>
+        </action>
+    	
+    	<!-- 会场记录~会议的会场维护记录 五矿专用-->
+    	<action name="exportQuery5K" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="exportQuery5K">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="roomMaintain.xls"</param>
+                    <param name="bufferSize">1024</param>
+        	</result>
+        </action>
+    	<action name="manageRoomMaintainConference" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="manageRoomMaintainConference">
+			<result name="success">
+				/meeting/meetingRoomMaintain/roomMaintainConference/manageRoomMaintainConference.jsp
+			</result>
+			<result name="failure_meeting">/error/warning.jsp</result>   	
+    	</action>
+    	<action name="roomMaintainConferenceAddBefore" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="roomMaintainConferenceAddBefore">
+			<result name="success">
+				/meeting/meetingRoomMaintain/roomMaintainConference/roomMaintainConferenceAdd.jsp
+			</result>
+			<result name="failure_meeting">/error/warning.jsp</result>   	
+    	</action>
+    	
+    	<action name="roomMaintainConferenceAdd_list" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="roomMaintainConferenceAdd_list">
+			<result name="success" type="redirect">
+    		   /detail/queryLocalConference.action
+    		</result>
+			<result name="failure_meeting">/error/warning.jsp</result>    	
+    	</action>
+    	
+    	<action name="roomMaintainConferenceAdd" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="roomMaintainConferenceAdd">
+			<result name="success" type="redirect">
+    		   /meetingRoomMaintain/manageRoomMaintainConference.action
+    		</result>
+			<result name="failure_meeting">/error/warning.jsp</result>    	
+    	</action>
+    	<action name="deleteRoomMaintainConference" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="deleteRoomMaintainConference">
+			<result name="success" type="redirect">
+    			/meetingRoomMaintain/manageRoomMaintainConference.action
+    		</result>
+			<result name="failure_meeting">/error/warning.jsp</result>   	
+    	</action>
+    	<action name="roomMaintainConferenceDetail" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="roomMaintainConferenceDetail">
+			<result name="success">
+				/meeting/meetingRoomMaintain/roomMaintainConference/roomMaintainConferenceDetail.jsp
+			</result>
+			<result name="failure_meeting">/error/warning.jsp</result>    	
+    	</action>
+    	<action name="roomMaintainConferenceDetailNew" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="roomMaintainConferenceDetailNew">
+			<result name="success">
+				/meeting/meetingRoomMaintain/roomMaintainConference/roomMaintainConferenceDetaiNew.jsp
+			</result>
+			<result name="failure_meeting">/error/warning.jsp</result>    	
+    	</action>
+    	
+    	<!-- add by zhangdq	on 20140303 实际会议的会议记录-->
+    	<action name="addConferenceMaintainBefore" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="addConferenceMaintainBefore">
+			<result name="success">
+				/meeting/conferenceManager/conferenceOperate/conferenceMaintainAdd.jsp
+			</result>
+			<result name="failure_meeting">/error/warning.jsp</result>   	
+    	</action>
+    	<action name="addConferenceMaintain" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="addConferenceMaintain">
+			<result name="success">
+				/meeting/conferenceManager/conferenceOperate/conferenceMaintainAdd.jsp
+			</result>
+			<result name="failure_meeting">/error/warning.jsp</result>   	
+    	</action>
+    	
+    	<!-- add by zhangdq	on 20140305 调试会议的调试记录-->
+    	<action name="addDebugConferenceMaintainBefore" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="addDebugConferenceMaintainBefore">
+			<result name="success">
+				/meeting/conferenceManager/debugConference/conferenceMaintainAdd.jsp
+			</result>
+			<result name="failure_meeting">/error/warning.jsp</result>   	
+    	</action>
+    	<action name="addDebugConferenceMaintain" class="com.zzst.action.meeting.meetingRoomMaintain.RoomMaintainConferenceAction" method="addDebugConferenceMaintain">
+			<result name="success" type="redirect">
+				/detail/beforeMeetingDebug.action?meetingDetailVO.meetingDetailID=${meetingDetailVO.meetingDetailID}
+			</result>
+			<result name="failure_meeting">/error/warning.jsp</result>   	
+    	</action>
+    	
+    </package>
+</struts>   

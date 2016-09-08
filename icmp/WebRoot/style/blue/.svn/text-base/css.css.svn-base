@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+body{ line-height:1.5; font-size:12px; font-family:"宋体","微软雅黑","黑体";text-align:center;}
+.dp_bg{
+	background:url(../../images/blue/jmbg.png) repeat-x;
+	border:0px;
+	width:100%;
+	height:100%;
+	}
+.dp_bg2{
+	width:100%;
+	height:640px;
+	}
+.dp_bg3{
+	width:100%;
+	height:660px;
+	}	
+.listsearch .tdhh{background:#e7f3fc; height:600%; line-height:600%;}
+.listsearch .tdhh img{ vertical-align:middle; margin:0px 3px;}
+.listsearch .tdss{background:#fff; height:600%; line-height:600%;}
+.listsearch .tdss img{ vertical-align:middle; margin:0px 3px;}
+.fontstyle2{font-size:14px; color:#07487f;}
+.fontstyle3{font-size:16px; color:#07487f;}
+.listsearch .titlehome2{background:url(../../images/blue/listtitlehome2.gif) repeat-x; height:50px; line-height:50px; border:1px solid #2d96dc;}	
+
+.mindivkz2{
+	text-align:left;
+	margin:0 auto;
+}
+
+.top_sx{
+	width:900px;
+	height:650px;
+	vertical-align:middle;
+	}
+.top_left{
+	background: url(../../images/blue/jm.png) repeat-x;
+	height:110px;
+	border:0px;
+	}
+.top_right{
+	background: url(../../images/blue/jm1_20.png) no-repeat;
+	width:513px;
+	height:72px;
+	border:0px;
+	text-align:right;
+	}
+.bottom_mid{
+	background:#ee0000;
+	height:50px;
+	border:0px;
+	text-align:left;
+	font-weight:bolder;
+	font-size:18px;
+	color:#eeaeca;
+	font-family:"宋体","微软雅黑","黑体";
+	line-height:50px;
+	padding-left:50px;
+	}
+.text_sx{
+	text-align:right;
+	border-top:3px solid #171950;
+	border-bottom:3px solid #171950;
+	border-left:3px solid #171950;
+	}
+.mie_cente{
+	background:#a2d4fe;
+	height:430px;
+	font-size:30px;
+	color:#133d87;
+	font-family:"宋体","微软雅黑","黑体";
+	font-weight:bolder;
+	line-height:80px;
+	text-align:center;
+	border:3px solid #171950;
+	}
+.min_ztys{list-style:none; }
+
+.mindivkz{
+	text-align:left;
+	margin:0 auto;
+	padding-left:150px;
+}
+
+.tt_sz{
+	text-align:left;
+	font-size:30px;
+	font-weight:bold;
+	font-family: "Adobe 仿宋 Std","华文中宋","微软雅黑", "宋体", "黑体";
+	color:#121977;
+	padding-left:10px;
+	border-top:3px solid #171950;
+	border-bottom:3px solid #171950;
+	}
+.weiz{
+	border-top:3px solid #171950;
+	border-right:3px solid #171950;
+	border-bottom:3px solid #171950;
+	text-align:right;
+	}
+.tt_sz2{
+	text-align:center;
+	font-size:15px;
+	font-family: "Adobe 仿宋 Std","华文中宋","微软雅黑", "宋体", "黑体";
+	}
+.top_ys{
+	text-align:right;
+	font-size:18px;
+	font-weight:bold;
+	font-family: "Adobe 仿宋 Std","华文中宋","微软雅黑", "宋体", "黑体";
+	color:#32397e;
+	height:80px;
+	line-height:80px;
+	padding-right:40px;
+	}
+.tabdx{
+	height:400px;
+}

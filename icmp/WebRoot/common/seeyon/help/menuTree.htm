@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<link href="../css/default.css" type="text/css" rel="stylesheet"/>
+<link href="../css/xtree.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="../js/xtree.js" />
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+/**
+ *	菜单链接方法说明:
+ *	打开一个主题内容: openToplic('文件夹名称', 'htm文件名称');
+ *	如: openToplic('1', '1_1') 对应的htm文件就是: 1/1_1.htm
+ *
+ *  如果是直接打开一个文件或者链接,可以用openLink('文件名称 或 http URL')
+ *  openLink('main.htm');
+ */
+ 
+var menuTree = new WebFXTree('root', "系统帮助", "javascript:openLink('main.htm')");
+	
+	var menu1 = new WebFXTreeItem("1", "协同工作", "javascript:openToplic('1', '1')");
+	var menuItem101 = new WebFXTreeItem("1", "新建事项", "javascript:openToplic('1', '101')");
+	var menuItem102 = new WebFXTreeItem("1", "待发事项", "javascript:openToplic('1', '102')");
+	var menuItem103 = new WebFXTreeItem("1", "已发事项", "javascript:openToplic('1', '103')");
+	var menuItem104 = new WebFXTreeItem("1", "待办事项", "javascript:openToplic('1', '104')");
+	var menuItem105 = new WebFXTreeItem("1", "已办事项", "javascript:openToplic('1', '105')");
+	var menuItem106 = new WebFXTreeItem("1", "督办事项", "javascript:openToplic('1', '106')");
+	//var menuItem107 = new WebFXTreeItem("1", "工作管理", "javascript:openToplic('1', '106')");
+	menu1.add(menuItem101);
+	menu1.add(menuItem102);
+	menu1.add(menuItem103);
+	menu1.add(menuItem104);
+	menu1.add(menuItem105);
+	menu1.add(menuItem106);
+	//menu1.add(menuItem107);
+
+	var menu2 = new WebFXTreeItem("2", "公文管理", "javascript:openToplic('2', '2')");
+	var menuItem201 = new WebFXTreeItem("2", "发文管理", "javascript:openToplic('2', '201')");
+	var menuItem202 = new WebFXTreeItem("2", "收文管理", "javascript:openToplic('2', '202')");
+	var menuItem203 = new WebFXTreeItem("2", "签报管理", "javascript:openToplic('2', '203')");
+	var menuItem207 = new WebFXTreeItem("2", "公文查询", "javascript:openToplic('2', '204')");
+	var menuItem206 = new WebFXTreeItem("2", "公文统计", "javascript:openToplic('2', '205')");
+	var menuItem205 = new WebFXTreeItem("2", "公文交换", "javascript:openToplic('2', '206')");
+	var menuItem204 = new WebFXTreeItem("2", "公文督办", "javascript:openToplic('2', '207')");
+	
+	
+	
+	menu2.add(menuItem201);
+	menu2.add(menuItem202);
+	menu2.add(menuItem203);
+	menu2.add(menuItem204);
+	menu2.add(menuItem205);
+	menu2.add(menuItem206);
+	menu2.add(menuItem207);
+
+	var menu3 = new WebFXTreeItem("3", "表单应用", "javascript:openToplic('3', '3')");
+	var menu3_1 = new WebFXTreeItem("3", "表单使用步骤", "javascript:openToplic('3', '301')");
+	var menu3_2 = new WebFXTreeItem("3", "制作前准备", "javascript:openToplic('3', '302')");
+	var menu3_3 = new WebFXTreeItem("3", "表单制作", "javascript:openToplic('3', '303')");
+	var menu3_4 = new WebFXTreeItem("3", "表单调用", "javascript:openToplic('3', '304')");
+	var menu3_5 = new WebFXTreeItem("3", "流水号管理", "javascript:openToplic('3', '305')");
+	var menu3_6 = new WebFXTreeItem("3", "表单查询", "javascript:openToplic('3', '306')");
+	var menu3_7 = new WebFXTreeItem("3", "表单统计", "javascript:openToplic('3', '307')");
+	menu3.add(menu3_1);
+	menu3.add(menu3_2);
+	menu3.add(menu3_3);
+	menu3.add(menu3_4);
+	menu3.add(menu3_5);
+	menu3.add(menu3_6);
+	menu3.add(menu3_7);
+ 
+
+ 
+	var menu4 = new WebFXTreeItem("4", "知识管理", "javascript:openToplic('4', '4')");
+	var menu4_1 = new WebFXTreeItem("4", "知识中心", "javascript:openToplic('4', '401')");
+	var menu4_2 = new WebFXTreeItem("4", "文档中心", "javascript:openToplic('4', '402')");
+	var menu4_3 = new WebFXTreeItem("4", "RSS订阅", "javascript:openToplic('4', '403')");
+	var menu4_4 = new WebFXTreeItem("4", "文档库管理", "javascript:openToplic('4', '404')");
+	var menu4_5 = new WebFXTreeItem("4", "我的博客", "javascript:openToplic('4', '405')");
+	var menu4_6 = new WebFXTreeItem("4", "博客管理", "javascript:openToplic('4', '406')");
+	menu4.add(menu4_1);
+	menu4.add(menu4_2);
+	menu4.add(menu4_3);
+	menu4.add(menu4_4);
+	menu4.add(menu4_5);
+	menu4.add(menu4_6);
+
+
+
+
+
+ 	var menu5 = new WebFXTreeItem("5", "电子邮件", "javascript:openToplic('5', '5')");
+	var menu5_1 = new WebFXTreeItem("5", "写邮件", "javascript:openToplic('5', '501')");
+	var menu5_2 = new WebFXTreeItem("5", "收件箱", "javascript:openToplic('5', '502')");
+	var menu5_3 = new WebFXTreeItem("5", "发件箱", "javascript:openToplic('5', '503')");
+	var menu5_4 = new WebFXTreeItem("5", "草稿箱", "javascript:openToplic('5', '504')");
+	var menu5_5 = new WebFXTreeItem("5", "垃圾箱", "javascript:openToplic('5', '505')");
+	var menu5_6 = new WebFXTreeItem("5", "邮件查询", "javascript:openToplic('5', '506')");
+	var menu5_7 = new WebFXTreeItem("5", "邮箱设置", "javascript:openToplic('5', '507')");
+ 	menu5.add(menu5_1);
+ 	menu5.add(menu5_2);
+ 	menu5.add(menu5_3);
+ 	menu5.add(menu5_4);
+ 	menu5.add(menu5_5);
+ 	menu5.add(menu5_6);
+ 	menu5.add(menu5_7);
+
+
+
+
+ 	var menu6 = new WebFXTreeItem("6", "计划／会议／日程", "javascript:openToplic('6', '6')");
+	var menu6_1 = new WebFXTreeItem("6", "我的计划", "javascript:openToplic('6', '601')"); 
+	var menu6_2 = new WebFXTreeItem("6", "计划管理", "javascript:openToplic('6', '602')"); 
+	var menu6_3 = new WebFXTreeItem("6", "会议管理", "javascript:openToplic('6', '603')"); 
+	var menu6_4 = new WebFXTreeItem("6", "日程事件", "javascript:openToplic('6', '604')"); 
+	menu6.add(menu6_1);
+	menu6.add(menu6_2);
+	menu6.add(menu6_3);
+	menu6.add(menu6_4);
+
+	var menu7 = new WebFXTreeItem("7", "公共信息", "javascript:openToplic('7', '7')");
+	var menu7_1 = new WebFXTreeItem("7", "公告", "javascript:openToplic('7', '701')"); 
+	var menu7_2 = new WebFXTreeItem("7", "新闻", "javascript:openToplic('7', '702')"); 
+	var menu7_3 = new WebFXTreeItem("7", "调查", "javascript:openToplic('7', '703')"); 
+	var menu7_4 = new WebFXTreeItem("7", "讨论", "javascript:openToplic('7', '704')"); 
+	var menu7_5 = new WebFXTreeItem("7", "部门公共信息", "javascript:openToplic('7', '705')"); 
+	menu7.add(menu7_1);
+	menu7.add(menu7_2);
+	menu7.add(menu7_3);
+	menu7.add(menu7_4);
+	menu7.add(menu7_5);
+
+	var menu8 = new WebFXTreeItem("8", "个人事务", "javascript:openToplic('8', '8')");
+	var menu8_1 = new WebFXTreeItem("8", "关联应用设置", "javascript:openToplic('8', '801')");
+	var menu8_2 = new WebFXTreeItem("8", "代理人设置", "javascript:openToplic('8', '802')");
+	var menu8_3 = new WebFXTreeItem("8", "工资查看", "javascript:openToplic('8', '803')");
+	var menu8_4 = new WebFXTreeItem("8", "个人考勤", "javascript:openToplic('8', '804')");
+	var menu8_5 = new WebFXTreeItem("8", "个人模板管理", "javascript:openToplic('8', '805')");
+	var menu8_6 = new WebFXTreeItem("8", "消息提示设置", "javascript:openToplic('8', '806')");
+	var menu8_7 = new WebFXTreeItem("8", "个人设置", "javascript:openToplic('8', '807')");
+	var menu8_8 = new WebFXTreeItem("8", "印章密码管理", "javascript:openToplic('8', '808')");
+	menu8.add(menu8_1);
+	menu8.add(menu8_2);
+	menu8.add(menu8_3);
+	menu8.add(menu8_4);
+	menu8.add(menu8_5);
+	menu8.add(menu8_6);
+	menu8.add(menu8_7);
+
+	var menu9 = new WebFXTreeItem("9", "综合办公", "javascript:openToplic('9', '9')");
+	var menu9_1 = new WebFXTreeItem("9", "车辆管理", "javascript:openToplic('9', '901')");
+	var menu9_2 = new WebFXTreeItem("9", "办公用品管理", "javascript:openToplic('9', '902')");
+	var menu9_3 = new WebFXTreeItem("9", "办公设备管理", "javascript:openToplic('9', '903')");
+	var menu9_4 = new WebFXTreeItem("9", "图书资料管理", "javascript:openToplic('9', '904')");
+	var menu9_5 = new WebFXTreeItem("9", "会议室管理", "javascript:openToplic('9', '905')");
+	menu9.add(menu9_1);
+	menu9.add(menu9_2);
+	menu9.add(menu9_3);
+	menu9.add(menu9_4);
+	menu9.add(menu9_5);
+
+	var menu10 = new WebFXTreeItem("10", "HR管理", "javascript:openToplic('10', '10')");
+	var menu10_1 = new WebFXTreeItem("10", "组织机构设置", "javascript:openToplic('10', '1001')");
+	var menu10_2 = new WebFXTreeItem("10", "员工档案管理", "javascript:openToplic('10', '1002')");
+	var menu10_3 = new WebFXTreeItem("10", "工资奖金管理", "javascript:openToplic('10', '1003')");
+	var menu10_4 = new WebFXTreeItem("10", "考勤管理", "javascript:openToplic('10', '1004')");
+	var menu10_5 = new WebFXTreeItem("10", "统计分析", "javascript:openToplic('10', '1005')");
+	var menu10_6 = new WebFXTreeItem("10", "信息项设置", "javascript:openToplic('10', '1006')");
+	menu10.add(menu10_1);
+	menu10.add(menu10_2);
+	menu10.add(menu10_3);
+	menu10.add(menu10_4);
+	menu10.add(menu10_5);
+	menu10.add(menu10_6);
+
+	var menu11 = new WebFXTreeItem("11", "常用工具", "javascript:openToplic('11', '11')");
+	var menu11_1 = new WebFXTreeItem("11", "综合查询", "javascript:openToplic('11', '1101')");
+	var menu11_2 = new WebFXTreeItem("11", "便签", "javascript:openToplic('11', '1102')");
+	var menu11_3 = new WebFXTreeItem("11", "通讯录", "javascript:openToplic('11', '1103')");
+	var menu11_4 = new WebFXTreeItem("11", "计算器", "javascript:openToplic('11', '1104')");
+	var menu11_5 = new WebFXTreeItem("11", "万年历", "javascript:openToplic('11', '1105')");
+	var menu11_6 = new WebFXTreeItem("11", "常用链接", "javascript:openToplic('11', '1106')");
+	var menu11_7 = new WebFXTreeItem("11", "系统帮助", "javascript:openToplic('11', '1107')");
+	menu11.add(menu11_1);
+	menu11.add(menu11_2);
+	menu11.add(menu11_3);
+	menu11.add(menu11_4);
+	menu11.add(menu11_5);
+	menu11.add(menu11_6);
+	menu11.add(menu11_7);
+	
+	var menuTree_mobile = new WebFXTree('root_mobile', "移动办公系统使用说明", "javascript:openToplic('mobile', 'index')");
+	
+	var menu_FAQ = new WebFXTreeItem("FAQ", "常见问题咨询", "javascript:openLink('http://www.seeyon.com/')");	
+
+	menuTree.add(menu1);
+	menuTree.add(menu2);
+	menuTree.add(menu3);
+	menuTree.add(menu4);
+	menuTree.add(menu5);
+	menuTree.add(menu6);
+	menuTree.add(menu7);
+	menuTree.add(menu8);
+	menuTree.add(menu9);
+	menuTree.add(menu10);
+	menuTree.add(menu11);
+	menuTree.add(menu_FAQ);
+
+	document.write(menuTree);
+	document.write(menuTree_mobile);
+	document.close();
+	
+	
+	
+	if(parent.currentMenuId != null){
+		eval("menu"+parent.currentMenuId).expand();
+		if(parent.currentMenuItemId != null){
+			openToplic(parent.currentMenuId, parent.currentMenuItemId);
+		}
+		else{
+			openToplic(parent.currentMenuId, parent.currentMenuId);
+		}
+	}
+	else{
+		menu1.expand();
+	}
+	
+</script>
+</body>
+</html>

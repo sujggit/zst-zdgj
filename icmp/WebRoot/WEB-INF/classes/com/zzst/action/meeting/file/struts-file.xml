@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/file" namespace="/file" extends="icmp-default">
+ 
+    	<action name="manageMeetingFileList" class="com.zzst.action.meeting.file.FileAction" method="manageMeetingFileList">
+    		<result name="SUCCESS">/meeting/File/manageMeetingFile.jsp</result>
+    	</action>
+    	<action name="meetingFileDownloadList" class="com.zzst.action.meeting.file.FileAction" method="meetingFileDownloadList">
+    		<result name="SUCCESS">/meeting/File/manageMeetingFileDownload.jsp</result>
+    	</action>
+    	
+    	<action name="manageEquipmentFileList" class="com.zzst.action.meeting.file.FileAction" method="manageEquipmentFileList">
+    		<result name="SUCCESS">/meeting/File/manageEquipmentFile.jsp</result>
+    	</action>
+    	
+    	<action name="detailMeetingFile" class="com.zzst.action.meeting.file.FileAction" method="detailMeetingFile">
+    		<result name="SUCCESS">/meeting/File/detailMeetingFile.jsp</result>
+    	</action>
+    	
+    	<action name="delFile" class="com.zzst.action.meeting.file.FileAction" method="delFile">
+			<result name="SUCCESS_MEETING" type="redirect">
+    			/file/meetingFileDownloadList.action
+    		</result>
+    		<result name="SUCCESS_EQUIPMENT" type="redirect">
+    			/file/equipmentFileDownloadList.action
+    		</result>
+    		<result name="SUCCESS_MEETINGROOM" type="redirect">
+    			/file/meetingRoomFileDownloadList.action
+    		</result>
+    	</action>
+    	
+    	<action name="addMeetingFile" class="com.zzst.action.meeting.file.FileAction" method="addMeetingFile">
+			<result name="SUCCESS">
+    		</result>
+    	</action>
+    	
+    	<action name="download" class="com.zzst.action.meeting.file.FileAction" method="download">
+            <result name="success" type="stream">
+              <param name="contentType">application/octet-stream</param>
+              <param name="inputName">inputStream</param>
+              <param name="bufferSize">4096</param>
+			</result>
+		</action>
+		
+		<action name="beforeRecordRelation" class="com.zzst.action.meeting.file.FileAction" method="beforeRecordRelation">
+			<result name="SUCCESS">
+    			/meeting/File/recordRelation.jsp
+    		</result>
+    		<result name="error">
+    			/errors/error.jsp  
+    		</result>
+    	</action>
+    	
+    	<!-- 会议室资料 -->
+    	<action name="manageMeetingRoomFileList" class="com.zzst.action.meeting.file.MeetingRoomFileAction" method="manageMeetingRoomFileList">
+    		<result name="SUCCESS">/meeting/File/meetingRoomFile/manageMeetingRoomFile.jsp</result>
+    	</action>
+    	<action name="addMeetingRoomFile" class="com.zzst.action.meeting.file.MeetingRoomFileAction" method="addMeetingRoomFile">
+			<result name="SUCCESS">
+    		</result>
+    	</action>
+    	<action name="meetingRoomFileDownloadList" class="com.zzst.action.meeting.file.MeetingRoomFileAction" method="meetingRoomFileDownloadList">
+    		<result name="SUCCESS">/meeting/File/meetingRoomFile/manageMeetingRoomFileDownload.jsp</result>
+    	</action>
+    	<action name="detailMeetingRoomFile" class="com.zzst.action.meeting.file.MeetingRoomFileAction" method="detailMeetingRoomFile">
+    		<result name="SUCCESS">/meeting/File/meetingRoomFile/detailMeetingRoomFile.jsp</result>
+    	</action>
+    	
+    	<!-- 会议室资料 -->
+    	<action name="manageEquipmentFileList" class="com.zzst.action.meeting.file.EquipmentFileAction" method="manageEquipmentFileList">
+    		<result name="SUCCESS">/meeting/File/equipmentFile/manageEquipmentFile.jsp</result>
+    	</action>
+    	<action name="addEquipmentFile" class="com.zzst.action.meeting.file.EquipmentFileAction" method="addEquipmentFile">
+			<result name="SUCCESS">
+    		</result>
+    	</action>
+    	<action name="equipmentFileDownloadList" class="com.zzst.action.meeting.file.EquipmentFileAction" method="equipmentFileDownloadList">
+    		<result name="SUCCESS">/meeting/File/equipmentFile/manageEquipmentFileDownload.jsp</result>
+    	</action>
+    	<action name="detailEquipmentFile" class="com.zzst.action.meeting.file.EquipmentFileAction" method="detailEquipmentFile">
+    		<result name="SUCCESS">/meeting/File/equipmentFile/detailEquipmentFile.jsp</result>
+    	</action>
+    	
+    	<action name="getVideoFile" class="com.zzst.action.meeting.file.FileAction" method="getVideoFile">
+			<result name="SUCCESS" type="redirect">
+				http://10.1.8.30:8001/fileSystem/videoFile/getFile.action?fileName=${fileName}&amp;path=${path}
+			</result>
+			<result name="FAILURE">/error/warning.jsp</result>
+	    </action>
+    </package>
+</struts>   

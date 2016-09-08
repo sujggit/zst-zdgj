@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/mobileInfo" namespace="/mobileInfo" extends="icmp-default">
+		<action name="querymobileInfo" class="com.zzst.action.mobileInfo.MobileInfoAction" method="querymobileInfo">
+			<result name="success">
+ 				/meeting/mobileInfo/mobileInfoList.jsp
+        	</result>
+        </action>
+		<action name="deleteMobileInfo" class="com.zzst.action.mobileInfo.MobileInfoAction" method="deleteMobileInfo">
+			<result name="success" type="redirectAction">
+ 				/meeting/mobileInfo/querymobileInfo.action
+        	</result>
+        </action>
+		<action name="beforeModifyMobileInfo" class="com.zzst.action.mobileInfo.MobileInfoAction" method="beforeModifyMobileInfo">
+			<result name="success">
+ 				/meeting/mobileInfo/mobileInfoModify.jsp
+        	</result>
+        </action>
+		<action name="modifyMobileInfo" class="com.zzst.action.mobileInfo.MobileInfoAction" method="modifyMobileInfo">
+			<result name="success" type="redirectAction">
+ 				/meeting/mobileInfo/querymobileInfo.action
+        	</result>
+        </action>
+		<action name="addMobileInfo" class="com.zzst.action.mobileInfo.MobileInfoAction" method="addMobileInfo">
+			<result name="success" type="redirectAction">
+ 				/meeting/mobileInfo/querymobileInfo.action
+        	</result>
+        </action>
+    </package>
+ </struts>   

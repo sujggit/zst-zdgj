@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/user" namespace="/user" extends="icmp-default">
+		
+		<action name="exportQuery" class="com.zzst.action.meeting.user.UserAction" method="exportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="user.xls"</param>
+                    <param name="bufferSize">1024</param>
+        	</result>
+        </action>
+
+		<action name="userExit" class="com.zzst.action.meeting.user.UserAction" method="userExit">
+			<result name="success">
+				/index3.jsp
+			</result>
+		</action>
+    	<action name="userLogin" class="com.zzst.action.meeting.user.UserAction" method="userLogin">
+    		<result name="SUCCESS">
+    			/layout/index.jsp
+    		</result>
+    		<result name="fail">
+    			/index3.jsp
+    		</result>
+    		<result name="HOME_PAGE">
+    			/index3.jsp
+    		</result>
+    		<result name="CONFIGURATION" type="redirect">
+    			/configuration/getConfiguration.action
+    		</result>
+    	</action>
+    	<action name="userLogin2" class="com.zzst.action.meeting.user.UserAction" method="userLogin">
+    		<result name="SUCCESS">
+    			/layout/main.jsp
+    		</result>
+    		<result name="fail">
+    			/index.jsp
+    		</result>
+    		<result name="CONFIGURATION">
+    			/configure.jsp
+    		</result>
+    	</action>
+    	<!-- 增加单点登陆的action 2016-4-20 16:53:46 by:wangxw -->
+    	<action name="userLoginSSO" class="com.zzst.action.meeting.user.UserAction" method="userLoginSSO">
+    		<result name="SUCCESS">
+    			/layout/index.jsp
+    		</result>
+    		<result name="fail">
+    			/error/loginFailureSSO.jsp
+    		</result>
+    	</action>
+    	<action name="beforeAdd" class="com.zzst.action.meeting.user.UserAction" method="beforeAdd">
+    		<result name="SUCCESS">
+    			/meeting/user/adduser.jsp
+    		</result>
+    	</action>
+    	<action name="addUser" class="com.zzst.action.meeting.user.UserAction" method="addUser">
+    		<result name="SUCCESS" type="redirect">
+    			/user/manageUserList.action
+    		</result>
+    	</action>
+    	<action name="manageUserList" class="com.zzst.action.meeting.user.UserAction" method="manageUserList">
+    		<result name="SUCCESS">/meeting/user/manageUser.jsp</result>   		
+    	</action>
+    	<action name="getUserInfo" class="com.zzst.action.meeting.user.UserAction" method="getUserInfo">
+    		<result name="SUCCESS">/meeting/user/modifyUser.jsp</result>
+    	</action>
+    	
+    	<action name="detail" class="com.zzst.action.meeting.user.UserAction" method="detail">
+			<result name="SUCCESS">
+				/meeting/user/userDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<!-- add by yangyi : 获取基本信息 -->
+    	<action name="getUserBaseInfo" class="com.zzst.action.meeting.user.UserAction" method="getUserBaseInfo">
+    		<result name="failed"></result>
+    		<result name="success">/meeting/user/modifyPassword.jsp</result>
+    	</action>
+    	<!-- add by duting start : 获取基本信息 -->
+    	<action name="getUserBaseInfoFirst" class="com.zzst.action.meeting.user.UserAction" method="getUserBaseInfoFirst">
+    		<result name="failed"></result>
+    		<result name="success">/meeting/user/modifyPasswordFirst.jsp</result>
+    	</action>
+    	<!-- add by duting end: 获取基本信息 -->
+    	<action name="modifyUser" class="com.zzst.action.meeting.user.UserAction" method="modifyUser">
+    		<result name="SUCCESS" type="redirect">
+    			/user/manageUserList.action
+    		</result>
+    	</action>
+    	<!-- add by liujf end: 重置用户密码 -->
+    	<action name="setPassword" class="com.zzst.action.meeting.user.UserAction" method="setPassword">
+    		<result name="SUCCESS" type="redirect">
+    			/user/manageUserList.action
+    		</result>
+    	</action>
+    	
+    	<action name="modifyUserPassword" class="com.zzst.action.meeting.user.UserAction" method="modifyUserPassword">
+    		<result name="SUCCESS" type="redirect">
+    			/user/manageUserList.action
+    		</result>
+    	</action>
+    	
+    	<action name="dellUserForState" class="com.zzst.action.meeting.user.UserAction" method="dellUserForState">
+			<result name="SUCCESS" type="redirect">
+    			/user/manageUserList.action
+    		</result> 	
+    	</action>
+    	
+    	<action name="getFunTree" class="com.zzst.action.meeting.user.UserAction" method="getFunTree">
+			<result name="SUCCESS">
+    			/layout/top.jsp
+    		</result> 	
+    	</action>
+    </package>
+ </struts>   

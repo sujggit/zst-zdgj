@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0 0px;
+	background:#fff;
+	min-height:100%;
+	_height:100%;
+	font-style:normal;
+	padding-top: 25px;
+	padding-left: 300px;
+    }
+.bgdkj{
+	background: url(../../images/bg_2.jpg) no-repeat;
+	width:600px;
+	height:450px;
+	}
+.zdydh{
+	background: url(../../images/blue.png) repeat-x;
+	height:46px;
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+	line-height:50px;
+	font-family: "微软雅黑", "黑体", "宋体", Arial, Verdana;
+	padding-left:10px;
+	}
+.bglv{
+	background:url(../../images/dbj_03.png) no-repeat;
+	width:450;
+	height:325;
+	}
+.wxts{
+	background:url(../../images/blui_t.png) no-repeat;
+	width:450px;
+	height:60px;
+	font-size:22px;
+	font-weight:350;
+	line-height:46px;
+	font-family: "微软雅黑", "黑体", "宋体", Arial, Verdana;
+	color:#b2cab2;
+	}
+.btn_mr{
+	background: url(../../images/button.png) no-repeat;
+	width:154px;
+	height:59px;
+	border:0px;
+	color:#012201;
+	font-size:22px;
+	font-weight:600px;
+	line-height:59px;
+	font-family: "微软雅黑", "黑体", "宋体", Arial, Verdana;
+	text-align:center;
+	}
+.czycg{
+	color:#0f0f0f;
+	font-size:30px;
+	font-weight:350;
+	line-height:56px;
+	font-family: "微软雅黑", "黑体", "宋体", Arial, Verdana;
+	text-align:center;
+	font-weight:bold;
+	padding-right: 15px;
+	padding-top: 25px;
+	}

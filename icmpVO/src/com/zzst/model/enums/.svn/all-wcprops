@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 239
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums
+END
+ApplyEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 254
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/ApplyEnum.java
+END
+MeetingDetailEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 262
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/MeetingDetailEnum.java
+END
+InformationEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 260
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/InformationEnum.java
+END
+MeetingStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 258
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/MeetingStatus.java
+END
+UserEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 253
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/UserEnum.java
+END
+ConferenceControlMenuEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 270
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/ConferenceControlMenuEnum.java
+END
+PostEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 253
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/PostEnum.java
+END
+EquipmentMaintainEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 266
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/EquipmentMaintainEnum.java
+END
+AddressEnu.java
+K 25
+svn:wc:ra_dav:version-url
+V 255
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/AddressEnu.java
+END
+DictionaryEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 259
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/DictionaryEnum.java
+END
+DataInterfaceEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 262
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/DataInterfaceEnum.java
+END
+EquipmentEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 258
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/EquipmentEnum.java
+END
+CenterControlEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 262
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/CenterControlEnum.java
+END
+LogEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 252
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/LogEnum.java
+END
+FuncEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 253
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/FuncEnum.java
+END
+LevelEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 254
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/LevelEnum.java
+END
+MeetingParticipatEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 266
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/MeetingParticipatEnum.java
+END
+MeetingControlMenuEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 267
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/MeetingControlMenuEnum.java
+END
+MeetingRoomMaintain.java
+K 25
+svn:wc:ra_dav:version-url
+V 264
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/MeetingRoomMaintain.java
+END
+BaseInfoEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 257
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/BaseInfoEnum.java
+END
+DateBaseEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 257
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/DateBaseEnum.java
+END
+McuCtrlParameterEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 265
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/McuCtrlParameterEnum.java
+END
+TopMeetingTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 263
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/TopMeetingTemplate.java
+END
+FileEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 253
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/FileEnum.java
+END
+PollTerminalEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 261
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/PollTerminalEnum.java
+END
+MeetingServiceEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 263
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/MeetingServiceEnum.java
+END
+UseStatusEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 258
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/UseStatusEnum.java
+END
+VideoconferenceEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 264
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/VideoconferenceEnum.java
+END
+MeetingRoomEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 260
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/MeetingRoomEnum.java
+END
+VmeetingDetailEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 263
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/VmeetingDetailEnum.java
+END
+MeetingTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 260
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/MeetingTypeEnum.java
+END
+TemplateEquipmentEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 266
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/TemplateEquipmentEnum.java
+END
+McuCascademodelEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 264
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/McuCascademodelEnum.java
+END
+FileDirectoryEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 262
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/FileDirectoryEnum.java
+END
+EquipmentBackupEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 264
+/svn/SVN%E9%85%8D%E7%BD%AE%E5%BA%93/!svn/ver/10649/01%E5%BC%80%E5%8F%91%E5%9F%9F/02%E9%A1%B9%E7%9B%AE/%E5%8C%97%E4%BA%AC/%E4%B8%AD%E7%94%B5%E5%9B%BD%E9%99%85%E9%A1%B9%E7%9B%AE/ICMP/02%E4%BB%A3%E7%A0%81/chunk/icmpVO/src/com/zzst/model/enums/EquipmentBackupEnum.java
+END

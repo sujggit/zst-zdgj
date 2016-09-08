@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{margin:0 0px; min-height:100%;_height:100%;font-style:normal;margin-top: 0px;}
+body{ font-size:12px; font-family:Arial, Helvetica, sans-serif,"宋体";  color:#5B5B5B; text-align:center; background:#e5f7fe;}
+
+a:link{color:#454f58;text-decoration:none;}
+a:visited{color:#454f58;text-decoration:none;}
+a:hover{color:#454f58;text-decoration:underline;}
+
+
+
+/*body*/
+.bgnr{
+	width:710px;
+	background:#FFF;
+	}
+.blueb{
+	width:99%;
+	background:url(../image/bg.jpg) no-repeat;
+	width:700px;
+	height:450px;
+	border:#095672 1px solid;
+	margin-left:5px;
+	margin-top:5px;
+	}
+.btn{
+	background:url(../image/Dblue.png) no-repeat;
+	height:38px;
+	width:92px;
+	color:#fff;
+	font-size:14px;
+	font-family: "微软雅黑", "黑体", "宋体", Arial, Verdana;
+	font-weight:bold;
+	border:0px;
+	}
+.btnn{
+	background:url(../image/Du.png) no-repeat;
+	height:49px;
+	width:49px;
+	border:0px;
+	}
+.btnl{
+	background:url(../image/Dl.png) no-repeat;
+	height:49px;
+	width:49px;
+	border:0px;
+	}
+.btnr{
+	background:url(../image/Dr.png) no-repeat;
+	height:49px;
+	width:49px;
+	border:0px;
+	}
+.btnd{
+	background:url(../image/Dd.png) no-repeat;
+	height:49px;
+	width:49px;
+	border:0px;
+	}
+.btne{
+	background:url(../image/De.png) no-repeat;
+	height:49px;
+	width:49px;
+	border:0px;
+	}
+.szbtn{
+	background:url(../image/Db.png) no-repeat;
+	width:71px;
+	height:45px;
+	color:#01334f;
+	font-size:18px;
+	font-family: "微软雅黑", "黑体", "宋体", Arial, Verdana;
+	font-weight:bold;
+	border:0px;
+	}
+.yl{
+	color:#004b66;
+	font-size:15px;
+	font-family: "微软雅黑", "黑体", "宋体", Arial, Verdana;
+	font-weight:bold;
+	}

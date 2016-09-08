@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<RMX1000_SYS_API version="1.0.0.0">
+		<INDICATION id="notify_guid_2ui">
+			<SOURCE_GUID value="1813b1e7c458db11879e320f559cb616" />
+			<TARGET_GUID value="0ce2198d21bede11b0ef761a4d641ad6" />
+			<SESSION_GUID value="0ce2198d21bede11b0ef761a4d641ad6" />
+			<SYS_GUID value="1813b1e7c458db11879e320f559cb616" />
+			<MC_GUID value="10e3469b9933de119092d05a5b0ddd59" />
+		</INDICATION>
+	</RMX1000_SYS_API>
+

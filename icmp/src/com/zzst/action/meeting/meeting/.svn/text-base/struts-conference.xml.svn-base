@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/conference" namespace="/conference" extends="struts-default">    	
+    	<action name="conferenceList" class="com.zzst.action.meeting.meeting.ConferenceAction" method="conferenceList">
+			<result name="SUCCESS">
+    			/meeting/conferenceBook/conferenceBookList.jsp
+    		</result>
+    	</action>
+    	<action name="queryDebugConferenceList" class="com.zzst.action.meeting.meeting.DebugConferenceAction" method="queryDebugConferenceList">
+			<result name="success">
+    			/meeting/conferenceManager/debugConference/meetingDebugList.jsp
+    		</result>
+    	</action>
+   </package>
+</struts>   

@@ -1,0 +1,103 @@
+body{
+	margin:0 0px;
+	background:#2772a4;
+	min-height:100%;
+	_height:100%;
+	font-style:normal;
+	text-align:center;
+}
+.lg_title{
+    width:500px;
+	height:50px;
+	line-height:50px;
+	font-weight:bold;
+	font-family:"微软雅黑", "黑体", "宋体", Arial, Verdana;
+	font-size:24px;
+	color:#ffffff;
+	text-align:left;
+	width:718px;
+	margin:0 auto;
+	padding-top:100px;
+}
+.lg_title_shadow{
+    background:url(../images/login/bg2_03.png) no-repeat;
+    width:718px;
+	height:30px;
+	margin:0 auto
+}
+.lg_center{
+   background:url(../images/login/3_07.png) no-repeat;
+   width:718px;
+   height:288px;
+   margin:0 auto;
+}
+.lg_center_login{
+      background:url(../images/login/sm_bg_13.png);
+	  width:316px;
+	  height:210px;
+	  float:right;
+	  position:relative;
+	  top:14%;
+}
+.lg_center_login_user{
+	line-height:20px;
+	margin-top:32px;
+	color:#000;
+	font-size:14pt;
+	font-family:"微软雅黑", "宋体", "黑体", sans-serif;
+	text-align:left;
+	font-weight:200px;
+	padding-left: 40px;
+}
+.user{
+	width:146px;
+	}
+.lg_center_login_pwd{
+	line-height:20px;
+	margin-top:5px;
+	color:#000;
+	font-size:14pt;
+	font-family:"微软雅黑", "宋体", "黑体", sans-serif;
+	text-align:left;
+	font-weight:200px;
+	padding-left: 40px;
+}
+.lg_center_login_btn{
+	background:url(../images/login/btn.png) no-repeat;
+	width:121px;
+	height:49px;
+	border:0px;
+    line-height:20px;
+	margin-top:10px;
+	font-weight:bold;
+	font-family:"微软雅黑", "黑体", "宋体", Arial, Verdana;
+	font-size:16px;
+	color:#001e32;
+}
+.lg_top{
+   background:url(../images/login/bg.jpg);
+   width:1003px;
+   height:546px;
+   text-align:center;
+   margin:0 auto;
+   line-height:546;
+}
+.lg_left_logo{
+	background:url(../images/login/lg_logo_03.png);
+    width:219px;
+	height:219px;
+	float:left;
+    position:relative;
+    top:12%;
+	left:11%;
+	border:0px;
+	}
+.lg_text{
+	height:30px;
+	font-weight:bold;
+	font-family:"微软雅黑", "黑体", "宋体", Arial, Verdana;
+	font-size:16px;
+	color:#ff0000;
+	text-align: center;
+	padding-right: 30px;
+	}

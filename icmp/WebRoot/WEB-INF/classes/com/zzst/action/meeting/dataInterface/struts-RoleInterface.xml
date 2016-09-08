@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/roleInterface" namespace="/roleInterface" extends="struts-default">
+	       <action name="queryRole" class="com.zzst.action.meeting.dataInterface.RoleInterfaceAction" method="queryRole">
+			<result name="success">
+				/meeting/dataInterface/role/queryRole.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="delete" class="com.zzst.action.meeting.dataInterface.RoleInterfaceAction" method="delete">
+			<result name="success" type="redirect">
+				/roleInterface/queryRole.action
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="detail" class="com.zzst.action.meeting.dataInterface.RoleInterfaceAction" method="detail">
+			<result name="success">
+				/meeting/dataInterface/role/detailRole.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="beforeModify" class="com.zzst.action.meeting.dataInterface.RoleInterfaceAction" method="beforeModify">
+			<result name="success">
+				/meeting/dataInterface/role/modifyRole.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="modify" class="com.zzst.action.meeting.dataInterface.RoleInterfaceAction" method="modify">
+			<result name="success" type="redirect">
+				/roleInterface/queryRole.action
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	  </action>
+    	  
+    	  <action name="exportQuery" class="com.zzst.action.meeting.dataInterface.RoleInterfaceAction" method="exportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="role.xls"</param>
+                    <param name="bufferSize">1024</param>
+	      </result>
+	    </action>
+    	 	    	
+    </package>
+</struts>   

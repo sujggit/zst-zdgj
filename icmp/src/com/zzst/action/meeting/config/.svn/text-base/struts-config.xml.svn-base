@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/config" namespace="/config" extends="struts-default">
+		<!-- add by yangyi 获取配置基本信息 -->
+		<action name="getConfigInfo" class="com.zzst.action.meeting.config.ConfigAction" method="getConfigInfo">
+			<result name="success" >
+    		   /meeting/config/modifyConfig.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="getSysConfigInfo" class="com.zzst.action.meeting.config.ConfigAction" method="getSysConfigInfo">
+			<result name="success" >
+    		   /meeting/config/releaseManagement/modifyProjectName.jsp
+    		</result>
+    	</action>
+    	<action name="modifySysConfig" class="com.zzst.action.meeting.config.ConfigAction" method="modifySysConfig">
+			<result name="success" type="redirect">
+    		   /config/getSysConfigInfo.action
+    		</result>
+    	</action>
+    	
+       	<!-- add by yangyi 修改配置基本信息 -->
+    	<action name="modifyConfig" class="com.zzst.action.meeting.config.ConfigAction" method="modifyConfig">
+			<result name="success" type="redirect">
+    		   /config/getConfigInfo.action
+    		</result>
+    	</action>
+    	
+    	<!-- 中控配置 -->
+    	<!-- 新增 -->
+    	<action name="addCenterControlInfoBefore" class="com.zzst.action.meeting.config.ConfigAction" method="addCenterControlInfoBefore">
+			<result name="success" >
+    		   /meeting/config/centerControlAdd.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="addCenterControlInfo" class="com.zzst.action.meeting.config.ConfigAction" method="addCenterControlInfo">
+			<result name="success"  type="redirect">
+    		   /config/getCenterControlList.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<!-- 导出 -->
+    	<action name="centerControlInfoExportQuery" class="com.zzst.action.meeting.config.ConfigAction" method="centerControlInfoExportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="centerControlInfo.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+    	
+    	<!-- 查询 -->
+    	<action name="getCenterControlList" class="com.zzst.action.meeting.config.ConfigAction" method="getCenterControlList">
+			<result name="success" >
+    		   /meeting/config/centerControlList.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="getCenterControlInfo" class="com.zzst.action.meeting.config.ConfigAction" method="getCenterControlInfo">
+			<result name="success" >
+    		   /meeting/config/centerControlDetail.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<!-- 修改 -->
+    	<action name="modifyCenterControlInfoBefore" class="com.zzst.action.meeting.config.ConfigAction" method="modifyCenterControlInfoBefore">
+			<result name="success" >
+    		   /meeting/config/centerControlModify.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<!-- 复制 20131024 -->
+    	<action name="copyCenterControlInfoBefore" class="com.zzst.action.meeting.config.ConfigAction" method="copyCenterControlInfoBefore">
+			<result name="success" >
+    		   /meeting/config/centerControlCopy.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="modifyCenterControlInfo" class="com.zzst.action.meeting.config.ConfigAction" method="modifyCenterControlInfo">
+			<result name="success"  type="redirect" >
+    		   /config/getCenterControlList.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<!-- 删除 -->
+    	<action name="delCenterControlInfo" class="com.zzst.action.meeting.config.ConfigAction" method="delCenterControlInfo">
+			<result name="success"  type="redirect" >
+    		   /config/getCenterControlList.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="getNoticeConfig" class="com.zzst.action.meeting.config.ConfigAction" method="getNoticeConfig">
+			<result name="success"  >
+    		   /meeting/config/configure_to.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="modifyNoticeConfig" class="com.zzst.action.meeting.config.ConfigAction" method="modifyNoticeConfig">
+			<result name="success"  type="redirect">
+    		   /config/getNoticeConfig.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    </package>
+</struts>   

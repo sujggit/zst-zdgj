@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/equipment" namespace="/equipment" extends="struts-default">
+		<action name="exportQuery" class="com.zzst.action.meeting.equipment.EquipmentAction" method="exportQuery">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="equipment.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+	    	
+		<action name="QBoxBeforAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="QBoxBeforAdd">
+			<result name="success">
+				/meeting/equipment/QBoxAdd.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<action name="QBoxAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="QBoxAdd">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="QBoxDetail" class="com.zzst.action.meeting.equipment.EquipmentAction" method="QBoxDetail">
+			<result name="success">
+				/meeting/equipment/QBoxDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="QBoxBeforeModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="QBoxBeforeModify">
+			<result name="success">
+				/meeting/equipment/QBoxModify.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="QBoxModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="QBoxModify">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+		
+		<action name="queryNotice" class="com.zzst.action.meeting.equipment.EquipmentAction" method="queryNotice">
+			<result name="success">
+				
+				/meeting/equipments/noticeList.jsp
+			</result>
+			
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+		
+		<action name="noticeBeforeAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="noticeBeforeAdd">
+			<result name="success">
+				
+				/meeting/equipments/noticeAdd.jsp
+			</result>
+			<param name="style6">#fff</param>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<action name="noticeAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="noticeAdd">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="deleteNotice" class="com.zzst.action.meeting.equipment.EquipmentAction" method="deleteNotice">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="noticeDetail" class="com.zzst.action.meeting.equipment.EquipmentAction" method="noticeDetail">
+			<result name="success">
+				/meeting/equipments/noticeDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="noticeBeforeModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="noticeBeforeModify">
+			<result name="success">
+				/meeting/equipments/noticeModify.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="noticeModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="noticeModify">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	
+    	<action name="videoCardBeforeAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="videoCardBeforeAdd">
+			<result name="success" >
+				/meeting/equipment/videoCardAdd.jsp
+			</result>
+			<param name="style4">#fff</param>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	  
+    	  <action name="videoCardAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="videoCardAdd">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<param name="style4">#fff</param>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	  <action name="videoCardDetail" class="com.zzst.action.meeting.equipment.EquipmentAction" method="videoCardDetail">
+			<result name="success">
+    		  /meeting/equipment/videoCardDetail.jsp
+    		</result>
+			<param name="style4">#fff</param>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	  <action name="videoCardBeforModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="videoCardBeforModify">
+			<result name="success" >
+				/meeting/equipment/videoCardModify.jsp
+			</result>
+			
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	  <action name="videoCardModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="videoCardModify">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	  
+       	
+    	<action name="terminalBeforAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="terminalBeforAdd">
+			<result name="success">
+				/meeting/equipment/terminalAdd.jsp
+			</result>
+			<param name="style1">#fff</param>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<action name="terminalAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="terminalAdd">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	
+    	  <action name="mcuBeforAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="mcuBeforAdd">
+			<result name="success">
+				/meeting/equipment/mcuAdd.jsp
+			</result>
+			<param name="style2">#fff</param>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<action name="mcuAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="mcuAdd">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	
+    	 <action name="centerControlBeforAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="centerControlBeforAdd">
+			<result name="success">
+				/meeting/equipment/centerControlAdd.jsp
+			</result>
+			<param name="style3">#fff</param>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<action name="centerControlAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="centerControlAdd">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<!--add by duting   microphone  -->
+    	<action name="microphoneBeforAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="microphoneBeforAdd">
+			<result name="success">
+				/meeting/equipment/microphoneAdd.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<action name="microphoneAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="microphoneAdd">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	 <action name="query" class="com.zzst.action.meeting.equipment.EquipmentAction" method="query">
+			<result name="success">
+				/meeting/equipment/equipmentList.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	 </action>
+    	 
+    	  <action name="delete" class="com.zzst.action.meeting.equipment.EquipmentAction" method="delete">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	 </action>
+    	   
+    	  <action name="mcuDetail" class="com.zzst.action.meeting.equipment.EquipmentAction" method="mcuDetail">
+			<result name="success">
+				/meeting/equipment/mcuDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	 </action>
+    	  <action name="terminalDetail" class="com.zzst.action.meeting.equipment.EquipmentAction" method="terminalDetail">
+			<result name="success">
+				/meeting/equipment/terminalDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	 </action>
+    	 
+    	 
+    	   <action name="controlDetail" class="com.zzst.action.meeting.equipment.EquipmentAction" method="controlDetail">
+			<result name="success">
+				/meeting/equipment/controlDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	 </action>
+    	 <!--add by duting   microphone  -->
+    	 <action name="microphoneDetail" class="com.zzst.action.meeting.equipment.EquipmentAction" method="microphoneDetail">
+			<result name="success">
+				/meeting/equipment/microphoneDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	 </action>
+    
+    	  
+    	  <action name="mcuBeforModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="mcuBeforModify">
+			<result name="success">
+				/meeting/equipment/mcuModify.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<action name="mcuModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="mcuModify">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	 <action name="terminalBeforModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="terminalBeforModify">
+			<result name="success">
+				/meeting/equipment/terminalModify.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<action name="terminalModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="terminalModify">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	
+    	 <action name="controlBeforModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="controlBeforModify">
+			<result name="success">
+				/meeting/equipment/controlModify.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<action name="controlModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="controlModify">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<!--add by duting   microphone  -->
+    	<action name="microphoneBeforModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="microphoneBeforModify">
+			<result name="success">
+				/meeting/equipment/microphoneModify.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<action name="microphoneModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="microphoneModify">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<!-- add by chenshuo -->
+    	<action name="equipmentBeforeAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="equipmentBeforeAdd">
+			<result name="success">
+    		   /meeting/equipment/equipmentAdd.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<!-- add by liujf 20131024 -->
+    	<!-- MCU复制 -->
+    	 <action name="mcuBeforCopy" class="com.zzst.action.meeting.equipment.EquipmentAction" method="mcuBeforCopy">
+			<result name="success">
+				/meeting/equipment/mcuCopy.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	  <!-- 终端复制 -->
+    	 <action name="terminalBeforCopy" class="com.zzst.action.meeting.equipment.EquipmentAction" method="terminalBeforCopy">
+			<result name="success">
+				/meeting/equipment/terminalCopy.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	  <!-- 智能中控复制 -->
+    	  <action name="controlBeforCopy" class="com.zzst.action.meeting.equipment.EquipmentAction" method="controlBeforCopy">
+			<result name="success">
+				/meeting/equipment/controlCopy.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	  <!-- 其他设备复制 -->
+    	  <action name="otherEquipmentBeforeCopy" class="com.zzst.action.meeting.equipment.EquipmentAction" method="otherEquipmentBeforeCopy">
+			<result name="success">
+    		   /meeting/equipment/otherEquipmentCopy.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<!-- 比对卡复制 -->
+    	 <action name="videoCardBeforCopy" class="com.zzst.action.meeting.equipment.EquipmentAction" method="videoCardBeforCopy">
+			<result name="success" >
+				/meeting/equipment/videoCardCopy.jsp
+			</result>
+			
+			<result name="error">/errors/error.jsp</result>    	
+    	  </action>
+    	
+    	<!-- 中建材开始 -->
+    	<action name="otherEquipmentBeforeAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="otherEquipmentBeforeAdd">
+			<result name="success">
+    		   /meeting/equipment/otherEquipmentAdd.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="otherEquipmentAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="otherEquipmentAdd">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="otherEquipmentBeforeModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="otherEquipmentBeforeModify">
+			<result name="success">
+    		   /meeting/equipment/otherEquipmentModify.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="otherEquipmentModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="otherEquipmentModify">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="otherEquipmentDetail" class="com.zzst.action.meeting.equipment.EquipmentAction" method="otherEquipmentDetail">
+			<result name="success">
+				/meeting/equipment/otherEquipmentDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result> 	
+    	</action>
+    	
+    	<action name="equipmentMaintain" class="com.zzst.action.meeting.equipment.EquipmentMaintainAction" method="equipmentMaintain">
+			<result name="success">
+				/meeting/equipment/equipmentMaintain/equipmentMaintain.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result> 	
+    	</action>
+    	
+    	<action name="exportEquipmentMaintain" class="com.zzst.action.meeting.equipment.EquipmentMaintainAction" method="exportEquipmentMaintain">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="equipmentMaintain.xls"</param>
+                    <param name="bufferSize">1024</param>
+	    	</result>
+	    </action>
+	    
+	    <action name="exportEquipmentMaintainDetail" class="com.zzst.action.meeting.equipment.EquipmentMaintainAction" method="exportEquipmentMaintainDetail">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="equipmentMaintainDetail.xls"</param>
+                    <param name="bufferSize">1024</param>
+	    	</result>
+	    </action>
+    	
+    	
+    	<action name="equipmentMaintainAdd" class="com.zzst.action.meeting.equipment.EquipmentMaintainAction" method="equipmentMaintainAdd">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result> 	
+    	</action>
+    	
+    	<!-- 维修记录查询 -->
+    	<action name="queryEquipmentMaintain" class="com.zzst.action.meeting.equipment.EquipmentMaintainAction" method="queryEquipmentMaintain">
+			<result name="success">
+				/meeting/equipment/equipmentMaintain/queryEquipmentMaintain.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result> 	
+    	</action>
+    	
+    	
+    	<action name="deleteEquipmentMaintain" class="com.zzst.action.meeting.equipment.EquipmentMaintainAction" method="deleteEquipmentMaintain">
+			<result name="success" type="redirect">
+				/equipment/maintainDetail.action?equipmentMaintainVO.equipmentID=${equipmentMaintainVO.equipmentID}
+			</result>
+			<result name="error">/errors/error.jsp</result> 	
+    	</action>
+    	
+    	<!-- 维保期查询 -->
+    	<action name="queryEquipmentMaintenance" class="com.zzst.action.meeting.equipment.EquipmentAction" method="queryEquipmentMaintenance">
+			<result name="success" >
+				/meeting/equipment/queryEquipmentMaintenance.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result> 	
+    	</action>
+    	<!-- 报废设备查询 -->
+    	<action name="queryUselessEquipment" class="com.zzst.action.meeting.equipment.EquipmentAction" method="queryUselessEquipment">
+			<result name="success">
+				/meeting/equipment/queryUselessEquipment.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	</action>
+    	
+    	<!-- 报废设备导出 -->
+    	<action name="exportUselessEquipment" class="com.zzst.action.meeting.equipment.EquipmentAction" method="exportUselessEquipment">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="uselessEquipment.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+    	</action>
+    	
+    	<!-- 维修信息查询  -->
+    	<action name="maintainDetail" class="com.zzst.action.meeting.equipment.EquipmentMaintainAction" method="maintainDetail">
+			<result name="success">
+				/meeting/equipment/equipmentMaintain/maintainDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>
+    	</action>
+    	
+    	<!-- add by xiongshun 20131011-->
+    	<action name="exportEquipments" class="com.zzst.action.meeting.equipment.EquipmentAction" method="exportEquipments">
+			<result name="success" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="equipments.xls"</param>
+                    <param name="bufferSize">1024</param>
+	        </result>
+	    </action>
+    	<action name="queryEquipments" class="com.zzst.action.meeting.equipment.EquipmentAction" method="queryEquipments">
+			<result name="success">
+				/meeting/equipments/equipmentList.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="equipmentsBeforeAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="equipmentsBeforeAdd">
+			<result name="success">
+    		   /meeting/equipments/equipmentAdd.jsp
+    		</result>
+    		<result name="enc" type="redirect">
+    		   /equipment/noticeBeforeAdd.action
+    		</result>
+    		<result name="audio" type="redirect">
+    		   /equipment/audioBeforeAdd.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<!-- 设备管理模块，增加按钮  add by liujf 20131111-->
+    	<action name="equipmentsAddBefore" class="com.zzst.action.meeting.equipment.EquipmentAction" method="equipmentsAddBefore">
+			<result name="success">
+    		   /meeting/equipment/equipmentAdd.jsp
+    		</result>
+    		<result name="terminal" type="redirect">
+    		   /equipment/terminalBeforAdd.action
+    		</result>
+    		<result name="mcu" type="redirect">
+    		   /equipment/mcuBeforAdd.action
+    		</result>
+    		<result name="centerControl" type="redirect">
+    		   /equipment/centerControlBeforAdd.action
+    		</result>
+    		<result name="videoCard" type="redirect">
+    		   /equipment/videoCardBeforeAdd.action
+    		</result>
+    		<result name="otherEquipment" type="redirect">
+    		   /equipment/otherEquipmentBeforeAdd.action
+    		</result>
+    		<result name="enc" type="redirect">
+    		   /equipment/noticeBeforeAdd.action
+    		</result>
+    		<result name="audio" type="redirect">
+    		   /equipment/audioBeforeAdd.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="deleteEquipments" class="com.zzst.action.meeting.equipment.EquipmentAction" method="deleteEquipments">
+			<result name="success" type="redirect">
+    		   /equipment/queryEquipments.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	 </action>
+    	
+    	<action name="audioBeforeAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="audioBeforeAdd">
+			<result name="success">
+    		   /meeting/equipments/audioAdd.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	<action name="audioAdd" class="com.zzst.action.meeting.equipment.EquipmentAction" method="audioAdd">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="audioBeforeModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="audioBeforeModify">
+			<result name="success">
+    		   /meeting/equipments/audioModify.jsp
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="audioModify" class="com.zzst.action.meeting.equipment.EquipmentAction" method="audioModify">
+			<result name="success" type="redirect">
+    		   /equipment/query.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	</action>
+    	
+    	<action name="audioDetail" class="com.zzst.action.meeting.equipment.EquipmentAction" method="audioDetail">
+			<result name="success">
+				/meeting/equipments/audioDetail.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result> 	
+    	</action>
+    	<!-- muc使用率add by liujf20131202 -->
+    	<action name="equipmentMcuUsedRate" class="com.zzst.action.meeting.equipment.EquipmentAction" method="equipmentMcuUsedRate">
+			<result name="success">
+				/meeting/equipment/mcuUsedRate.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result> 	
+    	</action>
+    	
+    	<!-- 设备组查询add by liujf20140606 -->
+    	<action name="equipmentGroup" class="com.zzst.action.meeting.equipment.EquipmentAction" method="equipmentGroup">
+			<result name="success">
+				/meeting/equipment/equipmentGroup/equipmentGroupList.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result> 	
+    	</action>
+    	<action name="equipmentGroupdelete" class="com.zzst.action.meeting.equipment.EquipmentAction" method="equipmentGroupdelete">
+			<result name="success" type="redirect">
+    		   /equipment/equipmentGroup.action
+    		</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	 </action>
+    </package>
+</struts>   

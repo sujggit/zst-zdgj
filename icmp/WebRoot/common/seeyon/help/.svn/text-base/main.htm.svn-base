@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>用友致远A8协同管理软件 - 帮助文档</title>
+<link type="text/css" rel="stylesheet" href="../css/default.css" />
+</head>
+<body>
+<table width="100%" border="0" cellspacing="12">
+  <tr>
+    <td colspan="4"><b>前端用户帮助</b></td>
+  </tr>
+  <tr>
+    <td nowrap="nowrap">&nbsp;</td>
+    <td nowrap="nowrap" style="font-weight: bold;" valign="top">协同工作</td>
+    <td valign="top">单位内部员工间的协同工作平台（包括异地协同）,任何办公事项，如计划管理、项目开展、任务执行、申请审批等均可借助于协同事项功能完成。包括新建发送协同事项、接收处理协同事项、档案管理等子功能。</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td nowrap="nowrap" style="font-weight: bold;" valign="top">公文管理</td>
+    <td valign="top">满足单位发布公文、接收公文及档案管理的需求。</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td nowrap="nowrap" style="font-weight: bold;" valign="top">表单应用</td>
+    <td valign="top">提供自定义表格单据，实现数据采集，统计的需求。</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td nowrap="nowrap" style="font-weight: bold;" valign="top">知识管理</td>
+    <td valign="top">知识管理是帮助使用者管理个人、单位和集团的文件、公文以及审批流转的各种信息，并提供相应的编辑，借阅，共享，转发等操作。</td>
+    <td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>&nbsp;</td>
+    <td nowrap="nowrap" style="font-weight: bold;" valign="top">电子邮件</td>
+    <td valign="top">A8中的电子邮件提供基于Web的Email发送、阅读和存储、查找功能，并支持邮件转发协同的功能。</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td nowrap="nowrap" style="font-weight: bold;" valign="top">计划/会议/日程</td>
+    <td valign="top">制定计划;记录个人日程安排，查看他人日程安排；会议通知会被自动写入日程表中。</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td nowrap="nowrap" style="font-weight: bold;" valign="top">公共信息</td>
+    <td valign="top">单位内的公共信息园地。针对某一部份人发布的普遍性信息，也被归纳入公共信息范围，如针对全部部门经理发布的通知。</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td nowrap="nowrap" style="font-weight: bold;" valign="top">个人事务</td>
+    <td valign="top">设置个人相关的信息，如密码设置、代理设置、信息转移设置和个人模板管理。</td>
+    <td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>&nbsp;</td>
+    <td nowrap="nowrap" style="font-weight: bold;" valign="top">综合办公</td>
+    <td valign="top">进行车辆，用品，设备，图书的基本管理。</td>
+    <td>&nbsp;</td>
+  </tr>
+    <tr>
+    <td>&nbsp;</td>
+    <td nowrap="nowrap" style="font-weight: bold;" valign="top">HR管理</td>
+    <td valign="top">HR管理主要是对单位的人员的基本档案信息进行管理，并对人员的调动、考勤、工资等事件管理，即实现对员工信息和组织信息的有效管理与维护。</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td nowrap="nowrap" style="font-weight: bold;" valign="top">常用工具</td>
+    <td valign="top">包括综合查询、员工通迅录、外部联系人、万年历、计算器等功能。</td>
+    <td>&nbsp;</td>
+  </tr>
+
+</table>
+</body>
+</html>

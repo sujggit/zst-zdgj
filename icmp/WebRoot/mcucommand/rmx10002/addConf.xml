@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMX1000_MC_API version="1.1.0.0">
+	<COMMAND id="add_conf">
+		<AUTO_REDIALING_INTERVAL value="10"/>
+		<AUTO_REDIALING_TIMES value="5"/>
+		<BILLING_INFO value=""/>
+		<CHAIR_PASSWD value=""/>
+		<CONF_PASSWD value=""/>
+		<DISP_NAME value="ABC"/>
+		<DURATION value="7200"/>
+		<E164 value="2032"/>
+		<GUID value=""/>
+		<INFO1 value=""/>
+		<INFO2 value=""/>
+		<INFO3 value=""/>
+		<IS_AUTO_REDIALING value="NO"/>
+		<IS_DIAL_OUT_MANUALLY value="NO"/>
+		<IS_PTS_LIST_DIAL_IN value="NO"/>
+		<LECTURE_NAME value="009"/>
+		<PROFILE_GUID value="3c970ab694bfde11b789f646e02c904c"/>
+		<PTS_COUNT value="3"/>
+		<SEND_EMAIL_NOTICE value="NO"/>
+		<SOURCE_GUID value="ace31a114fbade11b86bd7089dedbb18"/>
+		<TARGET_GUID value="ea753542fc14de1188a183a7768af012"/>
+	</COMMAND>
+</RMX1000_MC_API>

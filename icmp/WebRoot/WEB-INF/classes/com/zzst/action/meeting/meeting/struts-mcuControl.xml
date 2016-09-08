@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/mcuControl" namespace="/mcuControl" extends="struts-default">
+    	<action name="getClassifiedRoomList" class="com.zzst.action.meeting.meeting.McuControlAction" method="getClassifiedRoomList">
+    		<result name="SUCCESS">
+    			/meeting/meetingManage/meetingRoom.jsp
+    		</result>
+    		<result name="AIRPORT_REQUEST_SUCCESS">
+    			/capitalAirport/participant.jsp
+    		</result>
+    		<result name="REQUEST_MGC50_SUCCESS">
+    			/mcu/mgc50/mcuPanel.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	<action name="manageMeetingList" class="com.zzst.action.meeting.meeting.McuControlAction" method="manageMeetingList">
+    		<result name="SUCCESS" >
+    			/meeting/meetingManage/meeting.jsp
+    		</result>
+    		<result name="DOWNLOAD">/common/download.jsp</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="getOtherRoomList" class="com.zzst.action.meeting.meeting.McuControlAction" method="getOtherRoomList">
+		  <result name="SUCCESS">/mcu/rmx100022/addOtherRooms.jsp</result> 
+		  <result name="REQUEST_MGC50_SUCCESS">/mcu/mgc50/addOtherRooms.jsp</result> 
+		  <result name="REQUEST_CASCADE_SUCCESS">/meeting/meetingManage/addOtherRooms.jsp</result> 
+		  <result name="FAILURE">/ok.jsp</result> 
+		</action>
+    	
+    	
+	   <action name="pollMeetingRoomList" class="com.zzst.action.meeting.meeting.McuControlAction" method="pollMeetingRoomList">
+		  <result name="SUCCESS">/meeting/meetingManage/pollRooms.jsp</result> 
+		  <result name="REQUEST_MGC50_SUCCESS">/mcu/mgc50/mcuPanel.jsp</result> 
+		  <result name="FAILURE">/ok.jsp</result> 
+	   </action>
+
+    	
+    	<action name="getCP" class="com.zzst.action.meeting.meeting.McuControlAction" method="getCP">
+    		<result name="SUCCESS">
+    			/meetingManage/jld.jsp
+    		</result>
+    		<result name="AIRPORT_REQUEST_SUCCESS">
+    			/capitalAirport/participant.jsp
+    		</result>
+    		<result name="REQUEST_MGC50_SUCCESS">
+    			/mcu/mgc50/mcuPanel.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="getMeetingRoomList" class="com.zzst.action.meeting.meeting.McuControlAction" method="getMeetingRoomList">
+    		<result name="SUCCESS">
+    			/mcu.jsp
+    		</result>
+    		<result name="AIRPORT_REQUEST_SUCCESS">
+    			/capitalAirport/participant.jsp
+    		</result>
+    		<result name="REQUEST_MGC50_SUCCESS">
+    			/mcu/mgc50/mcuPanel.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="getCP" class="com.zzst.action.meeting.meeting.McuControlAction" method="getCP">
+    		<result name="SUCCESS">
+    			/meetingManage/connPoint.jsp
+    		</result>
+    		
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="getIFrameInfo" class="com.zzst.action.meeting.meeting.McuControlAction" method="getIFrameInfo">
+    		<result name="SUCCESS" >
+    			/meetingManage/iFrame.jsp
+    		</result>
+    		<result name="DOWNLOAD">/common/download.jsp</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="ding" class="com.zzst.action.meeting.meeting.McuControlAction" method="ceshi">
+    		<result name="SUCCESS">
+    			/amx/admin.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<!-- 加载分屏模式信息 -->
+    	<action name="screenModelBefore" class="com.zzst.action.meeting.meeting.McuControlAction" method="screenModelBefore">
+    		<result name="success">
+    			/meeting/meetingManage/split/split.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="screenModel" class="com.zzst.action.meeting.meeting.McuControlAction" method="screenModel">
+    		<result name="split_right1_1">
+    			/meeting/meetingManage/split/split_right1_1.jsp
+    		</result>
+    		<result name="split_right2_1">
+    			/meeting/meetingManage/split/split_right2_1.jsp
+    		</result>
+    		<result name="split_right2_2">
+    			/meeting/meetingManage/split/split_right2_2.jsp
+    		</result>
+    		<result name="split_right2_3">
+    			/meeting/meetingManage/split/split_right2_3.jsp
+    		</result>
+    		<result name="split_right2_4">
+    			/meeting/meetingManage/split/split_right2_4.jsp
+    		</result>
+    		<result name="split_right2_5">
+    			/meeting/meetingManage/split/split_right2_5.jsp
+    		</result>
+    		<result name="split_right3_1">
+    			/meeting/meetingManage/split/split_right3_1.jsp
+    		</result>
+    		<result name="split_right3_2">
+    			/meeting/meetingManage/split/split_right3_2.jsp
+    		</result>
+    		<result name="split_right3_3">
+    			/meeting/meetingManage/split/split_right3_3.jsp
+    		</result>
+    		<result name="split_right3_4">
+    			/meeting/meetingManage/split/split_right3_4.jsp
+    		</result>
+    		<result name="split_right3_5">
+    			/meeting/meetingManage/split/split_right3_5.jsp
+    		</result>
+    		<result name="split_right3_6">
+    			/meeting/meetingManage/split/split_right3_6.jsp
+    		</result>
+    		<result name="split_right3_7">
+    			/meeting/meetingManage/split/split_right3_7.jsp
+    		</result>
+    		<result name="split_right4_1">
+    			/meeting/meetingManage/split/split_right4_1.jsp
+    		</result>
+    		<result name="split_right4_2">
+    			/meeting/meetingManage/split/split_right4_2.jsp
+    		</result>
+    		<result name="split_right4_3">
+    			/meeting/meetingManage/split/split_right4_3.jsp
+    		</result>
+    		<result name="split_right4_4">
+    			/meeting/meetingManage/split/split_right4_4.jsp
+    		</result>
+    		<result name="split_right4_6">
+    			/meeting/meetingManage/split/split_right4_6.jsp
+    		</result>
+    		<result name="split_right4_7">
+    			/meeting/meetingManage/split/split_right4_7.jsp
+    		</result>
+    		<result name="split_right4_8">
+    			/meeting/meetingManage/split/split_right4_8.jsp
+    		</result>
+    		<result name="split_right4_9">
+    			/meeting/meetingManage/split/split_right4_9.jsp
+    		</result>
+    		<result name="split_right4_10">
+    			/meeting/meetingManage/split/split_right4_10.jsp
+    		</result>
+    		<result name="split_right4_11">
+    			/meeting/meetingManage/split/split_right4_11.jsp
+    		</result>
+    		<result name="split_right5_1">
+    			/meeting/meetingManage/split/split_right5_1.jsp
+    		</result>
+    		<result name="split_right5_2">
+    			/meeting/meetingManage/split/split_right5_2.jsp
+    		</result>
+    		<result name="split_right5_3">
+    			/meeting/meetingManage/split/split_right5_3.jsp
+    		</result>
+    		<result name="split_right6_1">
+    			/meeting/meetingManage/split/split_right6_1.jsp
+    		</result>
+    		<result name="split_right8_1">
+    			/meeting/meetingManage/split/split_right8_1.jsp
+    		</result>
+    		<result name="split_right9_1">
+    			/meeting/meetingManage/split/split_right9_1.jsp
+    		</result>
+    		<result name="split_right9_2">
+    			/meeting/meetingManage/split/split_right9_2.jsp
+    		</result>
+    		<result name="split_right9_3">
+    			/meeting/meetingManage/split/split_right9_3.jsp
+    		</result>
+    		<result name="split_right9_4">
+    			/meeting/meetingManage/split/split_right9_4.jsp
+    		</result>
+    		<result name="split_right9_5">
+    			/meeting/meetingManage/split/split_right9_5.jsp
+    		</result>
+    		<result name="split_right10_1">
+    			/meeting/meetingManage/split/split_right10_1.jsp
+    		</result>
+    		<result name="split_right13_1">
+    			/meeting/meetingManage/split/split_right13_1.jsp
+    		</result>
+    		
+    		<result name="split_right16_1">
+    			/meeting/meetingManage/split/split_right16_1.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="getMessageOverlay" class="com.zzst.action.meeting.meeting.McuControlAction" method="getMessageOverlay">
+    		<result name="SUCCESS">
+    			/meeting/meetingManage/messageOverlay.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="getMessagePageByConId" class="com.zzst.action.meeting.meeting.McuControlAction" method="getMessagePageByConId">
+    		<result name="RMX1000">
+    			/meeting/meetingManage/RMX1000messageOverlay.jsp
+    		</result>
+    		<result name="RMX2000">
+    			/meeting/meetingManage/RMX2000messageOverlay.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="getAllMeetingRoom" class="com.zzst.action.meeting.meeting.McuControlAction" method="getAllMeetingRoom">
+    		<result name="SUCCESS">
+    			/meeting/meetingManage/cascadepoll.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="getPtsChannel" class="com.zzst.action.meeting.meeting.McuControlAction" method="getPtsChannel">
+    		<result name="SUCCESS">
+    			/meeting/meetingManage/sendPacketLoss.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="getConfList" class="com.zzst.action.meeting.meeting.McuControlAction" method="getConfList">
+    		<result name="SUCCESS">
+    			/meeting/meetingManage/poll.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	
+    	<action name="getSelectConfList" class="com.zzst.action.meeting.meeting.McuControlAction" method="getSelectConfList">
+    		<result name="SUCCESS">
+    			/meeting/meetingManage/poll.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="getPollList" class="com.zzst.action.meeting.meeting.McuControlAction" method="getPollList">
+    		<result name="SUCCESS">
+    			/meeting/meetingManage/pollParticipants.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	
+    	<action name="getConfList1" class="com.zzst.action.meeting.meeting.McuControlAction" method="getConfList1">
+    		<result name="PollOne">
+    			/meeting/meetingManage/poll/poll1.jsp
+    		</result>
+    		<result name="PollTwo">
+    			/meeting/meetingManage/poll/poll2_1.jsp
+    		</result>
+    		<result name="PollTwo2">
+    			/meeting/meetingManage/poll/poll2_2.jsp
+    		</result>
+    		<result name="PollThree">
+    			/meeting/meetingManage/poll/poll3.jsp
+    		</result>
+    		<result name="PollThree2">
+    			/meeting/meetingManage/poll/poll3_2.jsp
+    		</result>
+    		<result name="PollThree3">
+    			/meeting/meetingManage/poll/poll3_3.jsp
+    		</result>
+    		<result name="PollFour">
+    			/meeting/meetingManage/poll/poll4.jsp
+    		</result>
+    		<result name="PollFiveAndOne">
+    			/meeting/meetingManage/poll/poll5.jsp
+    		</result>
+    		<result name="PollNine">
+    			/meeting/meetingManage/poll/poll9.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    		<result name="failure_meeting">/error/warning.jsp</result>
+    	</action>
+    	<action name="getPollList1" class="com.zzst.action.meeting.meeting.McuControlAction" method="getPollList1">
+    		<result name="PollParticipantsOne">
+    			/meeting/meetingManage/poll/pollParticipants1.jsp
+    		</result>
+    		<result name="PollParticipantsTwo">
+    			/meeting/meetingManage/poll/pollParticipants2_1.jsp
+    		</result>
+    		<result name="PollParticipantsTwo2">
+    			/meeting/meetingManage/poll/pollParticipants2_2.jsp
+    		</result>
+    		<result name="PollParticipantsThree">
+    			/meeting/meetingManage/poll/pollParticipants3.jsp
+    		</result>
+    		<result name="PollParticipantsThree2">
+    			/meeting/meetingManage/poll/pollParticipants3_2.jsp
+    		</result>
+    		<result name="PollParticipantsThree3">
+    			/meeting/meetingManage/poll/pollParticipants3_3.jsp
+    		</result>
+    		<result name="PollParticipantsFour">
+    			/meeting/meetingManage/poll/pollParticipants4.jsp
+    		</result>
+    		<result name="PollParticipantsFiveAndOne">
+    			/meeting/meetingManage/poll/pollParticipants5.jsp
+    		</result>
+    		<result name="PollParticipantsNine">
+    			/meeting/meetingManage/poll/pollParticipants9.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    		<result name="failure_meeting">/error/warning.jsp</result>
+    	</action>
+    	
+    	<action name="beforeModifyPoll" class="com.zzst.action.meeting.meeting.McuControlAction" method="beforeModifyPoll">
+    		<result name="PollParticipantsOne">
+    			/meeting/meetingManage/poll/modifyPollParticipants1.jsp
+    		</result>
+    		<result name="PollParticipantsTwo">
+    			/meeting/meetingManage/poll/modifyPollParticipants2_1.jsp
+    		</result>
+    		<result name="PollParticipantsTwo2">
+    			/meeting/meetingManage/poll/modifyPollParticipants2_2.jsp
+    		</result>
+    		<result name="PollParticipantsThree">
+    			/meeting/meetingManage/poll/modifyPollParticipants3.jsp
+    		</result>
+    		<result name="PollParticipantsThree2">
+    			/meeting/meetingManage/poll/modifyPollParticipants3_2.jsp
+    		</result>
+    		<result name="PollParticipantsThree3">
+    			/meeting/meetingManage/poll/modifyPollParticipants3_3.jsp
+    		</result>
+    		<result name="PollParticipantsFour">
+    			/meeting/meetingManage/poll/modifyPollParticipants4.jsp
+    		</result>
+    		<result name="PollParticipantsFiveAndOne">
+    			/meeting/meetingManage/poll/modifyPollParticipants5.jsp
+    		</result>
+    		<result name="PollParticipantsNine">
+    			/meeting/meetingManage/poll/modifyPollParticipants9.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    		<result name="failure_meeting">/error/warning.jsp</result>
+    		<result name="undo">/meeting/meetingManage/poll/warning.jsp</result>
+    	</action>
+    	<!--  
+    	<action name="getPollList1" class="com.zzst.action.meeting.meeting.McuControlAction" method="getPollList1">
+    		<result name="SUCCESS">
+    			/meeting/meetingManage/pollParticipants.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    	-->
+    	
+    	<!-- 获取会场属性  addby chenshuo -->
+    	<action name="getMeetinRoomAttr" class="com.zzst.action.meeting.meeting.McuControlAction" method="getMeetinRoomAttr">
+    		<result name="SUCCESS">
+    			/meeting/meetingManage/modifyMeetingRoom.jsp
+    		</result>
+    		<result name="FAILURE">/ok.jsp</result>
+    	</action>
+    </package>
+</struts>   

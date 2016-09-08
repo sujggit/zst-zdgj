@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/equipmentControl" namespace="/equipmentControl" extends="icmp-default">
+    	<action name="fixedTimeBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="fixedTimeBefore">
+    		<result name="SUCCESS">/meeting/equipmentControl/sysPower.jsp</result>
+    	</action>
+    	<!-- add by liujf 20140710 -->
+    	<action name="fixedTimeBeforeNew" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="fixedTimeBeforeNew">
+    		<result name="SUCCESS">/meeting/equipmentControl/sysPowerNew.jsp</result>
+    	</action>
+    	<action name="dvdControlBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="dvdControlBefore">
+    		<result name="success">/meeting/equipmentControl/dvdControl.jsp</result>
+    	</action>
+    	
+    	<action name="curtainControlBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="curtainControlBefore">
+    		<result name="success">/meeting/equipmentControl/curtainControl.jsp</result>
+    	</action>
+    	
+    	<action name="projControlBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="projControlBefore">
+    		<result name="success">/meeting/equipmentControl/projControl.jsp</result>
+    	</action>
+    	
+    	<action name="plaControlBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="plaControlBefore">
+    		<result name="success">/meeting/equipmentControl/plaControl.jsp</result>
+    	</action>
+    	
+    	<action name="exportQuery" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="exportQuery">
+			<result name="SUCCESS" type="stream">
+ 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+                    <param name="contentDisposition">filename="fixedTime.xls"</param>
+                    <param name="bufferSize">1024</param>
+        	</result>
+        </action>
+        
+    	<action name="bigscreenPowerBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="bigscreenPowerBefore">
+    		<result name="SUCCESS">/meeting/equipmentControl/bigScreenPowerNew.jsp</result>
+    	</action>
+    	<action name="audioControlBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="audioControlBefore">
+    		<result name="SUCCESS">/meeting/equipmentControl/audioControl.jsp</result>
+    	</action>
+    	<action name="cameraBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="cameraBefore">
+    		<result name="SUCCESS">/meeting/equipmentControl/camera.jsp</result>
+    	</action>
+    	<action name="sysPowerBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="sysPowerBefore">
+    		<result name="SUCCESS">/meeting/equipmentControl/sysPower.jsp</result>
+    	</action>
+    	
+    	<action name="matrixBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="matrixBefore">
+    		<result name="SUCCESS">/meeting/equipmentControl/matrixSwitch.jsp</result>
+    	</action>
+    	<action name="matrixNetControlBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="matrixNetControlBefore">
+    		<result name="SUCCESS">/meeting/equipmentControl/matrixSwitchNet.jsp</result>
+    	</action>
+    	<action name="videoEndPointBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="videoEndPointBefore">
+    		<result name="SUCCESS">/meeting/equipmentControl/vedioTerminal.jsp</result>
+    	</action>
+    	<action name="bigscreenMonitorBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="bigscreenMonitorBefore">
+    		<result name="SUCCESS">/meeting/equipmentControl/bigscreenMonitor.jsp</result>
+    	</action>
+    	<action name="bigscreenInputBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="bigscreenInputBefore">
+    		<result name="SUCCESS">/meeting/equipmentControl/bigscreenInput.jsp</result>
+    	</action>
+    	
+    	<action name="bigScreenInputChooseBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="bigScreenInputChooseBefore">
+    		<result name="SUCCESS">/meeting/equipmentControl/bigScreenInputChoose.jsp</result>
+    	</action>
+    	
+    	<!-- add by yangyi 中控状态 -->
+    	<action name="centerControlBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="centerControlBefore">
+    		<result name="success">/meeting/equipmentControl/centerControl.jsp</result>
+    	</action>
+    	
+    	<!-- add by yangyi 终端状态 -->
+    	<!-- old:/meeting/equipmentControl/terminalControl.jsp update:zhangjy 2014.1.12 -->
+    	<action name="terminalControlBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="terminalControlBefore">
+    		<result name="success">/meeting/equipmentControl/terminalControl/terminalControlStatus.jsp</result>
+    	</action>
+    	
+    	<!-- add by yangyi 灯光控制 -->
+    	<action name="getLightControl" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="getLightControl">
+    		<result name="success">/meeting/equipmentControl/lightControl.jsp</result>
+    	</action>
+    	
+    	<!-- add by yangyi 升降屏控制 -->
+    	<action name="getLiftingScreen" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="getLiftingScreen">
+    		<result name="success">/meeting/equipmentControl/liftingScreenControl.jsp</result>
+    	</action>
+    	
+    	<!-- add by yangyi 等离子控制 -->
+    	<action name="getPlasmaTV" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="getPlasmaTV">
+    		<result name="success">/meeting/equipmentControl/plasmaTVControl.jsp</result>
+    	</action>
+    	
+    	<!-- add by lihao 投影机控制 -->
+    	<action name="getProjector" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="getProjector">
+    		<result name="success">/meeting/equipmentControl/projectorControl.jsp</result>
+    	</action>
+    	
+    	<!-- add by xiongshun 画面分割器-->
+    	<action name="getVideom" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="getVideom">
+    		<result name="success">/meeting/equipmentControl/videomControl.jsp</result>
+    	</action>
+    	
+    	<!-- add by xiongshun 会议模式-->
+    	<action name="roomModelControlBefore" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="roomModelControlBefore">
+    		<result name="success">/meeting/equipmentControl/roomModelControl.jsp</result>
+    	</action>
+    	
+    	<!-- add by guohn 录播控制-->
+    	<action name="toRecorded" class="com.zzst.action.meeting.equipmentControl.EquipmentControlAction" method="toRecorded">
+    		<result name="SUCCESS">/meeting/equipmentControl/recorded.jsp</result>
+    	</action>
+    </package>
+</struts>

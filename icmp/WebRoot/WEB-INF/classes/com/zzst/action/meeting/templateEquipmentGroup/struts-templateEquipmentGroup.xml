@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/templateEquipmentGroup" namespace="/templateEquipmentGroup" extends="struts-default">
+		<action name="MeetingGroupQuery" class="com.zzst.action.meeting.templateEquipmentGroup.TemplateEquipmentGroupAction" method="MeetingGroupQuery">
+			<result name="success" >
+				/meeting/ptsGroupManager/meetingGroupManager.jsp
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	    
+	 
+    	<action name="MeetingGroupAdd" class="com.zzst.action.meeting.templateEquipmentGroup.TemplateEquipmentGroupAction" method="MeetingGroupAdd">
+			<result name="success" type="redirect">
+			/templateEquipmentGroup/MeetingGroupQuery.action
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	  <action name="preMeetingGroupModify" class="com.zzst.action.meeting.templateEquipmentGroup.TemplateEquipmentGroupAction" method="preMeetingGroupModify">
+			<result name="success">
+			/meeting/ptsGroupManager/meetingGroupModify.jsp
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	    <action name="MeetingGroupModify" class="com.zzst.action.meeting.templateEquipmentGroup.TemplateEquipmentGroupAction" method="MeetingGroupModify">
+			<result name="success" type="redirect">
+			/templateEquipmentGroup/MeetingGroupQuery.action
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	  
+	  
+    	<action name="MeetingGroupDel" class="com.zzst.action.meeting.templateEquipmentGroup.TemplateEquipmentGroupAction" method="MeetingGroupDel">
+			<result name="success" type="redirect">
+			/templateEquipmentGroup/MeetingGroupQuery.action
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	  
+    	
+    </package>
+</struts>   

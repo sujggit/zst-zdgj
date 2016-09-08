@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/statistics" namespace="/statistics" extends="struts-default">
+    		<action name="query" class="com.zzst.action.meeting.statistics.StatisticsAction" method="query">
+			<result name="success">
+				/meeting/statistics/roomUseTime.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	   </action>
+    	   
+    	   <action name="queryNum" class="com.zzst.action.meeting.statistics.StatisticsAction" method="queryNum">
+			<result name="success">
+				/meeting/statistics/roomUseNum.jsp
+			</result>
+			<result name="error">/errors/error.jsp</result>    	
+    	   </action>
+    	   
+    	   <action name="exportNumberQuery" class="com.zzst.action.meeting.statistics.StatisticsAction" method="exportNumberQuery">
+				<result name="success" type="stream">
+	 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+	                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+	                    <param name="contentDisposition">filename="number.xls"</param>
+	                    <param name="bufferSize">1024</param>
+		        </result>
+	    	</action>
+	    	<action name="exportLongQuery" class="com.zzst.action.meeting.statistics.StatisticsAction" method="exportLongQuery">
+				<result name="success" type="stream">
+	 				<param name="contentType">application/vnd.ms-excel</param>    <!-- 注意这里的ContentType -->
+	                    <param name="inputName">excelStream</param>                   <!-- 这里需要和Action里的变量名一致 -->
+	                    <param name="contentDisposition">filename="time.xls"</param>
+	                    <param name="bufferSize">1024</param>
+		        </result>
+	    	</action>
+    </package>
+</struts>   

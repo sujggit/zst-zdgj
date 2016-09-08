@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/poll" namespace="/poll" extends="struts-default">    	
+    	<action name="getPollTemplate" class="com.zzst.action.meeting.pollTemplateManager.PollTemplateManagerAction" method="getPollTemplate">
+			<result name="SUCCESS">
+    			/meeting/pollTemplateManager/pollTemplateList.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="pollTerminalBeforeAdd" class="com.zzst.action.meeting.pollTemplateManager.PollTemplateManagerAction" method="pollTerminalBeforeAdd">
+			<result name="SUCCESS">
+    			/meeting/pollTemplateManager/addPollTerminal.jsp
+    		</result>
+    	</action>
+    	
+    	<action name="pollTemplateDel" class="com.zzst.action.meeting.pollTemplateManager.PollTemplateManagerAction" method="pollTemplateDel">
+			<result name="SUCCESS" type="redirect">
+    			/poll/getPollTemplate.action
+    		</result>
+    	</action>
+    	
+    	<action name="pollTemplateBeforeModify" class="com.zzst.action.meeting.pollTemplateManager.PollTemplateManagerAction" method="pollTemplateBeforeModify">
+			<result name="SUCCESS">
+    			/meeting/pollTemplateManager/modifyPollTerminal.jsp
+    		</result>
+    	</action>
+    	
+    	
+   </package>
+</struts>   

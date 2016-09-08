@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body{margin:0 0px; min-height:100%;_height:100%;font-style:normal;margin-top: 0px;}
+body{ font-size:12px; font-family:Arial, Helvetica, sans-serif,"宋体";  color:#5B5B5B; text-align: center; background:#ffffff;}
+
+a:link{color:#454f58;text-decoration:none;}
+a:visited{color:#454f58;text-decoration:none;}
+a:hover{color:#454f58;text-decoration:underline;}
+
+
+.boxbg{ 
+       background: url(../images/xg.png) no-repeat;
+       width:522px;
+       height:532px;
+	}
+.bluebg{
+	background: url(../images/xg_04.gif) repeat-x;
+	height:36px;
+	line-height:33px;
+	text-align:left;
+	color:#333;
+	font-weight:bold;
+	font-family: "微软雅黑", "黑体", "宋体", Arial, Verdana;
+	padding:0;
+	font-size:14px;
+	}
+.textga{
+	height:16px;
+	color:#02508a;
+	font-size:14px;
+	font-family: "微软雅黑", "黑体", "宋体", Arial, Verdana;
+	font-weight:bold;
+	}
+.hjsl{
+	height:16px;
+	color:#02508a;
+	font-size:14px;
+	font-family: "微软雅黑", "黑体", "宋体", Arial, Verdana;
+	font-weight:bold;
+	}
+.anjiu{
+	background: url(../images/ggol_07.png) no-repeat;
+	width:77px;
+	height:27px;
+	cursor:pointer;
+	border:0px;
+	font-family: "微软雅黑", "黑体", "宋体", Arial, Verdana;
+	color:#124855;
+	font-size:12px;
+	font-weight:bold;
+	}
+.selected{
+	width:195px;
+	height:250px;
+	border:1px solid #ddd;
+	padding-top:10px;
+	padding-left:5px;
+	background:url(../images/xgw.png);
+}
+.faxi{
+	background:url(../images/ggol.png) no-repeat;
+	width:19px;
+	height:18px;
+	border:0px;
+	}
+.faxi2{
+	background: url(../images/left.png) no-repeat;
+	width:18px;
+	height:18px;
+	border:0px;
+	}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RMX1000_UI version="1.0.0.0">
+	<FROM_PAGE id="req_player.htm">
+		<SESSION_ID value="dc2657dd8b1fdf11a1520b4d8b3cf12c"/>
+		<_CGI_NO_REFRESH value="YES"/>
+		<_CGI_TIME value="Mon Feb 22 16:36:15 UTC+0800 2010"/>
+		<_CGI_UI_LANG value="cn"/>
+		<CONF_GUID value="f6a164c78b1fdf118e956e4d6d0fc408"/>
+		<PTS_GUID value="802c7ad73806df1188fb4bafbe296758"/>
+	</FROM_PAGE>
+</RMX1000_UI>

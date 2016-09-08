@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#d2dfe8;}
+.loginbg{ background:url(../../images/blue/loginbg.gif) repeat-x top left #d2dfe8; height:100%; pa}
+.loginbg .dlbg{ background:url(../../images/blue/loginimgbg.gif) no-repeat top center #d2dfe8; height:623px; width:775px; margin:0 auto;}
+.loginbg .dlbg .dltitle{padding-top:120px;}
+.loginbg .dlbg .user{padding-top:90px;}
+.loginbg .dlbg .user ul{ list-style:none;}
+.loginbg .dlbg .user ul li{ list-style:none; margin:20px; line-height:200%;}
+.loginbg .dlbg .user .input{width:220px; padding-left:3px; border:1px solid #000; height:24px; line-height:24px;}
+.loginbg .dlbg .user .botton{width:220px; padding-left:3px; background:url(../../images/blue/login_btn.gif) no-repeat; height:47px; line-height:47px; border:0px; cursor:pointer;}

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC   
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+    "http://struts.apache.org/dtds/struts-2.0.dtd">  
+
+<struts>
+	<package name="/templateEquipment" namespace="/templateEquipment" extends="struts-default">
+		<action name="MeetingEquipmentQuery" class="com.zzst.action.meeting.templateEquipment.TemplateEquipmentAction" method="MeetingEquipmentQuery">
+			<result name="success">
+				/meeting/ptsGroupManager/equipmentList.jsp
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	    
+	    <!-- 会场组复制 -->
+	    <action name="MeetingEquipmentCopy" class="com.zzst.action.meeting.templateEquipment.TemplateEquipmentAction" method="MeetingEquipmentCopy">
+			<result name="success" >
+				/meeting/ptsGroupManager/equipmentList.jsp
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	    
+	    	<action name="Query" class="com.zzst.action.meeting.templateEquipment.TemplateEquipmentAction" method="Query">
+			<result name="success">
+				/meeting/ptsGroupManager/equipmentList.jsp
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	    
+	  <!-- 添加演讲者和广播者后再保存 type="redirect"-->
+    	<action name="MeetingEquipmentAdd" class="com.zzst.action.meeting.templateEquipment.TemplateEquipmentAction" method="MeetingEquipmentAdd">
+			<result name="success" type="chain">
+			<param name="actionName">MeetingEquipmentQuery</param>	
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	    
+    	<action name="EquipmentQuery" class="com.zzst.action.meeting.templateEquipment.TemplateEquipmentAction" method="EquipmentQuery">
+			<result name="success" >
+				/meeting/ptsGroupManager/preEquipmentList.jsp
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+    	<!-- 没添加演讲者和广播者之前保存 -->
+    	<action name="preMeetingEquipmentAdd" class="com.zzst.action.meeting.templateEquipment.TemplateEquipmentAction" method="preMeetingEquipmentAdd">
+			<result name="success" type="chain">
+				/templateEquipment/MeetingEquipmentQuery.action
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+    	
+    	<action name="preToAddMeeting" class="com.zzst.action.meeting.templateEquipment.TemplateEquipmentAction" method="preToAddMeeting">
+			<result name="success" >
+				/meeting/ptsGroupManager/templateEquipmentAdd.jsp
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	    
+	    
+	    <action name="MeetingEquipmentDel" class="com.zzst.action.meeting.templateEquipment.TemplateEquipmentAction" method="MeetingEquipmentDel">
+			<result name="success" type="chain">
+			<param name="actionName">MeetingEquipmentQuery</param>
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	    
+	    
+	     <action name="MeetingEquipmentModify" class="com.zzst.action.meeting.templateEquipment.TemplateEquipmentAction" method="MeetingEquipmentModify">
+			<result name="success" type="chain">
+			<param name="actionName">MeetingEquipmentQuery</param>
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	     <action name="preMeetingEquipmentModify" class="com.zzst.action.meeting.templateEquipment.TemplateEquipmentAction" method="preMeetingEquipmentModify">
+			<result name="success">
+		   /meeting/ptsGroupManager/templateEquipmentModify.jsp
+			</result>
+			<result name="error">/ok.jsp</result>
+	    </action>
+	    
+    </package>
+</struts>   
